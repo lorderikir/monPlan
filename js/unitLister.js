@@ -34,10 +34,7 @@ function readCode(address){
 
 //loadContents() works in conjunction with readCode(), if the server responds with a Code 200
 function loadContents(response){
-  var array = response.split("\n");
-  var loc = array.indexOf('<div class="content-column w458">')
-  console.log(loc);
-  console.log(array[loc+2])
+  
 }
 
 console.log(monURLHB);
