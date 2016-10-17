@@ -58,6 +58,15 @@ function submitLink(){
     if(element) element.parentNode.removeChild(element);
   }
   var startingYear = document.getElementById('startingYear').value;
-  var startingYear = document.getElementById('startingYear').value;
-  drawTable(startingYear,8,4)
+  var minThreshold = (new Date().getFullYear()-7)
+  var maxThreshold = (new Date().getFullYear()+7)
+  if(maxThreshold > startingYear > minThreshold) {
+    drawTable(startingYear,8,4)
+  } else {
+    if(startingYear < minThreshold){
+      window.alert('Error! Starting year is smaller than threshold year. You must be a current student')
+    } else if(startingYear > maxThreshold) {
+      window.alert('Error! Starting year is larger than threshold year. Are you looking courses for a grandchild?')
+    }
+  }
 }
