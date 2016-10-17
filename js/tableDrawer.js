@@ -51,7 +51,7 @@ function drawTable(startingYear, semesters, units) {
     myTableDiv.appendChild(table);
 }
 
-function submitLink(){
+function submitYear(){
   var element =  document.getElementById('unitTable');
   if (typeof(element) != 'undefined' && element != null)
   {
@@ -60,7 +60,7 @@ function submitLink(){
   var startingYear = document.getElementById('startingYear').value;
   var minThreshold = (new Date().getFullYear()-7)
   var maxThreshold = (new Date().getFullYear()+7)
-  if(maxThreshold > startingYear > minThreshold) {
+  if(startingYear > minThreshold && maxThreshold > startingYear ) {
     drawTable(startingYear,8,4)
   } else {
     if(startingYear < minThreshold){
