@@ -61,8 +61,7 @@ function drawTable(startingYear, semesters, units) {
 
 function submitYear(){
   var element =  document.getElementById('unitTable');
-  if (typeof(element) != 'undefined' && element != null)
-  {
+  if (typeof(element) != 'undefined' && element != null)  {
     if(element) element.parentNode.removeChild(element);
   }
   var startingYear = document.getElementById('startingYear').value;
@@ -82,6 +81,8 @@ function submitYear(){
 function addUnit(year,semester,unit,unitName){
   var targetID = 'year-' + year + '-semester-' + semester +'-unit-'+unit
   var target =  document.getElementById(targetID);
-  target.appendChild(document.createTextNode(unitName));
+  if (typeof(target) != 'undefined' && target != null)  {
+    target.appendChild(document.createTextNode(unitName));
+  }
 
 }
