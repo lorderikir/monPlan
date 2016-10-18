@@ -14,6 +14,7 @@ function search(target, array) {
       } else {
         lowerBound = middle + 1
       }
+    }
   }
   return false
 
