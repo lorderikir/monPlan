@@ -14,6 +14,14 @@ def convsubtoarray(fileName,faculty):
 
 import csv
 
+def qsort_index(lst, index):
+    if len(lst) == 0:
+        return []
+    else:
+        pivot = lst[0]
+        lesser = qsort_index([x for x in lst[1:] if x[index] < pivot[index]], index)
+        greater = qsort_index([x for x in lst[1:] if x[index] >= pivot[index]], index)
+        return lesser + [pivot] + greater
 
 
 def toCSV(array):
@@ -32,24 +40,5 @@ for f in faculties:
     fileName = f + '.txt'
     array = convsubtoarray(fileName,f)
     newarray += array
-newarray = quicksort(newarray)
+newarray = sorted(newarray, key=lambda db: db[0])
 toCSV(newarray)
-
-def partition(array, begin, end):
-    pivot = begin
-    for i in xrange(begin+1, end+1):
-        if array[i] <= array[begin]:
-            pivot += 1
-            array[i], array[pivot] = array[pivot], array[i]
-    array[pivot], array[begin] = array[begin], array[pivot]
-    return pivot
-
-
-def quicksort(array, begin=0, end=None):
-    if end is None:
-        end = len(array) - 1
-    if begin >= end:
-        return
-    pivot = partition(array, begin, end)
-    quicksort(array, begin, pivot-1)
-    quicksort(array, pivot+1, end)
