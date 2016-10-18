@@ -71,9 +71,9 @@ function submitYear(){
     drawTable(startingYear,8,4)
   } else {
     if(startingYear < minThreshold){
-      window.alert('Error! Starting year is smaller than threshold year. You must be a current student')
+       errorHandler("SUBYRLWR");
     } else if(startingYear > maxThreshold) {
-      window.alert('Error! Starting year is larger than threshold year. Are you looking courses for a grandchild?')
+      errorHandler("SUBYRGRTR");
     }
   }
 }
@@ -86,4 +86,19 @@ function addUnit(year,semester,unit,unitName){
     target.appendChild(document.createTextNode(unitName));
   }
 
+}
+
+function errorHandler(errorCode){
+  if(errorCode !== "" || errorCode !== null){
+      if(errorCode === "SUBYRLWR"){
+        var errorMsg = 'Starting year is smaller than the minimum threshold year (current year - 7 years). You must be a current student';
+        var errorCode = 'Error SUBYRLWR (startingYear < minThreshold)';
+      } else if (errorCode === "SUBYRGRTR"){
+        var errorMsg = ('Starting year is larger than the max threshold year (current year + 7 years). Are you looking courses for a grandchild?');
+        var errorCode = 'Error SUBYRGRTR (startingYear > maxThreshold)';
+      }
+      $('#errorCode').text(errorCode)
+      $('#errorMessage').text(errorMsg);
+      $('#errorModal').modal('show');
+  }
 }
