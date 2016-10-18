@@ -21,6 +21,7 @@ def toCSV(array):
     fl = open(CSVfileName, 'w')
 
     writer = csv.writer(fl)
+    writer.writerow(['UnitCode', 'UnitName', 'Faculty']) #if needed
     for values in array:
         writer.writerow(values)
     fl.close()
