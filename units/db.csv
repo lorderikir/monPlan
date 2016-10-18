@@ -1,4 +1,96 @@
 UnitCode,UnitName,Faculty
+ACB1100,Introduction to financial accounting,buseco
+ACB1200,Accounting for managers,buseco
+ACB2020,Cost information for decision making,buseco
+ACB2491,Company reporting,buseco
+ACB2851,Accounting information systems and financial modelling,buseco
+ACB3021,Performance measurement and control,buseco
+ACB3041,Auditing and assurance,buseco
+ACB3050,Advanced financial accounting theory and issues,buseco
+ACC1100,Introduction to financial accounting,buseco
+ACC1200,Accounting for managers,buseco
+ACC2100,Financial accounting,buseco
+ACC2200,Introduction to management accounting,buseco
+ACC2400,Accounting information systems,buseco
+ACC2888,Industry-based learning period A,buseco
+ACC3100,Advanced financial accounting,buseco
+ACC3200,Management accounting,buseco
+ACC3600,Auditing and assurance,buseco
+ACC3888,Industry-based learning period B,buseco
+ACC5903,Accounting for business,buseco
+ACF1100,Introduction to financial accounting,buseco
+ACF1200,Accounting for managers,buseco
+ACF2100,Financial accounting,buseco
+ACF2200,Introduction to management accounting,buseco
+ACF2400,Accounting information systems,buseco
+ACF3100,Advanced financial accounting,buseco
+ACF3200,Management accounting,buseco
+ACF3600,Auditing and assurance,buseco
+ACF3900,Global issues in accounting,buseco
+ACF5001,Research project in accounting,buseco
+ACF5080,Management control systems,buseco
+ACF5100,Strategic management accounting,buseco
+ACF5120,Forensic accounting and fraud examination,buseco
+ACF5130,Financial statement analysis and business valuation,buseco
+ACF5150,Financial reporting issues,buseco
+ACF5268,Accounting for healthcare managers,buseco
+ACF5320,Business analytics,buseco
+ACF5330,Integrated systems for business enterprises,buseco
+ACF5350,Applied contemporary accounting,buseco
+ACF5510,Integrated accounting,buseco
+ACF5903,Accounting for business,buseco
+ACF5904,Accounting information systems,buseco
+ACF5950,Introductory accounting,buseco
+ACF5953,Financial accounting,buseco
+ACF5955,Management accounting,buseco
+ACF5956,Advanced financial accounting,buseco
+ACF5957,Auditing and assurance,buseco
+ACG2020,Cost information for decision making,buseco
+ACG2491,Company reporting,buseco
+ACG2851,Accounting information systems and financial modelling,buseco
+ACG3021,Performance measurement and control,buseco
+ACG3041,Auditing and assurance,buseco
+ACG3050,Advanced financial accounting theory and issues,buseco
+ACG5973,Financial accounting,buseco
+ACM5903,Accounting for business,buseco
+ACP1100,Introduction to financial accounting,buseco
+ACP1200,Accounting for managers,buseco
+ACP2851,Business information and systems,buseco
+ACS1000,Principles of accounting and finance,buseco
+ACS1002,Introduction to financial accounting,buseco
+ACS2700,Ethics and business,buseco
+ACS2730,Financial accounting A,buseco
+ACS2740,Financial accounting B,buseco
+ACS2760,Auditing A,buseco
+ACS2770,Cost and management accounting A,buseco
+ACS3730,Financial accounting C,buseco
+ACS3740,Financial accounting D,buseco
+ACS3750,Cost and management accounting B,buseco
+ACS3765,Auditing C,buseco
+ACS3770,Auditing B,buseco
+ACW1100,Introduction to financial accounting,buseco
+ACW1200,Accounting for managers,buseco
+ACW2020,Cost information for decision making,buseco
+ACW2491,Financial accounting,buseco
+ACW2522,Accounting for Islamic financial institutions,buseco
+ACW2851,Accounting information systems and financial modelling,buseco
+ACW3021,Performance measurement and control,buseco
+ACW3040,Accounting theory,buseco
+ACW3041,Auditing and assurance,buseco
+ACW3050,Advanced financial accounting theory and issues,buseco
+ACX2900,Accounting for sustainability,buseco
+ACX3150,Financial analysis and valuation,buseco
+ACX3250,Advanced management accounting,buseco
+ACX3500,International study program in accounting,buseco
+ACX4000,Research methods,buseco
+ACX4018,Honours research thesis,buseco
+ACX4040,Issues in accounting information systems,buseco
+ACX4050,Issues in auditing and assurance,buseco
+ACX4070,Issues in financial accounting,buseco
+ACX4090,Issues in management accounting,buseco
+ACX4150,Empirical research in analysis of financial statements,buseco
+ACX4190,Behavioural research in accounting,buseco
+ACX5951,International study program in accounting,buseco
 ADA1111,Design thinking,ada
 ADA2001,Interdisciplinary studio 1,ada
 ADA3001,Interdisciplinary studio 2,ada
@@ -63,435 +155,6 @@ AHT4200,Advanced art theory reading unit,ada
 AHT4406,Curating internship,ada
 AHT4503,Advanced art theory,ada
 AHT4504,Art theory research seminar,ada
-ARC1001,Foundation studio 1,ada
-ARC1002,Foundation studio 2,ada
-ARC1102,Technologies and environments 1,ada
-ARC1301,Architecture communications 1,ada
-ARC1401,Introduction to architectural and visual cultures,ada
-ARC2001,Architecture Design Studio 3,ada
-ARC2002,Architecture Design Studio 4,ada
-ARC2101,Technologies and environments 2,ada
-ARC2301,Architecture communications 2,ada
-ARC2401,Contemporary architecture,ada
-ARC2402,19th and 20th century architecture,ada
-ARC3001,Architecture Design Studio 5,ada
-ARC3002,Architecture Design Studio 6,ada
-ARC3101,Technologies and environments 3,ada
-ARC3102,"Integrated technologies, environments and professional studies",ada
-ARC3401,Architecture and the City,ada
-ARC3501,Advanced studies in architecture A,ada
-ARC3502,Advanced studies in architecture B,ada
-ARC4001,Advanced architecture project 1,ada
-ARC4002,Advanced architecture project 2,ada
-ARC4101,"Integrated project- technologies, environments and professional practices",ada
-ARC4201,Professional studies 1,ada
-ARC4501,Advanced architecture studies 1,ada
-ARC4502,Advanced architecture studies 2,ada
-ARC5001,Advanced architecture project 3,ada
-ARC5002,Final architecture project,ada
-ARC5201,Professional practices,ada
-ARC5401,Architecture Research Methods,ada
-ARC5501,Advanced architecture studies 3,ada
-ARC5502,Advanced Studies in Architecture 4,ada
-CDS1001,Communication Design Studio 1A,ada
-CDS1002,Communication Design Studio 1B,ada
-CDS1511,Photographic art direction,ada
-CDS1531,Illustration for narrative,ada
-CDS2001,Communication Design Studio 2A,ada
-CDS2002,Communication Design Studio 2B,ada
-CDS2511,Branding for designers,ada
-CDS2512,Packaging design,ada
-CDS2521,Creative coding,ada
-CDS2522,Creative expression through physical computing,ada
-CDS2523,Creative visualisation,ada
-CDS2524,Unconventional publishing,ada
-CDS2531,Illustration for animation,ada
-CDS3001,Communication Design Studio 3A,ada
-CDS3002,Communication Design Studio 3B,ada
-CDS4001,Major project communication design part 1,ada
-CDS4002,Major project communication design part 2,ada
-CER1111,Ceramic practice and theory 1A,ada
-CER1112,Ceramic practice and theory 2A,ada
-CER2113,Ceramic practice and theory 3A,ada
-CER2114,Ceramic practice and theory 4A,ada
-CER2123,Ceramic practice and theory 3B,ada
-CER2124,Ceramic practice and theory 4B,ada
-CER3115,Ceramic practice and theory 5,ada
-CER3116,Ceramic practice and theory 6,ada
-DGN1001,Design studio 1,ada
-DGN1104,Interdisciplinary design studio 2,ada
-DGN2000,Interdisciplinary Design,ada
-DGN2003,Interdisciplinary design studio 3,ada
-DGN2004,Interdisciplinary design studio 4,ada
-DGN3105,Interdisciplinary design studio 5,ada
-DGN3106,Interdisciplinary design studio 6,ada
-DGN4001,Major project (design) part 1,ada
-DGN4002,Major project (design) part 2,ada
-DIS1103,Digital processes for art and design 1,ada
-DIS1704,Web design,ada
-DIS1911,3D design and visualisation,ada
-DIS1912,Virtual space A,ada
-DIS2105,Digital imaging,ada
-DIS2601,Digital audio/video,ada
-DIS2904,3D modeling,ada
-DIS2906,Design for multimedia,ada
-DIS2907,3D animation,ada
-DIS2909,Electronic design,ada
-DIS2910,Virtual space B,ada
-DIS3010,Digital Media Studio A,ada
-DIS3020,Digital Media Studio B,ada
-DIS3901,Interactive animation,ada
-DIS3902,3D imaging studio,ada
-DIS3903,Digital imaging - the moving image,ada
-DIS3904,Digital imaging studio,ada
-DIS3905,Digital audio video - advanced production,ada
-DIS3906,Digital publication,ada
-DIS4201,3D animation and virtual space,ada
-DIS4604,Digital audio/video,ada
-DIS5201,3D animation virtual space,ada
-DIS5604,Digital audio/video,ada
-DRW1201,Drawing 1A,ada
-DRW1202,Drawing 2A,ada
-DWG1103,Visual thinking and communication,ada
-DWG1201,Drawing 1,ada
-DWG1202,Drawing 2B (fine art/visual arts),ada
-DWG1301,Drawing 1C,ada
-DWG2501,"Drawing: Landscape, space and environment",ada
-DWG2504,Drawing: Advanced studies 1,ada
-DWG2506,Drawing: Social based strategies,ada
-DWG2507,Drawing Conceptual studies 1,ada
-DWG2508,Drawing Conceptual studies 2,ada
-DWG2509,Drawing: The body 1,ada
-DWG2510,Perceptual drawing A,ada
-DWG2511,Drawing: Anatomy 1,ada
-DWG2784,Visual investigation,ada
-DWG3508,Drawing (concept and research) C,ada
-DWG3511,Drawing: Contemporary practice,ada
-DWG3516,Drawing: Anatomy 2,ada
-DWG3518,Drawing: Advanced studies 2,ada
-DWG3519,Drawing: The Body 2,ada
-DWG3520,Perceptual drawing B,ada
-DWG3529,Drawing: The body 3,ada
-FNA1111,Introduction to Contemporary Practices 1,ada
-FNA1112,Introduction to Contemporary Practices 2,ada
-FNA2003,3D digital modelling for artists,ada
-FNA2111,Contemporary Practices 3,ada
-FNA2112,Contemporary Practices 4,ada
-FNA2903,Art and Design in film,ada
-FNA3111,Contemporary Practices 5,ada
-FNA3112,Contemporary Practices 6,ada
-FNA3903,Film practice,ada
-FNA4001,Project studies (fine art honours),ada
-FNA4002,Major project (fine art honours),ada
-FNA4011,Studio methodology,ada
-GLS1211,Contemporary glass practices,ada
-GLS1212,Glass practice and theory 2A,ada
-GLS1231,Contemporary glass blowing practices,ada
-GLS1242,Glass practice and theory 2B,ada
-GLS2213,Contemporary glass sculpture,ada
-GLS2214,Glass practice and theory 4A,ada
-GLS2223,Contemporary blown and sculpted glass,ada
-GLS2224,Glass practice and theory 4B,ada
-GLS3215,Glass practice and theory 5,ada
-GLS3216,Glass practice and theory 6,ada
-GVA1203,Photography 1,ada
-GVA1611,Sculpture practice 1,ada
-GVA1612,Sculpture practice 2,ada
-GVA2207,Photography and Photomedia processes,ada
-GVA2208,Photography and Photomedia fabrication,ada
-GVA2223,Minor printmaking 3,ada
-GVA2423,Minor sculpture/woodcraft 3,ada
-GVA2723,Minor photography 3,ada
-GVA3202,Professional practice,ada
-GVA3207,Photography and Photomedia project 1A,ada
-GVA3224,Minor printmaking 4,ada
-GVA3424,Minor sculpture/woodcraft 4,ada
-GVA3724,Minor photography 4,ada
-IAR1112,Interior architecture studio 2,ada
-IAR1113,Interior architecture studio 1,ada
-IAR1114,Interior architecture studio 2,ada
-IAR1211,Building construction and materials A,ada
-IAR1401,Communication methods for interior architecture,ada
-IAR1411,Communication and media,ada
-IAR1602,Constructions and environments 1,ada
-IAR2113,Interior architecture studio 3,ada
-IAR2114,Interior architecture studio 4,ada
-IAR2115,Interior architecture studio 3,ada
-IAR2116,Interior architecture studio 4,ada
-IAR2204,Building materials and construction B,ada
-IAR2205,The production of space and place,ada
-IAR2303,Structures and services A,ada
-IAR2401,Interior architecture modelling,ada
-IAR2411,Contemporary interior architecture,ada
-IAR2501,Retail design 1,ada
-IAR2601,Constructions and environments 2,ada
-IAR2602,Constructions and environments 3,ada
-IAR3115,Interior architecture studio 5,ada
-IAR3116,Interior architecture studio 6,ada
-IAR3117,Interior architecture studio 5,ada
-IAR3118,Interior architecture studio 6,ada
-IAR3205,Building construction and materials C,ada
-IAR3303,Folio and reflection,ada
-IAR3308,Structure and services B,ada
-IAR3401,Interior architecture history and theory,ada
-IAR3501,Studies in interior architecture,ada
-IAR4117,Interior architecture studio 7,ada
-IAR4118,Interior architecture studio 8,ada
-IAR4119,Interior architecture studio 7,ada
-IAR4120,Interior architecture design research project,ada
-IAR4406,Industrial experience,ada
-IAR4500,Research: questions and processes,ada
-IAR4501,Interior architecture design research documentation,ada
-IDE1112,Industrial design studio 2,ada
-IDE1502,Modelmaking and workshop practice,ada
-IDE1602,Product drawing,ada
-IDE1802,Materials and manufacturing 1,ada
-IDE2113,Industrial design studio 3,ada
-IDE2114,Industrial design studio 4,ada
-IDE2120,Designing for sustainability,ada
-IDE2211,Engineering drawing,ada
-IDE2303,Ergonomics,ada
-IDE2701,Product interface design,ada
-IDE2810,Furniture 1,ada
-IDE2811,Mechanics and electronics for industrial design,ada
-IDE3105,Industrial design studio 5,ada
-IDE3106,Industrial design studio 6,ada
-IDE3115,Industrial design studio 5,ada
-IDE3116,Industrial design studio 6,ada
-IDE3302,Ergonomics 2,ada
-IDE3812,Mobility design 1,ada
-IDE3813,Mobility design 2,ada
-IDE3814,Materials and manufacturing 2,ada
-IDE3815,Furniture design 2,ada
-IDE4117,Industrial design studio 7 (major project 1),ada
-IDE4118,Industrial design studio 8 (major project 2),ada
-IDE4809,Mobility design 3,ada
-IDN1001,Industrial design studio 1,ada
-IDN1002,Industrial design studio 2,ada
-IDN2001,Industrial design studio 3,ada
-IDN2101,Concept art for design,ada
-IDN2102,Service design studio,ada
-IDN3001,Industrial design studio 4,ada
-IDN3002,Industrial design studio 5,ada
-IDN4406,Industry placement for design,ada
-JWL1311,Contemporary jewellery practice 1,ada
-JWL1312,Contemporary jewellery practice 2,ada
-JWL1331,Metals and jewellery practice and theory 1B,ada
-JWL1342,Metals and jewellery practice and theory 2B,ada
-JWL2313,Contemporary jewellery practice 3,ada
-JWL2314,Contemporary jewellery practice 4,ada
-JWL2323,Metals and jewellery practice and theory 3B,ada
-JWL2324,Metals and jewellery practice and theory 4B,ada
-JWL3315,Metals and jewellery practice and theory 5,ada
-JWL3316,Metals and jewellery practice and theory 6,ada
-MDC4000,Design project (Part 1),ada
-MDC4001,Design project (part 1),ada
-MDC4002,Design project (part 2),ada
-MDC4010,Advanced design communication,ada
-MDC4100,Design project (part 1),ada
-MDC4110,Interaction design studio 1,ada
-MDC4120,Multimedia design studio 1,ada
-MDC4130,Collaborative design studio 1,ada
-MDC4201,Fundamental interaction design studio 1,ada
-MDC4202,Fundamental interaction design studio 2,ada
-MDC4215,Interaction design lab 1,ada
-MDC4216,Interaction design lab 2,ada
-MDC4500,Design fundamentals studio,ada
-MDC4550,Design technologies and processes,ada
-MDC5000,Major design project,ada
-MDC5001,Design project (part three),ada
-MDC5100,Major design project,ada
-MDC5201,Fundamental interaction design studio 3,ada
-MDC5202,Interaction design research project,ada
-MDC5210,Interaction design studio 2,ada
-MDC5215,Interaction design lab 3,ada
-MDC5220,Multimedia design studio 2,ada
-MDC5230,Collaborative design studio 2,ada
-MDC5310,Interaction design studio 3,ada
-MDC5320,Multimedia design studio 3,ada
-MDC5330,Collaborative design studio 3,ada
-MDC5340,Advanced studies in design,ada
-MDS5022,Design theory workshop,ada
-MDS5031,Research methods in design,ada
-MMD1302,Multimedia & digital arts studio A,ada
-MMD2303,Multimedia and digital arts studio B,ada
-MMD2304,Multimedia and digital arts studio C,ada
-MMD2306,Graphic user interface design,ada
-MMD3305,Multimedia studio 5A,ada
-MMD3306,Multimedia studio 6A,ada
-MMD3307,Digital arts studio 5A,ada
-MMD3308,Digital arts studio 6A,ada
-MMD3713,Game design,ada
-MMD4001,Multimedia design studio 1,ada
-MMD4107,Major Project (Multimedia & Digital Arts) Part 1,ada
-MMD4108,Major Project (Multimedia & Digital Arts) Part 2,ada
-MMD5002,Multimedia design studio 2,ada
-MMD5003,Multimedia Design Studio 3,ada
-MVA4001,Studio discipline A,ada
-MVA4002,Studio discipline B,ada
-MVA4021,Philosophies of the studio A,ada
-MVA4022,Philosophies of the studio B,ada
-MVA5001,Studio project,ada
-OHS1000,Introduction to art and design health and safety,ada
-OHS1001,Gippsland Centre of art and design health and safety,ada
-PHO1203,Photography 1,ada
-PHO1204,Digital Imaging for Contemporary Art,ada
-PHO2202,Advanced photography,ada
-PHO2204,Video art and the moving image 1,ada
-PHO2207,Photographic processes,ada
-PHO2208,Photographic lighting studio,ada
-PHO3201,Photography and video dialogues,ada
-PHO3202,Photomedia virtual studio,ada
-PHO3207,Photomedia project 1A,ada
-PHO3208,Photomedia project 2,ada
-PHO3209,Photomedia Project 1B,ada
-PPR3102,Professional practice for interior architecture,ada
-PPR3103,Project planning and professional practice for design and multimedia,ada
-PPR3202,Professional practice B,ada
-PPR4002,Professional practice and business planning for design,ada
-PPR4102,Professional practice and business planning for design,ada
-PPR5500,Design management and entrepreneurship,ada
-PRM1001,The contemporary print: Etching and relief printmaking,ada
-PRM1411,Printmedia practice and theory 1A,ada
-PRM1412,Printmedia practice and theory 2A,ada
-PRM1431,Printmedia practice and theory 1B,ada
-PRM1442,Printmedia practice and theory 2B,ada
-PRM1511,Artists' Books,ada
-PRM2401,Screenprinting and the contemporary poster,ada
-PRM2413,Printmedia practice and theory 3A,ada
-PRM2414,Printmedia practice and theory 4A,ada
-PRM2423,Printmedia practice and theory 3B,ada
-PRM2424,Printmedia practice and theory 4B,ada
-PRM2512,Artists' books 2,ada
-PRM3415,Printmedia practice and theory 5,ada
-PRM3416,Printmedia practice and theory 6,ada
-PTG1001,Painting introduction: materials and methods,ada
-PTG1025,Painting as an interdisciplinary practice A,ada
-PTG1026,Painting as an interdisciplinary practice B,ada
-PTG1511,Painting practice and theory 1A,ada
-PTG1512,Painting practice and theory 2A,ada
-PTG1531,Painting practice and theory 1B,ada
-PTG1542,Painting practice and theory 2B,ada
-PTG2030,Painting as an interdisciplinary practice C,ada
-PTG2031,Abstraction and non-objective painting,ada
-PTG2032,Painting: Installation and the expanded field,ada
-PTG2033,Representational painting: Narrative and figuration,ada
-PTG2034,Sound and space: Dematerialised form,ada
-PTG2035,Interventions: Feminist and conceptual practices,ada
-PTG2513,Painting practice and theory 3A,ada
-PTG2514,Painting practice and theory 4A,ada
-PTG2523,Painting practice and theory 3B,ada
-PTG2524,Painting practice and theory 4B,ada
-PTG3515,Painting practice and theory 5,ada
-PTG3516,Painting practice and theory 6,ada
-SCU1021,Contemporary casting,ada
-SCU1022,Sculptural construction: Woodworking and welding,ada
-SCU1611,Sculpture practice and theory 1A,ada
-SCU1612,Sculpture practice and theory 2A,ada
-SCU1631,Sculpture practice and theory 1B,ada
-SCU1642,Sculpture practice and theory 2B,ada
-SCU2021,Advanced moulding and casting,ada
-SCU2022,Site specificity: Sculptural and installation interventions,ada
-SCU2613,Sculpture practice and theory 3A,ada
-SCU2614,Sculpture practice and theory 4A,ada
-SCU2623,Sculpture practice and theory 3B,ada
-SCU2624,Sculpture practice and theory 4B,ada
-SCU3615,Sculpture practice and theory 5,ada
-SCU3616,Sculpture practice and theory 6,ada
-TAD1101,Introduction to visual culture in art design and architecture,ada
-TAD1102,Modernism and the avant-gardes,ada
-TAD2102,Post-war practices 2A,ada
-TAD2109,Constructing art in Australia: colonialism to postcolonialism 2,ada
-TAD2138,"Space, Place and Society",ada
-TAD2203,History and criticism of interiors and furniture 2A,ada
-TAD2206,"Ornament, meaning and design 2A",ada
-TAD2207,Popular culture and contemporary communication 2,ada
-TAD2214,Critical issues in design,ada
-TAD3102,Post-war practices 3A,ada
-TAD3105,Contemporary International Art since 1989,ada
-TAD3109,Constructing art in Australia: colonialism to postcolonialism 3A,ada
-TAD3203,History and criticism of interiors and furniture 3A,ada
-TAD3206,"Ornament, meaning and design 3A",ada
-TAD3214,Contemporary discourse in design,ada
-TAD4503,Advanced art theory,ada
-TAD4504,Art theory research seminar,ada
-TAD4523,Design research methods and seminar,ada
-TAD4542,Research seminar in design,ada
-TAD4793,Issues for multimedia practice,ada
-TAD4794,Multimedia and society,ada
-TAD5500,Exegesis,ada
-TDN1002,Design and the avant-garde,ada
-TDN2001,Sociologies of design,ada
-TDN2002,Communication design theory,ada
-TDN3001,Research for design,ada
-TDN3002,Design strategy and professional practice,ada
-TDN3003,Design criticism,ada
-TDN4001,Research methods in industrial design,ada
-TDN4401,Human factors for interaction design,ada
-VAM4010,Visual culture and its theories,ada
-VAM4021,Beyond the museum: Institutions and insurrections,ada
-VAM5010,Visual culture and its theories,ada
-VAM5021,Beyond the Museum: Institutions and Insurrections,ada
-VCM1001,Visual communication,ada
-VCM1002,Multimedia imaging (moving image studies),ada
-VCM4029,Designing multimedia systems,ada
-VCM4101,Introduction to multimedia imaging,ada
-VCM4601,Design principles for multimedia 1,ada
-VCM4602,Design principles for multimedia 2,ada
-VCM4604,Information design for multimedia,ada
-VCM5001,Multimedia Product Development,ada
-VCO1104,Graphic design studio 2,ada
-VCO1203,Introduction to contemporary illustration,ada
-VCO1302,Typography 1,ada
-VCO1303,The language of graphic design,ada
-VCO2003,Graphic design studio 3,ada
-VCO2004,Graphic design studio 4,ada
-VCO2204,Illustration as design,ada
-VCO2205,Illustration for editorial,ada
-VCO2304,Typography 2,ada
-VCO2402,Advertising design 1,ada
-VCO2409,Methods of production,ada
-VCO2904,"Image, communication and location",ada
-VCO3005,Graphic design studio 5,ada
-VCO3006,Graphic design studio 6,ada
-VCO3206,Conceptual illustration,ada
-VCO3207,The business of illustration,ada
-VCO3305,Digital font design,ada
-VCO3307,Typography 3,ada
-VCO3403,Advertising design 2,ada
-VCO4107,Major project (visual communication) part 1,ada
-VCO4108,Major project (visual communication) part 2,ada
-VCO4204,Illustration,ada
-VIS1111,Visual arts studio 1,ada
-VIS1112,Visual arts studio 2,ada
-VIS2103,Visual arts studio 3,ada
-VIS2104,Visual arts studio 4,ada
-VIS2113,Visual arts studio 3A,ada
-VIS2114,Visual arts studio 4A,ada
-VIS3101,Co-operative Work Experience,ada
-VIS3105,Visual arts studio 5,ada
-VIS3106,Visual arts studio 6,ada
-VIS4001,Project studies (visual arts honours),ada
-VIS4002,Major project (visual arts honours),ada
-VPR1001,Visual Practices 1,ada
-VPR1002,Visual Practices 2,ada
-VPR1011,Visual practices 1,ada
-VPR1012,Visual practices 2,ada
-VPR1113,Research practices,ada
-VPR2001,Visual Practices 3,ada
-VPR2002,Visual Practices 4,ada
-VPR2011,Research practices advanced,ada
-VPR2012,Professional practice,ada
-VPR3001,Visual Practices 5,ada
-VPR3002,Visual Practices 6,ada
-VPR3011,Professional practice advanced,ada
-VPR3012,Visual practices 3,ada
-VSA4002(A),Minor thesis part 1,ada
-VSA4002(B),Minor thesis part 2,ada
-VSA4012,Visual culture and its theories,ada
-VSA4022,Beyond the museum,ada
-VSA4025,Visual culture internship,ada
-VSA4076,Australian postmodernism,ada
 AMG5018,"Celebrity, fashion, publicity",arts
 AMG5382,Contemporary issues in Asia,arts
 AMG5400,Global digital media: Issues in international and transnational communication,arts
@@ -549,6 +212,7 @@ AMU4718,Arts honours dissertation 1,arts
 AMU4719,Arts honours dissertation 2,arts
 AMU4720,Research issues and methodology,arts
 AMU4727,"Readings in social, political and cultural theory",arts
+ANT1800,Introduction to anatomy and medical terminology,sci
 APG4264,"Criminal behaviours and enterprises: Individuals, groups and organisations",arts
 APG4287,War and peace: Models of conflict resolution,arts
 APG4314,Seeking justice: South Africa and Rwanda,arts
@@ -707,6 +371,60 @@ APR4702,Classical languages for researchers,arts
 APR6001,Bioethics theory and practice,arts
 APR6035,"Advanced Research Methodologies in Media, Film and Journalism",arts
 APR6100,"Film, Media and Communication Studies: The State of the Fields",arts
+ARC1001,Foundation studio 1,ada
+ARC1002,Foundation studio 2,ada
+ARC1102,Technologies and environments 1,ada
+ARC1301,Architecture communications 1,ada
+ARC1401,Introduction to architectural and visual cultures,ada
+ARC2001,Architecture Design Studio 3,ada
+ARC2002,Architecture Design Studio 4,ada
+ARC2101,Technologies and environments 2,ada
+ARC2301,Architecture communications 2,ada
+ARC2401,Contemporary architecture,ada
+ARC2402,19th and 20th century architecture,ada
+ARC3001,Architecture Design Studio 5,ada
+ARC3002,Architecture Design Studio 6,ada
+ARC3101,Technologies and environments 3,ada
+ARC3102,"Integrated technologies, environments and professional studies",ada
+ARC3401,Architecture and the City,ada
+ARC3501,Advanced studies in architecture A,ada
+ARC3502,Advanced studies in architecture B,ada
+ARC4001,Advanced architecture project 1,ada
+ARC4002,Advanced architecture project 2,ada
+ARC4101,"Integrated project- technologies, environments and professional practices",ada
+ARC4201,Professional studies 1,ada
+ARC4501,Advanced architecture studies 1,ada
+ARC4502,Advanced architecture studies 2,ada
+ARC5001,Advanced architecture project 3,ada
+ARC5002,Final architecture project,ada
+ARC5201,Professional practices,ada
+ARC5401,Architecture Research Methods,ada
+ARC5501,Advanced architecture studies 3,ada
+ARC5502,Advanced Studies in Architecture 4,ada
+ASC5001,Addiction science: A biopsychosocial overview,med
+ASC5002,Socio-cultural perspectives of addiction,med
+ASC5003,"Addiction policies, prevention and public health",med
+ASC5004,Addiction assessment and treatment: Practice and innovation,med
+ASC5007,Recovery principles,med
+ASC5008,Co-occurring disorders in mental health and addiction,med
+ASC5009,"Developmental factors: Children and families, youth and early interventions",med
+ASC5010,Gambling and other process addictions,med
+ASP1010,Earth to cosmos - introductory astronomy,sci
+ASP1022,Life in the universe - astrobiology,sci
+ASP2011,Astronomy,sci
+ASP2062,Introduction to astrophysics,sci
+ASP3012,Stars and galaxies,sci
+ASP3051,Relativity and cosmology,sci
+ASP3162,Computational astrophysics and the extreme universe,sci
+ASP3231,Observational astronomy,sci
+ASP4100,Astrophysics honours research project,sci
+ASP4110,Astrophysics honours research project - Part 1,sci
+ASP4120,Astrophysics honours research project - Part 2,sci
+ASP4200,Astrophysics honours coursework,sci
+ASP4210,Astrophysics honours coursework part 1,sci
+ASP4220,Astrophysics honours coursework part 2,sci
+ATM3040,Physical meteorology,sci
+ATM3050,Dynamical meteorology,sci
 ATS1001,Chinese introductory 1,arts
 ATS1002,Chinese introductory 2,arts
 ATS1020,Leadership for social change 1,arts
@@ -1639,99 +1357,34 @@ AZA4778,Social science honours dissertation A,arts
 AZA4779,Social science honours dissertation B,arts
 AZA4810,The globalisation of civil and human rights,arts
 AZA4889,Advanced concepts in geography and environmental science,arts
-ACB1100,Introduction to financial accounting,buseco
-ACB1200,Accounting for managers,buseco
-ACB2020,Cost information for decision making,buseco
-ACB2491,Company reporting,buseco
-ACB2851,Accounting information systems and financial modelling,buseco
-ACB3021,Performance measurement and control,buseco
-ACB3041,Auditing and assurance,buseco
-ACB3050,Advanced financial accounting theory and issues,buseco
-ACC1100,Introduction to financial accounting,buseco
-ACC1200,Accounting for managers,buseco
-ACC2100,Financial accounting,buseco
-ACC2200,Introduction to management accounting,buseco
-ACC2400,Accounting information systems,buseco
-ACC2888,Industry-based learning period A,buseco
-ACC3100,Advanced financial accounting,buseco
-ACC3200,Management accounting,buseco
-ACC3600,Auditing and assurance,buseco
-ACC3888,Industry-based learning period B,buseco
-ACC5903,Accounting for business,buseco
-ACF1100,Introduction to financial accounting,buseco
-ACF1200,Accounting for managers,buseco
-ACF2100,Financial accounting,buseco
-ACF2200,Introduction to management accounting,buseco
-ACF2400,Accounting information systems,buseco
-ACF3100,Advanced financial accounting,buseco
-ACF3200,Management accounting,buseco
-ACF3600,Auditing and assurance,buseco
-ACF3900,Global issues in accounting,buseco
-ACF5001,Research project in accounting,buseco
-ACF5080,Management control systems,buseco
-ACF5100,Strategic management accounting,buseco
-ACF5120,Forensic accounting and fraud examination,buseco
-ACF5130,Financial statement analysis and business valuation,buseco
-ACF5150,Financial reporting issues,buseco
-ACF5268,Accounting for healthcare managers,buseco
-ACF5320,Business analytics,buseco
-ACF5330,Integrated systems for business enterprises,buseco
-ACF5350,Applied contemporary accounting,buseco
-ACF5510,Integrated accounting,buseco
-ACF5903,Accounting for business,buseco
-ACF5904,Accounting information systems,buseco
-ACF5950,Introductory accounting,buseco
-ACF5953,Financial accounting,buseco
-ACF5955,Management accounting,buseco
-ACF5956,Advanced financial accounting,buseco
-ACF5957,Auditing and assurance,buseco
-ACG2020,Cost information for decision making,buseco
-ACG2491,Company reporting,buseco
-ACG2851,Accounting information systems and financial modelling,buseco
-ACG3021,Performance measurement and control,buseco
-ACG3041,Auditing and assurance,buseco
-ACG3050,Advanced financial accounting theory and issues,buseco
-ACG5973,Financial accounting,buseco
-ACM5903,Accounting for business,buseco
-ACP1100,Introduction to financial accounting,buseco
-ACP1200,Accounting for managers,buseco
-ACP2851,Business information and systems,buseco
-ACS1000,Principles of accounting and finance,buseco
-ACS1002,Introduction to financial accounting,buseco
-ACS2700,Ethics and business,buseco
-ACS2730,Financial accounting A,buseco
-ACS2740,Financial accounting B,buseco
-ACS2760,Auditing A,buseco
-ACS2770,Cost and management accounting A,buseco
-ACS3730,Financial accounting C,buseco
-ACS3740,Financial accounting D,buseco
-ACS3750,Cost and management accounting B,buseco
-ACS3765,Auditing C,buseco
-ACS3770,Auditing B,buseco
-ACW1100,Introduction to financial accounting,buseco
-ACW1200,Accounting for managers,buseco
-ACW2020,Cost information for decision making,buseco
-ACW2491,Financial accounting,buseco
-ACW2522,Accounting for Islamic financial institutions,buseco
-ACW2851,Accounting information systems and financial modelling,buseco
-ACW3021,Performance measurement and control,buseco
-ACW3040,Accounting theory,buseco
-ACW3041,Auditing and assurance,buseco
-ACW3050,Advanced financial accounting theory and issues,buseco
-ACX2900,Accounting for sustainability,buseco
-ACX3150,Financial analysis and valuation,buseco
-ACX3250,Advanced management accounting,buseco
-ACX3500,International study program in accounting,buseco
-ACX4000,Research methods,buseco
-ACX4018,Honours research thesis,buseco
-ACX4040,Issues in accounting information systems,buseco
-ACX4050,Issues in auditing and assurance,buseco
-ACX4070,Issues in financial accounting,buseco
-ACX4090,Issues in management accounting,buseco
-ACX4150,Empirical research in analysis of financial statements,buseco
-ACX4190,Behavioural research in accounting,buseco
-ACX5951,International study program in accounting,buseco
+BCH2011,Structure and function of cellular biomolecules,sci
+BCH2022,Metabolic basis of human diseases,sci
+BCH3021,Cellular organisation: Organelle structure and function in health and disease,sci
+BCH3031,Functional genomics and molecular medicine,sci
+BCH3042,Cell signal transduction: Role in cancer and human disease,sci
+BCH3052,Protein biology: From sequence to structure and disease,sci
+BCH3990,Action in biochemistry research project,sci
 BEG3150,Industry based learning program,buseco
+BEH1032,"Evidence based practice, research and population health in community based emergency health services",med
+BEH1041,Human development and health across the lifespan,med
+BEH1042,"Law, ethics and professionalism",med
+BEH2012,Paramedic management of respiratory conditions,med
+BEH2032,Paramedic clinical practice 1,med
+BEH2131,Paramedic management of cardiovascular conditions,med
+BEH2141,The paramedic in the community,med
+BEH2152,Pharmacotherapy in community-based emergency health,med
+BEH2201,Paramedic management of mental health,med
+BEH3011,Paramedic management of medical conditions,med
+BEH3012,"Clinical education, leadership and emergency preparedness",med
+BEH3022,Research and contemporary challenges in community based emergency health,med
+BEH3030,Integrated clinical practice,med
+BEH3032,Paramedic management of critical care specialty situations,med
+BEH3071,Extended care paramedic practice,med
+BEH3121,Paramedic management of toxicological and environmental conditions,med
+BEH3161,Paramedic management of maternal and neonatal health,med
+BEH4100,Honours literature review,med
+BEH4200,Honours research proposal,med
+BEH4300,Honours research report,med
 BES3120,Perspectives on global business issues,buseco
 BES4000,Research methodology 1,buseco
 BES4010,Research methodology 2,buseco
@@ -1919,6 +1572,98 @@ BFX5000,Research methods,buseco
 BFX5018,Research dissertation,buseco
 BFX5860,International study program in banking and finance,buseco
 BFZ5959,Accounting and finance for international managers,buseco
+BIO1011,Biology I,sci
+BIO1022,Biology II,sci
+BIO1042,Environmental biology,sci
+BIO1711,Vertebrate biology,sci
+BIO1722,Cell biology,sci
+BIO2011,Ecology and biodiversity,sci
+BIO2022,Evolutionary ecology,sci
+BIO2040,Conservation biology,sci
+BIO2060,Analytical methods in biology,sci
+BIO2181,Evolution of plant diversity,sci
+BIO2231,Animal diversity,sci
+BIO2242,Animal structure and function,sci
+BIO2800,Tropical field biology,sci
+BIO2810,Tropical ecology,sci
+BIO3011,Research methods in biology,sci
+BIO3021,Marine biology,sci
+BIO3052,Animal behaviour,sci
+BIO3070,Trends in ecology,sci
+BIO3082,Global change biology,sci
+BIO3091,Biology of Australian vegetation,sci
+BIO3111,Ecological applications,sci
+BIO3132,Biology of Australian vertebrates,sci
+BIO3800,Tropical environmental management,sci
+BIO3810,Tropical aquatic biology,sci
+BIO3820,Tropical terrestrial biology,sci
+BIO3990,Biology in action research project,sci
+BIO4100,Biology research project,sci
+BIO4180,Tropical environmental biology research project,sci
+BIO4200,Advanced coursework in biology,sci
+BIO4280,Honours coursework in tropical environmental biology,sci
+BMA1011,Foundations of anatomy and physiology for health practice 1,med
+BMA1012,Foundations of anatomy and physiology for health practice 2,med
+BMA1901,Human structure and function 1,med
+BMA1902,Human structure and function 2,med
+BMA1912,Human bioscience in nursing,med
+BMA2901,Processes of disease,med
+BMA2902,Communicable diseases,med
+BMA5011,Introduction to Anatomy and Physiology,med
+BME3032,Introduction to the health system,med
+BME3082,Fetal and neonatal development,med
+BMH4100,Biomedicine research project,sci
+BMH4110,Biomedicine research project part time A,sci
+BMH4120,Biomedicine research project part time B,sci
+BMH4200,Advanced studies in biomedicine,sci
+BMH4210,Advanced studies in biomedicine part time A,sci
+BMH4220,Advanced studies in biomedicine part time B,sci
+BMS1011,Biomedical chemistry,med
+BMS1021,"Cells, tissues and organisms",med
+BMS1031,Medical biophysics,med
+BMS1042,Public health and preventive medicine,med
+BMS1052,Human neurobiology,med
+BMS1062,Molecular biology,med
+BMS2011,Structure of the human body: An evolutionary and functional perspective,med
+BMS2021,Human molecular cell biology,med
+BMS2031,Body systems,med
+BMS2042,Human genetics,med
+BMS2052,Microbes in health and disease,med
+BMS2062,Introduction to bioinformatics,med
+BMS3021,Molecular medicine and biotechnology,med
+BMS3031,Molecular mechanisms of disease,med
+BMS3052,Biomedical basis and epidemiology of human disease,med
+BMS3930,Action in biomedical science major research project,med
+BMS3990,Action in biomedical science minor research project,med
+BMS4100,Biomedical science research project,med
+BMS4200,Advanced studies in biomedical science,med
+BMS4301,Advanced studies in biomedical science,med
+BMS4302,Biomedical science research project,med
+BMS5001,Introduction to research and research methodology,med
+BMS5002,Research skills and techniques,med
+BMS5003,Infectious diseases and population health,med
+BMS5004,Advanced neuroscience,med
+BMS5005,Regenerative medicine and stem cells,med
+BMS5006,Cardiovascular biology and disease,med
+BMS5007,Biotechnology: Commercialising biomedical science,med
+BMS5008,Research project and thesis,med
+BMS5100,Research Project in Biomedical Sciences,med
+BMS5101,Research Project in Biomedical Sciences (Part-time),med
+BMS5200,Advanced Studies in Biomedical Sciences,med
+BMS5201,Advanced Studies in Biomedical Sciences (Part-time),med
+BND3101,Evidence based management,med
+BND3102,Introduction to dietetic practice,med
+BND3202,Food for dietetic practice,med
+BND3302,Dietetic practice 1,med
+BND4082,Improving the populations nutrition,med
+BND4092,Practice and research in public health nutrition,med
+BND4102,Practice and research in dietetics,med
+BND4402,Dietetic practice 2,med
+BNS3021,Neurochemistry and behaviour,med
+BNS3052,"Drugs, brain and altered awareness",med
+BNS3062,Imaging and brain disorders,med
+BNS4100,Behavioural neuroscience honours: Research project,med
+BNS4200,Behavioural neuroscience honours: Research design and analysis,med
 BTB1010,Commercial Law,buseco
 BTB2220,Corporations law,buseco
 BTB3221,Taxation law and practice,buseco
@@ -1960,6 +1705,24 @@ BTF5965,Taxation law,buseco
 BTG2220,Corporations law and trusts,buseco
 BTG2223,Corporate crime,buseco
 BTG3221,Taxation law and practice,buseco
+BTH1802,Fundamentals of biotechnology,sci
+BTH2732,Recombinant DNA technology,sci
+BTH2741,Biochemistry,sci
+BTH2752,Cellular metabolism,sci
+BTH2820,Crop science,sci
+BTH2830,Fundamentals of microbiology,sci
+BTH3012,"Biotechnology science, industry and commercialisation",sci
+BTH3711,Food and industrial microbiology,sci
+BTH3722,Medical microbiology,sci
+BTH3732,Environmental microbiology,sci
+BTH3741,Medical cell biology,sci
+BTH3752,Molecular biology and biotechnology,sci
+BTH3800,Bioinformatics,sci
+BTH3820,Plant biotechnology,sci
+BTH3960,Interdisciplinary advanced practical in pharmacology and chemistry,sci
+BTH4100,Biotechnology research project,sci
+BTH4200,The practice of biotechnology,sci
+BTH4280,Honours coursework in biotechnology,sci
 BTM5903,Law and business decisions,buseco
 BTM5919,International trade law,buseco
 BTP1010,Business Law,buseco
@@ -2005,6 +1768,306 @@ BTX5170,Chinese business law,buseco
 BTX5220,International issues in employment law,buseco
 BTX5801,Final research project,buseco
 BTX5841,Human resources management law,buseco
+CCS5100,Research Project in Medical Science,med
+CCS5101,Research Project in Medical Science (Part-time),med
+CCS5200,Advanced Studies in Medical Science,med
+CCS5201,Advanced Studies in Medical Science (Part-time),med
+CCS5300,Research Project in Health Sciences,med
+CCS5301,Research Project in Health Sciences (Part-time),med
+CCS5400,Advanced Studies in Health Sciences,med
+CCS5401,Advanced Studies in Health Sciences (Part-time),med
+CDS1001,Communication Design Studio 1A,ada
+CDS1002,Communication Design Studio 1B,ada
+CDS1511,Photographic art direction,ada
+CDS1531,Illustration for narrative,ada
+CDS2001,Communication Design Studio 2A,ada
+CDS2002,Communication Design Studio 2B,ada
+CDS2511,Branding for designers,ada
+CDS2512,Packaging design,ada
+CDS2521,Creative coding,ada
+CDS2522,Creative expression through physical computing,ada
+CDS2523,Creative visualisation,ada
+CDS2524,Unconventional publishing,ada
+CDS2531,Illustration for animation,ada
+CDS3001,Communication Design Studio 3A,ada
+CDS3002,Communication Design Studio 3B,ada
+CDS4001,Major project communication design part 1,ada
+CDS4002,Major project communication design part 2,ada
+CEM6881,Scanning electron microscopy,eng
+CEM6882,Transmission electron microscopy,eng
+CER1111,Ceramic practice and theory 1A,ada
+CER1112,Ceramic practice and theory 2A,ada
+CER2113,Ceramic practice and theory 3A,ada
+CER2114,Ceramic practice and theory 4A,ada
+CER2123,Ceramic practice and theory 3B,ada
+CER2124,Ceramic practice and theory 4B,ada
+CER3115,Ceramic practice and theory 5,ada
+CER3116,Ceramic practice and theory 6,ada
+CHE2161,Mechanics of fluids,eng
+CHE2162,Material and energy balances,eng
+CHE2163,Heat and mass transfer,eng
+CHE2164,Thermodynamics I,eng
+CHE2166,Introduction to process simulation,eng
+CHE2167,Process material selection,eng
+CHE2871,Biochemistry for engineers,eng
+CHE3161,Chemistry and chemical thermodynamics,eng
+CHE3162,Process control,eng
+CHE3163,Sustainable processing I,eng
+CHE3164,Reaction engineering,eng
+CHE3165,Separation processes,eng
+CHE3166,Process design,eng
+CHE3167,Transport phenomena and numerical methods,eng
+CHE3171,Bioprocess technology,eng
+CHE3172,Nanotechnology and materials 1,eng
+CHE4161,Engineer in society,eng
+CHE4162,Particle technology,eng
+CHE4164,Integrated industrial project,eng
+CHE4170,Design project,eng
+CHE4171,Biochemical engineering,eng
+CHE4172,Nanotechnology and materials 2,eng
+CHE4173,Sustainable processing 2,eng
+CHE4180,Chemical engineering project,eng
+CHE5167,Pulp and paper laboratory,eng
+CHE5290,Biomass resource and its utilisation,eng
+CHE5291,Engineering aspects of biomass pulping,eng
+CHE5292,Chemistry of biomass processing,eng
+CHE5293,Processing fibres into paper,eng
+CHE5294,Performance of paper products,eng
+CHE5295,Control of processes and quality,eng
+CHE5296,Minimising environmental impact,eng
+CHE5297,Recycling and contaminant removal,eng
+CHE5298,Biorefinery foundations,eng
+CHE5299,Biorefinery processes,eng
+CHE5881,Advanced reaction engineering,eng
+CHE5882,Biomass and biorefineries,eng
+CHE5883,Nanostructured membranes for separation and energy production,eng
+CHE5884,Process modeling and optimisation,eng
+CHE5885,Principles and practices for sustainable development,eng
+CHE6881,Advanced reaction engineering,eng
+CHE6882,Biomass and biorefineries,eng
+CHE6883,Nanostructured membranes for separation and energy production,eng
+CHE6884,Process modeling and optimisation,eng
+CHE6885,Principles and practices for sustainable development,eng
+CHM1011,Chemistry I,sci
+CHM1022,Chemistry II,sci
+CHM1051,Chemistry I advanced,sci
+CHM1052,Chemistry II advanced,sci
+CHM1752,Chemistry for engineering,eng
+CHM2752,Chemistry of the environment,sci
+CHM2911,Inorganic and organic chemistry,sci
+CHM2922,Spectroscopy and analytical chemistry,sci
+CHM2942,Biological chemistry,sci
+CHM2951,Environmental chemistry - water,sci
+CHM2962,Food chemistry,sci
+CHM2990,Introductory chemical research project,sci
+CHM3180,Materials chemistry,sci
+CHM3742,Chemistry of the environment 2,sci
+CHM3911,Advanced physical chemistry,sci
+CHM3922,Advanced organic chemistry,sci
+CHM3930,Medicinal chemistry,sci
+CHM3941,Advanced inorganic chemistry,sci
+CHM3952,Advanced analytical chemistry,sci
+CHM3960,Environmental chemistry,sci
+CHM3972,Sustainable chemistry,sci
+CHM3980,Chemistry study abroad,sci
+CHM3990,Chemistry project,sci
+CHM4100,Chemistry research project,sci
+CHM4110,Chemistry research project part time I,sci
+CHM4120,Chemistry research project part time II,sci
+CHM4180,Medicinal chemistry research project,sci
+CHM4201,Chemistry honours coursework,sci
+CHM4211,Chemistry honours coursework part time I,sci
+CHM4221,Chemistry honours coursework part time II,sci
+CHM4280,Honours coursework in medicinal chemistry,sci
+CIV2206,Mechanics of solids,eng
+CIV2207,Computing and water systems modelling,eng
+CIV2225,Design of steel and timber structures,eng
+CIV2226,Design of concrete and masonry structures,eng
+CIV2242,Geomechanics I,eng
+CIV2263,Water systems,eng
+CIV2282,Transport and traffic engineering,eng
+CIV2283,Civil engineering construction,eng
+CIV3203,Civil engineering construction,eng
+CIV3204,Engineering investigation,eng
+CIV3205,Project management for civil engineers,eng
+CIV3221,Building structures and technology,eng
+CIV3222,Bridge design and assessment,eng
+CIV3247,Geomechanics II,eng
+CIV3248,Groundwater and environmental geomechanics,eng
+CIV3264,Urban water and wastewater systems,eng
+CIV3283,Road engineering,eng
+CIV4210,Project A,eng
+CIV4211,Project B,eng
+CIV4212,Civil and environmental engineering practice,eng
+CIV4234,Advanced structural analysis,eng
+CIV4235,Advanced structural design,eng
+CIV4248,Ground hazards engineering,eng
+CIV4249,Foundation engineering,eng
+CIV4261,Integrated urban water management,eng
+CIV4268,Water resources management,eng
+CIV4283,Transport planning,eng
+CIV4284,Traffic systems,eng
+CIV5301,Advanced traffic engineering,eng
+CIV5302,Traffic engineering and management,eng
+CIV5303,Quantitative methods,eng
+CIV5304,Intelligent transport systems,eng
+CIV5305,Travel demand modelling,eng
+CIV5306,Road safety engineering,eng
+CIV5308,Transport and traffic systems project,eng
+CIV5309,Transport and traffic data,eng
+CIV5310,Infrastructure project and policy evaluation,eng
+CIV5311,Infrastructure project management,eng
+CIV5312,Asset management I,eng
+CIV5313,Asset management II,eng
+CIV5314,Planning urban transport systems,eng
+CIV5315,Transport economics,eng
+CIV5316,Fundamentals of urban public transport,eng
+CIV5318,Intelligent transportation systems: engineering and management,eng
+CIV5319,Quantitative methods for transportation systems analysis,eng
+CIV5320,Case studies in transportation systems,eng
+CIV5321,Sustainable transportation systems planning,eng
+CIV5322,Urban public transportation systems,eng
+CIV5406,Modelling transportation systems,eng
+CIV5881,Ground water hydrology,eng
+CIV5882,Flood hydraulics and hydrology,eng
+CIV5883,Surface water hydrology,eng
+CIV5884,Water sensitive stormwater design,eng
+CIV5885,Infrastructure dynamics,eng
+CIV5886,Infrastructure geomechanics,eng
+CIV5887,Infrastructure rehabilitation and monitoring,eng
+CIV5888,Advanced computational methods,eng
+CIV6301,Advanced traffic engineering,eng
+CIV6302,Traffic engineering and management,eng
+CIV6305,Travel demand modelling,eng
+CIV6314,Transport planning and policy,eng
+CIV6881,Ground water hydrology,eng
+CIV6882,Flood hydraulics and hydrology,eng
+CIV6883,Surface water hydrology,eng
+CIV6884,Water sensitive stormwater design,eng
+CIV6885,Infrastructure dynamics,eng
+CIV6886,Infrastructure geomechanics,eng
+CIV6887,Infrastructure rehabilitation and monitoring,eng
+CIV6888,Advanced computational methods,eng
+CMH5001,Mental health practice essentials,med
+CMH5002,The context for mental health practice,med
+CMH5003,Concepts in mental health illness,med
+CMH5004,Recovery oriented mental health practice,med
+CMH5005,Mental health of the elderly,med
+CMH5006,Transcultural mental health,med
+CPS5001,Psychoanalytic and developmental theories 1,med
+CPS5002,Normal developmental observation,med
+CPS5003,Psychoanalytic and developmental theories 2,med
+CPS5004,Psychodynamic assessment of children and adolescents,med
+CPS5005,Principles of child psychotherapy,med
+CPS5006,Principles of adolescent psychotherapy,med
+CPS5007,Principles of short term therapy and crisis work,med
+CPS5008,Principles of working with parents,med
+DEV2011,Early human development from cells to tissues,sci
+DEV2022,Human anatomy and development: Tissues and body systems,sci
+DEV3011,Fundamentals of developmental processes,sci
+DEV3022,Developmental and anatomical basis of human health and disease,sci
+DEV3032,Stem cells and the foundations of life,sci
+DEV3990,Action in developmental biology research project,sci
+DGN1001,Design studio 1,ada
+DGN1104,Interdisciplinary design studio 2,ada
+DGN2000,Interdisciplinary Design,ada
+DGN2003,Interdisciplinary design studio 3,ada
+DGN2004,Interdisciplinary design studio 4,ada
+DGN3105,Interdisciplinary design studio 5,ada
+DGN3106,Interdisciplinary design studio 6,ada
+DGN4001,Major project (design) part 1,ada
+DGN4002,Major project (design) part 2,ada
+DIS1103,Digital processes for art and design 1,ada
+DIS1704,Web design,ada
+DIS1911,3D design and visualisation,ada
+DIS1912,Virtual space A,ada
+DIS2105,Digital imaging,ada
+DIS2601,Digital audio/video,ada
+DIS2904,3D modeling,ada
+DIS2906,Design for multimedia,ada
+DIS2907,3D animation,ada
+DIS2909,Electronic design,ada
+DIS2910,Virtual space B,ada
+DIS3010,Digital Media Studio A,ada
+DIS3020,Digital Media Studio B,ada
+DIS3901,Interactive animation,ada
+DIS3902,3D imaging studio,ada
+DIS3903,Digital imaging - the moving image,ada
+DIS3904,Digital imaging studio,ada
+DIS3905,Digital audio video - advanced production,ada
+DIS3906,Digital publication,ada
+DIS4201,3D animation and virtual space,ada
+DIS4604,Digital audio/video,ada
+DIS5201,3D animation virtual space,ada
+DIS5604,Digital audio/video,ada
+DPH6005,Doctor of public health: Public health practice,med
+DPSY5101,Psychopathology part 1,med
+DPSY5102,Psychological assessment part 1,med
+DPSY5103,Research methods in professional psychology,med
+DPSY5104,Ethics and Professional Practice,med
+DPSY5105,Clinical developmental psychology,med
+DPSY5161,Ethics and Professional Practice in Neuropsychology,med
+DPSY5162,Neuroanatomy for the clinical neuropsychologist,med
+DPSY5201,Psychopathology part 2,med
+DPSY5203,Theories and techniques of intervention part 1,med
+DPSY5261,Neuropsychological models of cognition and behaviour part 1,med
+DPSY5262,Case analysis and professional practice in neuropsychology 1,med
+DPSY5263,Neuropsychological assessment,med
+DPSY5265,Neuropsychological syndromes,med
+DPSY5299,Introductory practicum,med
+DPSY6103,Theories and techniques of intervention part 2,med
+DPSY6105,Psychopharmacology,med
+DPSY6107,Health psychology and behavioural medicine,med
+DPSY6162,Case analysis and professional practice in neuropsychology 2,med
+DPSY6199,Intermediate practicum,med
+DPSY6204,Clinical neuropsychology,med
+DPSY6261,Developmental neuropsychology,med
+DPSY6262,Case analysis and professional practice in neuropsychology 3,med
+DPSY6263,Recovery of function and rehabilitation after brain injury,med
+DPSY6299,Advanced practicum,med
+DPSY6399,Specialised clinical practicum,med
+DPSY7131,Advanced Clinical Psychology: General,med
+DPSY7141,"Advanced Clinical Psychology: Child, adolescent and family",med
+DPSY7199,Advanced specialised practicum,med
+DRW1201,Drawing 1A,ada
+DRW1202,Drawing 2A,ada
+DWG1103,Visual thinking and communication,ada
+DWG1201,Drawing 1,ada
+DWG1202,Drawing 2B (fine art/visual arts),ada
+DWG1301,Drawing 1C,ada
+DWG2501,"Drawing: Landscape, space and environment",ada
+DWG2504,Drawing: Advanced studies 1,ada
+DWG2506,Drawing: Social based strategies,ada
+DWG2507,Drawing Conceptual studies 1,ada
+DWG2508,Drawing Conceptual studies 2,ada
+DWG2509,Drawing: The body 1,ada
+DWG2510,Perceptual drawing A,ada
+DWG2511,Drawing: Anatomy 1,ada
+DWG2784,Visual investigation,ada
+DWG3508,Drawing (concept and research) C,ada
+DWG3511,Drawing: Contemporary practice,ada
+DWG3516,Drawing: Anatomy 2,ada
+DWG3518,Drawing: Advanced studies 2,ada
+DWG3519,Drawing: The Body 2,ada
+DWG3520,Perceptual drawing B,ada
+DWG3529,Drawing: The body 3,ada
+EAE1011,"Earth, atmosphere and environment 1",sci
+EAE1022,"Earth, atmosphere and environment 2",sci
+EAE2011,Environmental problem solving and visualisation,sci
+EAE2111,Introduction to climate science,sci
+EAE2122,Introduction to atmospheric physics and dynamics,sci
+EAE2322,Environmental earth science,sci
+EAE2511,Deep earth processes,sci
+EAE2522,Sediments and basins,sci
+EAE3000,"Earth, atmosphere and environment research project",sci
+EAE3900,"Landscape, environment and sustainability in Italy",sci
+EAE4100,"Earth, atmosphere and environment honours research project",sci
+EAE4110,"Earth, atmosphere and environment honours research project part time 1",sci
+EAE4120,"Earth, atmosphere and environment honours research project part time 2",sci
+EAE4200,"Earth, atmosphere and environment honours coursework",sci
+EAE4210,"Earth, atmosphere and environment honours coursework part time 1",sci
+EAE4220,"Earth, atmosphere and environment honours coursework part time 2",sci
+EAE5258,Geographical information systems (GIS) for environmental science,sci
 ECB1101,Introductory microeconomics,buseco
 ECB1102,Introductory Macroeconomics,buseco
 ECB2141,Economics of labour markets,buseco
@@ -2083,6 +2146,67 @@ ECC5975,Principles of health economics for developing countries,buseco
 ECC5979,Health economics,buseco
 ECC6660,Research topics in advanced macroeconomics,buseco
 ECC6690,Research topics in open economy,buseco
+ECE2011,Signal processing,eng
+ECE2021,Electromagnetism,eng
+ECE2031,Circuits and control,eng
+ECE2041,Telecommunications,eng
+ECE2061,Analogue electronics,eng
+ECE2071,Computer organisation and programming,eng
+ECE2072,Digital systems,eng
+ECE2111,Signals and systems,eng
+ECE2131,Electrical circuits,eng
+ECE2191,Probability models in engineering,eng
+ECE3022,Wireless and guided EM,eng
+ECE3031,Control systems,eng
+ECE3051,Electrical energy systems,eng
+ECE3062,Electronic systems and control,eng
+ECE3073,Computer systems,eng
+ECE3091,Engineering design,eng
+ECE3093,Optimisation estimation and numerical methods,eng
+ECE3121,Engineering electromagnetics,eng
+ECE3141,Information and networks,eng
+ECE4012,Applied digital signal processing,eng
+ECE4023,Radio frequency electronics,eng
+ECE4024,Wireless communications,eng
+ECE4032,Advanced control,eng
+ECE4033,Industrial instrumentation and measurement technologies,eng
+ECE4042,Communications theory,eng
+ECE4043,Optical communications,eng
+ECE4044,Telecommunications protocols,eng
+ECE4045,Network performance,eng
+ECE4053,Electrical energy - generation and supply,eng
+ECE4054,Electrical energy - power converters and motor control,eng
+ECE4055,Electrical energy - power electronic applications,eng
+ECE4058,Electrical energy - high voltage engineering,eng
+ECE4063,Large scale digital design,eng
+ECE4064,Electronic test technology,eng
+ECE4074,Advanced computer architecture,eng
+ECE4075,Real time embedded systems,eng
+ECE4076,Computer vision,eng
+ECE4077,Advanced computing techniques,eng
+ECE4078,Intelligent robotics,eng
+ECE4081,Medical instrumentation,eng
+ECE4084,Biomechanics of human musculoskeletal systems,eng
+ECE4086,Medical imaging technology,eng
+ECE4087,Medical technology innovation,eng
+ECE4094,Project A,eng
+ECE4095,Project B,eng
+ECE4099,Professional practice,eng
+ECE4122,Advanced electromagnetics,eng
+ECE4808,Organic electronics and micro devices,eng
+ECE4809,Solid state lighting,eng
+ECE5881,Real-time system design,eng
+ECE5882,Advanced electronics design,eng
+ECE5883,Advanced signal processing,eng
+ECE5884,Wireless communications,eng
+ECE5885,Energy efficient lighting,eng
+ECE5886,Smart grids,eng
+ECE6881,Real-time system design,eng
+ECE6882,Advanced electronics design,eng
+ECE6883,Advanced signal processing,eng
+ECE6884,Wireless communications,eng
+ECE6885,Energy efficient lighting,eng
+ECE6886,Smart grids,eng
 ECF1100,Microeconomics,buseco
 ECF1200,Macroeconomics,buseco
 ECF2331,Macroeconomic and monetary policy,buseco
@@ -2151,497 +2275,6 @@ ECX3550,Business in Asia,buseco
 ECX5472,Law and economics,buseco
 ECX5486,Applied economics research paper,buseco
 ECX5921,Introduction to international economics,buseco
-ETB1100,Business statistics,buseco
-ETB2111,Business data modelling,buseco
-ETC1000,Business and economic statistics,buseco
-ETC1010,Data modelling and computing,buseco
-ETC2410,Introductory econometrics,buseco
-ETC2420,Statistical thinking,buseco
-ETC2430,Actuarial statistics,buseco
-ETC2440,Mathematics for economics and business,buseco
-ETC2450,Applied forecasting for business and economics,buseco
-ETC2470,Applied business modelling,buseco
-ETC2480,Business modelling methods,buseco
-ETC2500,Marketing research analysis,buseco
-ETC2520,Probability and statistical inference for economics and business,buseco
-ETC3250,Business analytics,buseco
-ETC3400,Principles of econometrics,buseco
-ETC3410,Applied econometrics,buseco
-ETC3420,Applied insurance methods,buseco
-ETC3430,Financial mathematics under uncertainty,buseco
-ETC3440,Introductory econometrics,buseco
-ETC3450,Time series analysis for business and economics,buseco
-ETC3460,Financial econometrics,buseco
-ETC3490,Risk and business modelling,buseco
-ETC3500,Survey data analysis,buseco
-ETC3510,Modelling in finance and insurance,buseco
-ETC3530,Contingencies in insurance and pensions,buseco
-ETC3550,Applied forecasting for business and economics,buseco
-ETC3580,Advanced statistical modelling,buseco
-ETC3860,Integrated economic modelling,buseco
-ETC4010,Special reading unit in econometrics honours,buseco
-ETC4110,Actuarial practice I,buseco
-ETC4120,Actuarial practice II,buseco
-ETC4130,Asset liability management,buseco
-ETC4400,Econometric theory,buseco
-ETC4410,Applied econometrics 2,buseco
-ETC4420,Microeconometrics,buseco
-ETC4430,Quantitative economic policy,buseco
-ETC4460,Financial econometrics 2,buseco
-ETC4541,Bayesian Time Series Econometrics,buseco
-ETC4860,Honours research project,buseco
-ETC5010,Special reading unit 2,buseco
-ETC5020,Special reading unit 3,buseco
-ETC5242,Statistical thinking,buseco
-ETC5252,Probability and statistical inference for economics and business,buseco
-ETC5340,Principles of econometrics,buseco
-ETC5341,Applied econometrics,buseco
-ETC5342,Applied insurance methods,buseco
-ETC5343,Financial mathematics under uncertainty,buseco
-ETC5345,Time series analysis for business and economics,buseco
-ETC5346,Financial econometrics,buseco
-ETC5351,Modelling in finance and insurance,buseco
-ETC5353,Insurance and pensions,buseco
-ETC5400,Research topics in econometrics,buseco
-ETC5410,Bayesian Time Series Econometrics,buseco
-ETC5420,Microeconometrics,buseco
-ETC5440,Econometric theory,buseco
-ETC5441,Applied econometrics 2,buseco
-ETC5443,Quantitative economic policy,buseco
-ETC5460,Financial econometrics 2,buseco
-ETC5470,Econometrics graduate seminar,buseco
-ETC5860,Research paper,buseco
-ETC5900,Business statistics,buseco
-ETF1100,Business statistics,buseco
-ETF2011,Quantitative methods for risk analysis,buseco
-ETF2100,Introductory econometrics,buseco
-ETF2121,Data analysis in business,buseco
-ETF2480,Business modelling,buseco
-ETF2700,Mathematics for business,buseco
-ETF3200,Applied econometrics,buseco
-ETF3231,Business forecasting,buseco
-ETF3300,Quantitative methods for financial markets,buseco
-ETF3480,Optimisation for managers,buseco
-ETF3500,High dimensional data analysis,buseco
-ETF3600,Quantitative models for business research,buseco
-ETF5010,Special reading unit 2,buseco
-ETF5020,Special reading unit 3,buseco
-ETF5200,Applied time series econometrics,buseco
-ETF5231,Business forecasting,buseco
-ETF5300,Applied financial econometrics,buseco
-ETF5320,Applied econometrics,buseco
-ETF5330,Quantitative methods for financial markets,buseco
-ETF5400,Econometric theory,buseco
-ETF5410,Special topics in econometrics,buseco
-ETF5470,Econometrics graduate seminar,buseco
-ETF5500,High dimensional data analysis,buseco
-ETF5550,Research project,buseco
-ETF5555,Minor thesis,buseco
-ETF5600,Quantitative models for business research,buseco
-ETF5650,Business optimisation skills,buseco
-ETF5900,Business statistics,buseco
-ETF5910,Introductory applied econometrics,buseco
-ETF5912,Data analysis in business,buseco
-ETF5922,Data Visualisation and Analytics,buseco
-ETF5930,Financial econometrics,buseco
-ETF5952,Quantitative methods for risk analysis,buseco
-ETF5970,Mathematics for business,buseco
-ETM5900,Business statistics,buseco
-ETP1100,Business statistics,buseco
-ETS1102,Business statistics,buseco
-ETS1200,Quantitative methods for business,buseco
-ETS2000,Advanced quantitative methods,buseco
-ETS2010,Introductory probability theory,buseco
-ETS2111,Business data modelling,buseco
-ETS2410,Introductory econometrics,buseco
-ETS3410,Applied econometrics,buseco
-ETW1000,Business and economic statistics,buseco
-ETW1010,Data modelling and computing,buseco
-ETW1102,Business statistics,buseco
-ETW2111,Business data modelling,buseco
-ETW2410,Introductory econometrics,buseco
-ETW2420,Survey methods and managerial statistics,buseco
-ETW2480,Business modelling methods,buseco
-ETW3200,Quantitative business analysis,buseco
-ETW3410,Applied econometrics,buseco
-ETW3420,Principles of forecasting and applications,buseco
-ETW3481,Econometric methods for finance,buseco
-ETW3482,Data mining for business,buseco
-ETW3483,Enterprise resource planning,buseco
-ETX2011,Quantitative methods for risk analysis,buseco
-ETX2121,Data analysis in business,buseco
-ETX2250,Data visualisation and analytics,buseco
-ETX3231,Business forecasting,buseco
-ETX5440,Econometric theory,buseco
-ETX5443,Quantitative economic policy,buseco
-ETX5934,Introductory econometrics,buseco
-ETX6500,Statistical Inference,buseco
-ETX6510,Foundations of econometrics,buseco
-HED5043,Contemporary issues in business education,buseco
-HED5044,Reflection and practice in business education,buseco
-MBA5005,Strategic management,buseco
-MBA5008,Managing people for competitive advantage,buseco
-MBA5030,Specialist elective 1,buseco
-MBA5060,Specialist elective 4,buseco
-MBA5111,Leadership 1: Critical thinking,buseco
-MBA5112,MBA 1,buseco
-MBA5113,MBA Labs: Strategy project,buseco
-MBA5211,MBA5211 Leadership 2: People and performance,buseco
-MBA5212,MBA 2,buseco
-MBA5213,"Technology, innovation and entrepreneurship",buseco
-MBA5311,Leadership 3: Influence and negotiations,buseco
-MBA5312,MBA 3,buseco
-MBA5313,MBA Labs: Technology and entrepreneurship project,buseco
-MBA5400,MBA corporate project 1,buseco
-MBA5410,MBA corporate project 2,buseco
-MBA5411,Leadership 4: Personal and professional development,buseco
-MBA5412,MBA Seminars,buseco
-MBA5413,MBA Labs: International business project,buseco
-MBA5415,Strategy capstone,buseco
-MBA5500,Negotiation and managerial judgment,buseco
-MBA5510,The strategic environment of business,buseco
-MBA5520,Creating sustainable organisations,buseco
-MBA5530,Critical thinking for problem solving,buseco
-MBA5540,Innovation and entrepreneurship in the digital economy,buseco
-MBA5603,Economics for managers,buseco
-MBA5604,Financial and management accounting for decision making,buseco
-MBA5605,Business finance,buseco
-MBA5607,Evidence-based decision making,buseco
-MBA5608,Managing people for competitive advantage in Asia,buseco
-MBA5615,Entrepreneurial marketing,buseco
-MBA5620,Sustainability strategy in contemporary organisation,buseco
-MBA5640,The entrepreneurial and innovative organisation,buseco
-MBA5701,Negotiation,buseco
-MBA5703,Managerial economics,buseco
-MBA5704,Accounting,buseco
-MBA5705,Business finance,buseco
-MBA5706,Business strategy,buseco
-MBA5707,Data analysis in business,buseco
-MBA5708,Managing people,buseco
-MBA5709,The business environment,buseco
-MBA5715,Strategic marketing management,buseco
-MBA5720,Corporate sustainability,buseco
-MBA5721,Experiential learning project,buseco
-MBA5722,MBA study tour,buseco
-MBA5730,Critical thinking,buseco
-MBA5740,Managing innovation,buseco
-MBA5903,Business economics,buseco
-MBA5904,Interpreting accounting information,buseco
-MBA5905,Corporate finance,buseco
-MBA5906,Strategic marketing leadership,buseco
-MGB1010,Introduction to management,buseco
-MGB2230,Organisational behaviour,buseco
-MGB2430,Human resource management,buseco
-MGB3684,Business strategy,buseco
-MGC1010,Introduction to management,buseco
-MGC2021,Organisations and society,buseco
-MGC2120,Managing international business,buseco
-MGC2130,Asian management,buseco
-MGC2230,Organisational behaviour,buseco
-MGC2410,International employment relations,buseco
-MGC2420,Employee relations,buseco
-MGC2430,Human resource management,buseco
-MGC3110,Strategic management,buseco
-MGC3120,International management,buseco
-MGC3130,The management of change,buseco
-MGC3250,Management in small firms,buseco
-MGC3450,Managing conflict,buseco
-MGC3950,Managing for sustainability,buseco
-MGF1010,Introduction to management,buseco
-MGF1100,Managerial communication,buseco
-MGF2111,Organisational behaviour,buseco
-MGF2341,Managing employee relations,buseco
-MGF2351,International business,buseco
-MGF2511,"Managing quality, innovation and knowledge",buseco
-MGF2656,HRM and managing global workforces,buseco
-MGF2661,Human resource management,buseco
-MGF3361,Workplace learning and performance management,buseco
-MGF3381,Managing information systems,buseco
-MGF3420,Human resource development,buseco
-MGF3450,Managing conflict,buseco
-MGF3621,Organisational change,buseco
-MGF3681,International management,buseco
-MGF3684,Business strategy,buseco
-MGF5011,Commercialisation,buseco
-MGF5020,Business ethics in a global environment,buseco
-MGF5030,Corporate social responsibility,buseco
-MGF5130,Managing diversity and inclusion,buseco
-MGF5171,Managing the multinational enterprise: cases and issues,buseco
-MGF5181,International business strategy,buseco
-MGF5220,"Managing work, family and life",buseco
-MGF5261,Human resource management issues,buseco
-MGF5300,Governance,buseco
-MGF5310,International management,buseco
-MGF5360,Strategic management in the public sector,buseco
-MGF5370,Policy analysis,buseco
-MGF5440,Public sector financial management,buseco
-MGF5470,International manufacturing,buseco
-MGF5551,Strategic human resource management,buseco
-MGF5600,Managing innovation,buseco
-MGF5610,People management and work in a global context,buseco
-MGF5611,Advanced supply chain management,buseco
-MGF5630,Principles of negotiation,buseco
-MGF5631,International human resource management,buseco
-MGF5640,Cross-cultural management communication,buseco
-MGF5670,Leadership,buseco
-MGF5680,Managerial problem solving and decision making,buseco
-MGF5690,Services and operations management,buseco
-MGF5691,Sustainable operations and supply chain management,buseco
-MGF5701,Designing business processes,buseco
-MGF5702,People management and strategy,buseco
-MGF5710,Governance of market societies,buseco
-MGF5722,Emerging economies in a globalising world,buseco
-MGF5730,International trade policy,buseco
-MGF5760,International institutions and organisations,buseco
-MGF5911,Diplomacy and statecraft,buseco
-MGF5920,Work and employment relations,buseco
-MGF5921,Foundations in human resource management,buseco
-MGF5923,Public policy,buseco
-MGF5927,Public management,buseco
-MGF5928,Leadership theory and practice,buseco
-MGF5960,Managing people and organisations,buseco
-MGF5961,Supply chain management,buseco
-MGF5962,Principles of management,buseco
-MGF5963,Introduction to management,buseco
-MGF5966,International business theory and practice,buseco
-MGF5972,Managing organisational change,buseco
-MGF5976,Strategic management,buseco
-MGF5985,Human resource management,buseco
-MGF5991,Professional development - career dynamics,buseco
-MGF5992,Professional development - Self and relationships,buseco
-MGG2230,Organisational behaviour,buseco
-MGG2322,Recruitment and selection,buseco
-MGG2323,Employment relations,buseco
-MGG2351,International business,buseco
-MGG2430,Human resource management,buseco
-MGG2700,Project management for small to medium enterprises,buseco
-MGG3130,Organisational change and development,buseco
-MGG3352,Service operations management,buseco
-MGG3401,Strategic management,buseco
-MGG3430,International human resource management,buseco
-MGG3681,International management,buseco
-MGM5181,International business strategy,buseco
-MGM5310,International management,buseco
-MGM5640,Cross-cultural management communication,buseco
-MGM5966,International business theory and practice,buseco
-MGP1010,Introduction to management,buseco
-MGP2200,Festivals and events,buseco
-MGP2279,Inclusive management,buseco
-MGP2501,Introduction to tourism,buseco
-MGP3113,Organisation governance and ethics,buseco
-MGP3249,Project and innovation management,buseco
-MGP3684,Business strategy,buseco
-MGS1010,Introduction to management,buseco
-MGS1100,Managerial communication,buseco
-MGS2230,Organisational behaviour,buseco
-MGS2351,International business,buseco
-MGS2430,Human resource management,buseco
-MGS3130,Organisational change and development,buseco
-MGS3210,Organisational wellness,buseco
-MGS3401,Strategic management,buseco
-MGS3650,Integrated business management simulation,buseco
-MGS3651,Entrepreneurship,buseco
-MGS3991,Leadership principles and practices,buseco
-MGS5000,Introductory management research methods,buseco
-MGS5181,International business strategy,buseco
-MGS5310,International management,buseco
-MGS5640,Cross-cultural management communication,buseco
-MGS5900,Research report,buseco
-MGS5901,Research report: An introduction,buseco
-MGS5966,International business theory and practice,buseco
-MGW1010,Introduction to management,buseco
-MGW1100,Managerial communication,buseco
-MGW1232,Introduction to Islamic business,buseco
-MGW2230,Organisational behaviour,buseco
-MGW2351,International business,buseco
-MGW2430,Human resource management,buseco
-MGW2991,Leadership in Asia,buseco
-MGW3130,Organisational change and development,buseco
-MGW3210,Organisational wellness,buseco
-MGW3234,Social entrepreneurship,buseco
-MGW3381,Management information systems,buseco
-MGW3401,Strategic management,buseco
-MGW3681,International management,buseco
-MGX2200,Introduction to events,buseco
-MGX2501,Introduction to tourism,buseco
-MGX2700,Project management for small to medium enterprises,buseco
-MGX3100,Corporate social responsibility and business ethics,buseco
-MGX3121,International business strategy,buseco
-MGX3441,Human resource strategy,buseco
-MGX3650,Integrated business management simulation,buseco
-MGX3651,Entrepreneurship,buseco
-MGX3771,Operations management,buseco
-MGX3991,Leadership principles and practices,buseco
-MGX4000,Introductory management research methods,buseco
-MGX4100,Perspectives and paradigms in management theory,buseco
-MGX4200,Data analysis for organisational research,buseco
-MGX4300,Contemporary issues in management,buseco
-MGX4400,Honours research thesis,buseco
-MGX5000,Introductory management research methods,buseco
-MGX5020,Business ethics in a global environment,buseco
-MGX5030,Corporate social responsibility,buseco
-MGX5120,Contemporary Asia,buseco
-MGX5130,Managing diversity and inclusion,buseco
-MGX5300,Governance,buseco
-MGX5340,International public policy and management,buseco
-MGX5360,Strategic management in the public sector,buseco
-MGX5370,Policy analysis,buseco
-MGX5440,Public sector financial management,buseco
-MGX5461,Contemporary issues in globalisation,buseco
-MGX5470,International manufacturing,buseco
-MGX5600,Managing innovation,buseco
-MGX5610,Work and employment relations in a global context,buseco
-MGX5630,Principles of negotiation,buseco
-MGX5730,International trade policy,buseco
-MGX5870,Organisational and business dynamics,buseco
-MGX5890,International study program in international business,buseco
-MGX5900,Research report,buseco
-MGX5901,Research report (introduction),buseco
-MGZ5181,International business strategy and cases,buseco
-MGZ5640,Cross cultural management communication,buseco
-MGZ5750,The governance of international trade,buseco
-MGZ5966,International business theory and practice,buseco
-MKB1200,Principles of marketing,buseco
-MKB2402,Consumer behaviour,buseco
-MKB2420,Marketing research methods,buseco
-MKB2500,Retail management principles,buseco
-MKB2521,Brand management,buseco
-MKB2600,Tourism marketing,buseco
-MKB3301,Services Marketing,buseco
-MKB3461,Marketing communication,buseco
-MKB3531,International marketing,buseco
-MKB3881,Digital marketing,buseco
-MKC1200,Principles of marketing,buseco
-MKC2110,Buyer behaviour in marketing,buseco
-MKC2130,Marketing decision analysis,buseco
-MKC2500,Marketing research analysis,buseco
-MKC2610,Strategic retailing in the global market,buseco
-MKC3110,Market analysis and strategy development,buseco
-MKC3130,Strategic issues in marketing,buseco
-MKC3140,Marketing strategy implementation,buseco
-MKC3220,International marketing,buseco
-MKC3300,Marketing law,buseco
-MKC3460,Integrated marketing communication,buseco
-MKC3500,Survey data analysis,buseco
-MKF1120,Marketing theory and practice,buseco
-MKF2111,Buyer behaviour,buseco
-MKF2121,Marketing research methods,buseco
-MKF2131,Marketing decision analysis,buseco
-MKF2401,Marketing issues in packaging design,buseco
-MKF2521,Brand management,buseco
-MKF2540,Retail management principles,buseco
-MKF2801,Marketing insights,buseco
-MKF3001,Special studies unit,buseco
-MKF3121,Marketing planning and implementation,buseco
-MKF3131,Strategic marketing,buseco
-MKF3141,Issues in competitive advantage,buseco
-MKF3151,Marketing planning and strategy,buseco
-MKF3301,Services marketing,buseco
-MKF3461,Marketing communication,buseco
-MKF3471,Sales management and negotiation,buseco
-MKF3500,Survey data analysis,buseco
-MKF3531,International marketing,buseco
-MKF3621,Advertising management and campaigns,buseco
-MKF3710,Specialised applications in marketing,buseco
-MKF3881,Digital marketing,buseco
-MKF5150,Major project,buseco
-MKF5200,Assessing marketing performance,buseco
-MKF5231,Strategic brand management,buseco
-MKF5241,Sport marketing and sponsorship,buseco
-MKF5251,Case studies in marketing strategy,buseco
-MKF5280,Sustainable marketing,buseco
-MKF5301,Minor thesis,buseco
-MKF5351,Marketing strategy masterclass,buseco
-MKF5371,Business to business marketing,buseco
-MKF5391,Sales management,buseco
-MKF5403,Advanced business research methods,buseco
-MKF5461,Contemporary issues in marketing,buseco
-MKF5463,Advanced buyer behaviour,buseco
-MKF5500,Survey data analysis,buseco
-MKF5505,Marketing for healthcare managers,buseco
-MKF5561,E-marketing,buseco
-MKF5601,Social media marketing,buseco
-MKF5630,Services marketing,buseco
-MKF5641,Advanced marketing communication,buseco
-MKF5660,Relationship marketing,buseco
-MKF5741,Marketing performance and decision analysis,buseco
-MKF5760,Marketing leadership in society,buseco
-MKF5761,Managing supply networks,buseco
-MKF5801,Customer focused innovation,buseco
-MKF5911,Theory and process of buyer behaviour,buseco
-MKF5912,Marketing research,buseco
-MKF5916,Foundations of marketing,buseco
-MKF5917,Understanding marketing and consumers,buseco
-MKF5926,Integrated marketing communication,buseco
-MKF5970,Direct marketing,buseco
-MKF5979,Marketing financial services,buseco
-MKF5981,Retailing,buseco
-MKG2402,Consumer behaviour,buseco
-MKG2420,Marketing research methods,buseco
-MKG2460,Integrated marketing communication,buseco
-MKG3121,Marketing planning and implementation,buseco
-MKG3440,Marketing strategy,buseco
-MKG3442,Sales management,buseco
-MKG3444,International marketing,buseco
-MKM5211,Applied business project,buseco
-MKM5955,Marketing and the international consumer,buseco
-MKP1120,Marketing theory and practice,buseco
-MKP2600,Tourism marketing,buseco
-MKP2701,Consumer psychology,buseco
-MKP2702,Stakeholder marketing communication,buseco
-MKP2720,Research methods and analysis,buseco
-MKP3200,Sports marketing and sponsorship,buseco
-MKP3800,Social marketing,buseco
-MKS1120,Marketing theory and practice,buseco
-MKS2402,Consumer behaviour,buseco
-MKS2420,Marketing research methods,buseco
-MKS2431,Business marketing,buseco
-MKS2460,Integrated marketing communication,buseco
-MKS3121,Marketing planning and implementation,buseco
-MKS3440,Marketing strategy,buseco
-MKS3444,International marketing,buseco
-MKS3631,Marketing internship,buseco
-MKS3881,Electronic marketing,buseco
-MKS5955,Marketing and the international consumer,buseco
-MKW1120,Marketing theory and practice,buseco
-MKW1300,Introduction to social commerce,buseco
-MKW1601,Introduction to e-business,buseco
-MKW2402,Consumer behaviour,buseco
-MKW2420,Marketing research methods,buseco
-MKW2431,Business marketing,buseco
-MKW2460,Integrated marketing communication,buseco
-MKW3121,Marketing planning and implementation,buseco
-MKW3301,Services marketing,buseco
-MKW3440,Marketing strategy,buseco
-MKW3444,International marketing,buseco
-MKW3510,Islamic marketing,buseco
-MKW3610,Marketing strategy and implementation,buseco
-MKW3701,Neuroscience of decision-making: An introduction,buseco
-MKW3841,E-business performance measurement,buseco
-MKW3881,Electronic marketing,buseco
-MKX1500,Retail management principles,buseco
-MKX2531,Not for profit marketing,buseco
-MKX3002,Enhanced research skills,buseco
-MKX3200,Sport marketing and sponsorship,buseco
-MKX3481,Marketing channels,buseco
-MKX3521,Global study programs in marketing,buseco
-MKX3631,Marketing internship,buseco
-MKX4050,Marketing theory,buseco
-MKX4060,Marketing research practice,buseco
-MKX4070,Qualitative research methods,buseco
-MKX4080,Advanced business research methods,buseco
-MKX4461,Contemporary issues in marketing,buseco
-MKX4900,Honours research thesis,buseco
-MKX5123,Entrepreneurial innovation,buseco
-MKX5260,International marketing,buseco
-MKX5521,Global study programs in marketing,buseco
-MKX5931,International dimensions of electronic business,buseco
-MKX5955,Marketing and the international consumer,buseco
-MKZ5955,Marketing and the international consumer,buseco
-MON2222,Sustainability: learning and living it,buseco
-MPA5001,Work-based research project,buseco
-MPA5902,Designing public policies and programs,buseco
-PMM3020,"Psychology, management and marketing",buseco
 EDF1010,Learning in a university context,edu
 EDF1011,Knowledge and context,edu
 EDF1012,Mathematics for tertiary study,edu
@@ -3043,187 +2676,6 @@ EDF5944,Secondary professional experience 4,edu
 EDF6509,Clinical placement in psychology 3,edu
 EDF6536,Psychology thesis part 2,edu
 EDF6541,Field experience in counselling,edu
-HED5031,Higher education project: Design and literature review,edu
-HED5041,Research project development and implementation,edu
-HED5052,Contemporary issues in higher education in South East Asia,edu
-CEM6881,Scanning electron microscopy,eng
-CEM6882,Transmission electron microscopy,eng
-CHE2161,Mechanics of fluids,eng
-CHE2162,Material and energy balances,eng
-CHE2163,Heat and mass transfer,eng
-CHE2164,Thermodynamics I,eng
-CHE2166,Introduction to process simulation,eng
-CHE2167,Process material selection,eng
-CHE2871,Biochemistry for engineers,eng
-CHE3161,Chemistry and chemical thermodynamics,eng
-CHE3162,Process control,eng
-CHE3163,Sustainable processing I,eng
-CHE3164,Reaction engineering,eng
-CHE3165,Separation processes,eng
-CHE3166,Process design,eng
-CHE3167,Transport phenomena and numerical methods,eng
-CHE3171,Bioprocess technology,eng
-CHE3172,Nanotechnology and materials 1,eng
-CHE4161,Engineer in society,eng
-CHE4162,Particle technology,eng
-CHE4164,Integrated industrial project,eng
-CHE4170,Design project,eng
-CHE4171,Biochemical engineering,eng
-CHE4172,Nanotechnology and materials 2,eng
-CHE4173,Sustainable processing 2,eng
-CHE4180,Chemical engineering project,eng
-CHE5167,Pulp and paper laboratory,eng
-CHE5290,Biomass resource and its utilisation,eng
-CHE5291,Engineering aspects of biomass pulping,eng
-CHE5292,Chemistry of biomass processing,eng
-CHE5293,Processing fibres into paper,eng
-CHE5294,Performance of paper products,eng
-CHE5295,Control of processes and quality,eng
-CHE5296,Minimising environmental impact,eng
-CHE5297,Recycling and contaminant removal,eng
-CHE5298,Biorefinery foundations,eng
-CHE5299,Biorefinery processes,eng
-CHE5881,Advanced reaction engineering,eng
-CHE5882,Biomass and biorefineries,eng
-CHE5883,Nanostructured membranes for separation and energy production,eng
-CHE5884,Process modeling and optimisation,eng
-CHE5885,Principles and practices for sustainable development,eng
-CHE6881,Advanced reaction engineering,eng
-CHE6882,Biomass and biorefineries,eng
-CHE6883,Nanostructured membranes for separation and energy production,eng
-CHE6884,Process modeling and optimisation,eng
-CHE6885,Principles and practices for sustainable development,eng
-CHM1752,Chemistry for engineering,eng
-CIV2206,Mechanics of solids,eng
-CIV2207,Computing and water systems modelling,eng
-CIV2225,Design of steel and timber structures,eng
-CIV2226,Design of concrete and masonry structures,eng
-CIV2242,Geomechanics I,eng
-CIV2263,Water systems,eng
-CIV2282,Transport and traffic engineering,eng
-CIV2283,Civil engineering construction,eng
-CIV3203,Civil engineering construction,eng
-CIV3204,Engineering investigation,eng
-CIV3205,Project management for civil engineers,eng
-CIV3221,Building structures and technology,eng
-CIV3222,Bridge design and assessment,eng
-CIV3247,Geomechanics II,eng
-CIV3248,Groundwater and environmental geomechanics,eng
-CIV3264,Urban water and wastewater systems,eng
-CIV3283,Road engineering,eng
-CIV4210,Project A,eng
-CIV4211,Project B,eng
-CIV4212,Civil and environmental engineering practice,eng
-CIV4234,Advanced structural analysis,eng
-CIV4235,Advanced structural design,eng
-CIV4248,Ground hazards engineering,eng
-CIV4249,Foundation engineering,eng
-CIV4261,Integrated urban water management,eng
-CIV4268,Water resources management,eng
-CIV4283,Transport planning,eng
-CIV4284,Traffic systems,eng
-CIV5301,Advanced traffic engineering,eng
-CIV5302,Traffic engineering and management,eng
-CIV5303,Quantitative methods,eng
-CIV5304,Intelligent transport systems,eng
-CIV5305,Travel demand modelling,eng
-CIV5306,Road safety engineering,eng
-CIV5308,Transport and traffic systems project,eng
-CIV5309,Transport and traffic data,eng
-CIV5310,Infrastructure project and policy evaluation,eng
-CIV5311,Infrastructure project management,eng
-CIV5312,Asset management I,eng
-CIV5313,Asset management II,eng
-CIV5314,Planning urban transport systems,eng
-CIV5315,Transport economics,eng
-CIV5316,Fundamentals of urban public transport,eng
-CIV5318,Intelligent transportation systems: engineering and management,eng
-CIV5319,Quantitative methods for transportation systems analysis,eng
-CIV5320,Case studies in transportation systems,eng
-CIV5321,Sustainable transportation systems planning,eng
-CIV5322,Urban public transportation systems,eng
-CIV5406,Modelling transportation systems,eng
-CIV5881,Ground water hydrology,eng
-CIV5882,Flood hydraulics and hydrology,eng
-CIV5883,Surface water hydrology,eng
-CIV5884,Water sensitive stormwater design,eng
-CIV5885,Infrastructure dynamics,eng
-CIV5886,Infrastructure geomechanics,eng
-CIV5887,Infrastructure rehabilitation and monitoring,eng
-CIV5888,Advanced computational methods,eng
-CIV6301,Advanced traffic engineering,eng
-CIV6302,Traffic engineering and management,eng
-CIV6305,Travel demand modelling,eng
-CIV6314,Transport planning and policy,eng
-CIV6881,Ground water hydrology,eng
-CIV6882,Flood hydraulics and hydrology,eng
-CIV6883,Surface water hydrology,eng
-CIV6884,Water sensitive stormwater design,eng
-CIV6885,Infrastructure dynamics,eng
-CIV6886,Infrastructure geomechanics,eng
-CIV6887,Infrastructure rehabilitation and monitoring,eng
-CIV6888,Advanced computational methods,eng
-ECE2011,Signal processing,eng
-ECE2021,Electromagnetism,eng
-ECE2031,Circuits and control,eng
-ECE2041,Telecommunications,eng
-ECE2061,Analogue electronics,eng
-ECE2071,Computer organisation and programming,eng
-ECE2072,Digital systems,eng
-ECE2111,Signals and systems,eng
-ECE2131,Electrical circuits,eng
-ECE2191,Probability models in engineering,eng
-ECE3022,Wireless and guided EM,eng
-ECE3031,Control systems,eng
-ECE3051,Electrical energy systems,eng
-ECE3062,Electronic systems and control,eng
-ECE3073,Computer systems,eng
-ECE3091,Engineering design,eng
-ECE3093,Optimisation estimation and numerical methods,eng
-ECE3121,Engineering electromagnetics,eng
-ECE3141,Information and networks,eng
-ECE4012,Applied digital signal processing,eng
-ECE4023,Radio frequency electronics,eng
-ECE4024,Wireless communications,eng
-ECE4032,Advanced control,eng
-ECE4033,Industrial instrumentation and measurement technologies,eng
-ECE4042,Communications theory,eng
-ECE4043,Optical communications,eng
-ECE4044,Telecommunications protocols,eng
-ECE4045,Network performance,eng
-ECE4053,Electrical energy - generation and supply,eng
-ECE4054,Electrical energy - power converters and motor control,eng
-ECE4055,Electrical energy - power electronic applications,eng
-ECE4058,Electrical energy - high voltage engineering,eng
-ECE4063,Large scale digital design,eng
-ECE4064,Electronic test technology,eng
-ECE4074,Advanced computer architecture,eng
-ECE4075,Real time embedded systems,eng
-ECE4076,Computer vision,eng
-ECE4077,Advanced computing techniques,eng
-ECE4078,Intelligent robotics,eng
-ECE4081,Medical instrumentation,eng
-ECE4084,Biomechanics of human musculoskeletal systems,eng
-ECE4086,Medical imaging technology,eng
-ECE4087,Medical technology innovation,eng
-ECE4094,Project A,eng
-ECE4095,Project B,eng
-ECE4099,Professional practice,eng
-ECE4122,Advanced electromagnetics,eng
-ECE4808,Organic electronics and micro devices,eng
-ECE4809,Solid state lighting,eng
-ECE5881,Real-time system design,eng
-ECE5882,Advanced electronics design,eng
-ECE5883,Advanced signal processing,eng
-ECE5884,Wireless communications,eng
-ECE5885,Energy efficient lighting,eng
-ECE5886,Smart grids,eng
-ECE6881,Real-time system design,eng
-ECE6882,Advanced electronics design,eng
-ECE6883,Advanced signal processing,eng
-ECE6884,Wireless communications,eng
-ECE6885,Energy efficient lighting,eng
-ECE6886,Smart grids,eng
 ENE1621,Environmental engineering,eng
 ENE2503,Materials properties and recycling,eng
 ENE3048,Energy and the environment,eng
@@ -3275,178 +2727,196 @@ ENG5881,Minor project,eng
 ENG6001,Advanced engineering data analysis,eng
 ENG6002,Engineering entrepreneurship,eng
 ENG6007,Translation and commercialisation of medical technologies,eng
+ENS5010,Global challenges and sustainability,sci
+ENS5020,Perspectives on sustainability,sci
+ENS5310,Securing biodiversity and ecosystems,sci
+ENS5320,"Climate change, energy and human security",sci
+ENS5330,Water security and environmental pollution,sci
+ENS5510,Processes to influence change,sci
+ENS5520,Understanding human behaviour to influence change,sci
+ENS5530,Leading change for sustainable development,sci
+ENS5900,Research project in environment and sustainability,sci
+ENS5901,Research project in environment and sustainability part A,sci
+ENS5902,Research project in environment and sustainability B,sci
+ENS5910,Interdisciplinary project for sustainable development solutions,sci
+ENS5920,Environment and sustainability project,sci
+ENS5930,Sustainability internship,sci
+ENV1800,Environmental science: A Southeast Asian perspective,sci
+ENV2022,Environmental sampling and monitoring,sci
+ENV2726,Ecosystems and bioresources,sci
+ENV2757,Environmental health,sci
 ENV2792,Mathematical models of the environment,eng
-MAE2401,Aircraft structures 1,eng
-MAE2402,Thermodynamics and heat transfer,eng
-MAE2403,Aerospace computational mechanics,eng
-MAE2404,Aerodynamics I,eng
-MAE2405,Aircraft performance,eng
-MAE3401,Aerodynamics II,eng
-MAE3402,Aerospace design project,eng
-MAE3404,Flight vehicle dynamics,eng
-MAE3405,Flight vehicle propulsion,eng
-MAE3406,Aerospace materials,eng
-MAE3407,Aircraft structures II,eng
-MAE3408,Aerospace control,eng
-MAE4404,Aerospace practices,eng
-MAE4407,Instrumentation and avionics,eng
-MAE4408,Damage tolerance and airworthiness,eng
-MAE4409,Wing design,eng
-MAE4904,Minor research project,eng
-MAE4965,Advanced aerodynamics and turbulence,eng
-MAE4980,Aircraft engines,eng
-MAE5401,Aerodynamics,eng
-MAE5402,Aircraft structures,eng
-MAE5403,Composite airframes,eng
-MAE5404,Airworthiness,eng
-MAE5405,Avionics,eng
-MAE5406,Computational fluid mechanics,eng
-MAE5407,Computer aided design of aerospace structures,eng
-MAE5408,Spaceflight dynamics,eng
-MAE5409,Master of aerospace engineering: project thesis A,eng
-MAE5410,Master of aerospace engineering: project thesis B,eng
-MAT2731,Multivariate analysis,eng
-MAT2742,Mathematical modeling of the environment,eng
-MEC2401,Dynamics I,eng
-MEC2402,Engineering design I,eng
-MEC2403,Mechanics of materials,eng
-MEC2404,Mechanics of fluids,eng
-MEC2405,Thermodynamics,eng
-MEC2407,Electromechanics,eng
-MEC2456,Engineering computational analysis,eng
-MEC3416,Engineering design II,eng
-MEC3451,Fluid mechanics II,eng
-MEC3453,Dynamics II,eng
-MEC3454,Thermodynamics and heat transfer,eng
-MEC3455,Solid mechanics,eng
-MEC3456,Engineering computational analysis,eng
-MEC3457,Systems and control,eng
-MEC3458,Experimental project,eng
-MEC3459,Materials selection for engineering design,eng
-MEC4401,Final year project,eng
-MEC4402,Final year project - Thesis,eng
-MEC4404,Professional practice,eng
-MEC4407,Engineering design III,eng
-MEC4416,"Momentum, energy & mass transport in engineering systems",eng
-MEC4417,Refrigeration and air conditioning,eng
-MEC4418,Control systems,eng
-MEC4425,Micro/nano solid and fluid mechanics,eng
-MEC4426,Computer-aided design,eng
-MEC4428,Advanced dynamics,eng
-MEC4444,Industrial noise and control,eng
-MEC4446,Composite structures,eng
-MEC4447,Computers in fluids and energy,eng
-MEC4456,Robotics,eng
-MEC4459,Wind engineering,eng
-MEC4801,Non-destructive testing and inspection,eng
-MEC4802,Sustainable engineering and design with nanomaterials,eng
-MEC4803,Internal combustion engines,eng
-MEC5415,Research Seminar,eng
-MEC5881,Engineering systems performance analysis,eng
-MEC5882,"Instrumentation, sensing and monitoring",eng
-MEC5883,Mechanical systems design,eng
-MEC5884,Sustainable engineering systems,eng
-MEC5885,Energy efficiency and sustainability engineering,eng
-MEC5886,Sustainable energy technologies,eng
-MEC5887,Environmental and air pollution control,eng
-MEC5888,Renewable energy systems,eng
-MEC5889,Medical device technologies,eng
-MEC6410,Research practices,eng
-MEC6881,Engineering systems performance analysis,eng
-MEC6882,"Instrumentation, sensing and monitoring",eng
-MEC6883,Mechanical systems design,eng
-MEC6884,Sustainable engineering systems,eng
-MEC6885,Energy efficiency and sustainability engineering,eng
-MEC6886,Sustainable energy technologies,eng
-MEC6887,Environmental and air pollution control,eng
-MEC6888,Renewable energy systems,eng
-MEC6889,Medical device technologies,eng
-MNE1010,Natural resources engineering,eng
-MNE2010,Fixed plant engineering,eng
-MNE2030,"Project, risk and safety management",eng
-MNE3010,Rock mechanics,eng
-MNE3020,Resource estimation,eng
-MNE3030,Ventilation,eng
-MNE3040,Surface mining systems,eng
-MNE3050,Underground mining,eng
-MNE3060,Blasting and fragmentation,eng
-MNE4010,Mine planning and scheduling,eng
-MNE4020,Design and feasibility project,eng
-MNE4030,Mine management and economics,eng
-MNE4040,Mineral processing,eng
-MNE4070,Research project 3,eng
-MNE4120,"Instrumentation, automation and asset management",eng
-MRE5001,Terotechnology and life cycle costs,eng
-MRE5002,Maintenance management,eng
-MRE5003,Industrial techniques in maintenance management,eng
-MRE5004,Asset management techniques,eng
-MRE5005,Quantitative techniques for asset management,eng
-MRE5006,Machine condition monitoring and fault diagnosis,eng
-MRE5007,Risk engineering,eng
-MRE5008,Maintenance and reliability engineering project,eng
-MRE5101,Basic quantitative skills for reliability engineering,eng
-MRE5102,Understanding reliability,eng
-MRE5103,Advanced reliability,eng
-MRE5104,Reliability applications,eng
-MTE2541,"Crystal structures, thermodynamics and phase equilibria",eng
-MTE2542,Microstructural development,eng
-MTE2544,Functional materials,eng
-MTE2545,Polymers and ceramics I,eng
-MTE2546,Mechanics of materials,eng
-MTE2547,Structure-property relationships in materials,eng
-MTE2548,Biomaterials I,eng
-MTE3541,Materials durability,eng
-MTE3542,Microstructural design in structural materials,eng
-MTE3543,Microstructure to applications: the mechanics of materials,eng
-MTE3544,Management and practice in materials engineering,eng
-MTE3545,Functional materials and devices,eng
-MTE3546,Polymers and ceramics II,eng
-MTE3547,Materials characterisation and modelling,eng
-MTE4525,Project I,eng
-MTE4526,Project II,eng
-MTE4571,Materials engineering design and practice,eng
-MTE4572,Polymer and composite processing and engineering,eng
-MTE4573,Processing and engineering of metals and ceramics,eng
-MTE4590,Modelling of materials,eng
-MTE4592,Advanced ceramics and applications,eng
-MTE4593,Materials and sustainability,eng
-MTE4594,"Engineering alloy design, processing and selection",eng
-MTE4595,Corrosion mechanisms and protection methods,eng
-MTE4596,Biomaterials II,eng
-MTE4597,Engineering with nanomaterials,eng
-MTE4598,Electron microscopy,eng
-MTE5881,Advanced materials characterisation and applied crystallography,eng
-MTE5882,Advanced polymeric materials,eng
-MTE5883,Environmental durability and protection of metals and engineering materials,eng
-MTE5884,Advanced photovoltaics and energy storage,eng
-MTE5885,Biomaterials and biomechanics,eng
-MTE5886,Additive manufacturing of metallic materials,eng
-MTE5887,Additive manufacturing of polymeric and functional materials,eng
-MTE6881,Advanced materials characterisation and applied crystallography,eng
-MTE6882,Advanced polymeric materials,eng
-MTE6883,Environmental durability and protection of metals and engineering materials,eng
-MTE6884,Advanced photovoltaics and energy storage,eng
-MTE6885,Biomaterials and biomechanics,eng
-MTE6886,Additive manufacturing of metallic materials,eng
-MTE6887,Additive manufacturing of polymeric and functional materials,eng
-PHS1711,Applied physics,eng
-RSE4111,Numerical modelling,eng
-RSE4112,Advanced rock mechanics,eng
-TRC2001,Introduction to systems engineering,eng
-TRC2200,Thermo-fluids and power systems,eng
-TRC2201,Mechanics,eng
-TRC3000,Mechatronics project II,eng
-TRC3200,Dynamical systems,eng
-TRC3500,Sensors and artificial perception,eng
-TRC3600,Modelling and control,eng
-TRC3801,Mechatronics and manufacturing,eng
-TRC4000,Mechatronics final year project I,eng
-TRC4001,Mechatronics final year project II,eng
-TRC4002,Professional practice,eng
-TRC4100,Bio-interfacing devices,eng
-TRC4800,Robotics,eng
-TRC4900,Real time embedded systems,eng
-TRC4901,Computation intelligence and AI,eng
+ENV3022,Environmental technology,sci
+ENV3639,Minerals and energy,sci
+EPM5001,Health indicators and health surveys,med
+EPM5002,Mathematical background for biostatistics,med
+EPM5003,Principles of statistical inference,med
+EPM5004,Linear models,med
+EPM5005,Data management and statistical computing,med
+EPM5006,Clinical biostatistics,med
+EPM5007,Design of randomised controlled trials,med
+EPM5008,Longitudinal and correlated data analysis,med
+EPM5009,Categorical data and generalised linear models,med
+EPM5010,Survival analysis,med
+EPM5011,Biostatistics practical project - double unit,med
+EPM5012,Bioinformatics,med
+EPM5013,Bayesian statistical methods,med
+EPM5014,Probability and distribution theory,med
+EPM5015,Biostatistics practical project - single unit,med
+EPM5023,Foundations of international health,med
+EPP1011,The contemporary paramedic,med
+EPP1012,Clinical concepts of paramedic practice 1,med
+EPP2011,Clinical concepts of paramedic practice 2,med
+EPP2032,Paramedic clinical practice,med
+EPP2042,Paramedic management of trauma conditions,med
+ESC3162,Ore deposit geology and global metallogeny,sci
+ESC3180,Field mapping,sci
+ESC3190,Hydrogeology and environmental geoscience,sci
+ESC3201,Deformation of the crust,sci
+ESC3232,The dynamic biosphere: Changing fauna and flora through geological time,sci
+ESC3259,Geographical information systems (GIS) for environmental management,sci
+ESC3311,Applied Geophysics,sci
+ESC3332,Global dynamics and crustal evolution,sci
+ESC3340,Geophysics: Special topics,sci
+ESC3421,Igneous and metamorphic processes and geochemistry,sci
+ESC3545,Environmental hydrology,sci
+ESC3552,Remote sensing of the environment,sci
+ESC3788,"Soils, landscapes and their management",sci
+ESC3791,Environmental change: Past to future,sci
+ESC3887,"Designing urban futures: Urban climate, water and adaptation",sci
+ESC3900,Dynamic earth,sci
+ESC4120,Earth sciences research project part time II,sci
+ESC4220,Earth science honours coursework part time II,sci
+ETB1100,Business statistics,buseco
+ETB2111,Business data modelling,buseco
+ETC1000,Business and economic statistics,buseco
+ETC1010,Data modelling and computing,buseco
+ETC2410,Introductory econometrics,buseco
+ETC2420,Statistical thinking,buseco
+ETC2430,Actuarial statistics,buseco
+ETC2440,Mathematics for economics and business,buseco
+ETC2450,Applied forecasting for business and economics,buseco
+ETC2470,Applied business modelling,buseco
+ETC2480,Business modelling methods,buseco
+ETC2500,Marketing research analysis,buseco
+ETC2520,Probability and statistical inference for economics and business,buseco
+ETC3250,Business analytics,buseco
+ETC3400,Principles of econometrics,buseco
+ETC3410,Applied econometrics,buseco
+ETC3420,Applied insurance methods,buseco
+ETC3430,Financial mathematics under uncertainty,buseco
+ETC3440,Introductory econometrics,buseco
+ETC3450,Time series analysis for business and economics,buseco
+ETC3460,Financial econometrics,buseco
+ETC3490,Risk and business modelling,buseco
+ETC3500,Survey data analysis,buseco
+ETC3510,Modelling in finance and insurance,buseco
+ETC3530,Contingencies in insurance and pensions,buseco
+ETC3550,Applied forecasting for business and economics,buseco
+ETC3580,Advanced statistical modelling,buseco
+ETC3860,Integrated economic modelling,buseco
+ETC4010,Special reading unit in econometrics honours,buseco
+ETC4110,Actuarial practice I,buseco
+ETC4120,Actuarial practice II,buseco
+ETC4130,Asset liability management,buseco
+ETC4400,Econometric theory,buseco
+ETC4410,Applied econometrics 2,buseco
+ETC4420,Microeconometrics,buseco
+ETC4430,Quantitative economic policy,buseco
+ETC4460,Financial econometrics 2,buseco
+ETC4541,Bayesian Time Series Econometrics,buseco
+ETC4860,Honours research project,buseco
+ETC5010,Special reading unit 2,buseco
+ETC5020,Special reading unit 3,buseco
+ETC5242,Statistical thinking,buseco
+ETC5252,Probability and statistical inference for economics and business,buseco
+ETC5340,Principles of econometrics,buseco
+ETC5341,Applied econometrics,buseco
+ETC5342,Applied insurance methods,buseco
+ETC5343,Financial mathematics under uncertainty,buseco
+ETC5345,Time series analysis for business and economics,buseco
+ETC5346,Financial econometrics,buseco
+ETC5351,Modelling in finance and insurance,buseco
+ETC5353,Insurance and pensions,buseco
+ETC5400,Research topics in econometrics,buseco
+ETC5410,Bayesian Time Series Econometrics,buseco
+ETC5420,Microeconometrics,buseco
+ETC5440,Econometric theory,buseco
+ETC5441,Applied econometrics 2,buseco
+ETC5443,Quantitative economic policy,buseco
+ETC5460,Financial econometrics 2,buseco
+ETC5470,Econometrics graduate seminar,buseco
+ETC5860,Research paper,buseco
+ETC5900,Business statistics,buseco
+ETF1100,Business statistics,buseco
+ETF2011,Quantitative methods for risk analysis,buseco
+ETF2100,Introductory econometrics,buseco
+ETF2121,Data analysis in business,buseco
+ETF2480,Business modelling,buseco
+ETF2700,Mathematics for business,buseco
+ETF3200,Applied econometrics,buseco
+ETF3231,Business forecasting,buseco
+ETF3300,Quantitative methods for financial markets,buseco
+ETF3480,Optimisation for managers,buseco
+ETF3500,High dimensional data analysis,buseco
+ETF3600,Quantitative models for business research,buseco
+ETF5010,Special reading unit 2,buseco
+ETF5020,Special reading unit 3,buseco
+ETF5200,Applied time series econometrics,buseco
+ETF5231,Business forecasting,buseco
+ETF5300,Applied financial econometrics,buseco
+ETF5320,Applied econometrics,buseco
+ETF5330,Quantitative methods for financial markets,buseco
+ETF5400,Econometric theory,buseco
+ETF5410,Special topics in econometrics,buseco
+ETF5470,Econometrics graduate seminar,buseco
+ETF5500,High dimensional data analysis,buseco
+ETF5550,Research project,buseco
+ETF5555,Minor thesis,buseco
+ETF5600,Quantitative models for business research,buseco
+ETF5650,Business optimisation skills,buseco
+ETF5900,Business statistics,buseco
+ETF5910,Introductory applied econometrics,buseco
+ETF5912,Data analysis in business,buseco
+ETF5922,Data Visualisation and Analytics,buseco
+ETF5930,Financial econometrics,buseco
+ETF5952,Quantitative methods for risk analysis,buseco
+ETF5970,Mathematics for business,buseco
+ETM5900,Business statistics,buseco
+ETP1100,Business statistics,buseco
+ETS1102,Business statistics,buseco
+ETS1200,Quantitative methods for business,buseco
+ETS2000,Advanced quantitative methods,buseco
+ETS2010,Introductory probability theory,buseco
+ETS2111,Business data modelling,buseco
+ETS2410,Introductory econometrics,buseco
+ETS3410,Applied econometrics,buseco
+ETW1000,Business and economic statistics,buseco
+ETW1010,Data modelling and computing,buseco
+ETW1102,Business statistics,buseco
+ETW2111,Business data modelling,buseco
+ETW2410,Introductory econometrics,buseco
+ETW2420,Survey methods and managerial statistics,buseco
+ETW2480,Business modelling methods,buseco
+ETW3200,Quantitative business analysis,buseco
+ETW3410,Applied econometrics,buseco
+ETW3420,Principles of forecasting and applications,buseco
+ETW3481,Econometric methods for finance,buseco
+ETW3482,Data mining for business,buseco
+ETW3483,Enterprise resource planning,buseco
+ETX2011,Quantitative methods for risk analysis,buseco
+ETX2121,Data analysis in business,buseco
+ETX2250,Data visualisation and analytics,buseco
+ETX3231,Business forecasting,buseco
+ETX5440,Econometric theory,buseco
+ETX5443,Quantitative economic policy,buseco
+ETX5934,Introductory econometrics,buseco
+ETX6500,Statistical Inference,buseco
+ETX6510,Foundations of econometrics,buseco
+FBS5001,Fundamentals of forensic behavioural science,med
+FBS5002,The role of mental health in criminal offending,med
+FBS5004,Developmental aspects of forensic behavioural science,med
+FBS5005,The assessment and management of problem behaviours,med
 FIT1002,Computer programming,it
 FIT1003,IT in organisations,it
 FIT1006,Business information analysis,it
@@ -3675,10 +3145,225 @@ FIT9132,Introduction to databases,it
 FIT9133,Programming foundations for python,it
 FIT9134,Computer architecture and operating systems,it
 FIT9135,Data communications,it
-MAT1830,Discrete mathematics for computer science,it
-MAT1841,Continuous mathematics for computer science,it
-MAT9004,Mathematical foundations for data science,it
-RAD5106,Medical imaging data management and health informatics,it
+FNA1111,Introduction to Contemporary Practices 1,ada
+FNA1112,Introduction to Contemporary Practices 2,ada
+FNA2003,3D digital modelling for artists,ada
+FNA2111,Contemporary Practices 3,ada
+FNA2112,Contemporary Practices 4,ada
+FNA2903,Art and Design in film,ada
+FNA3111,Contemporary Practices 5,ada
+FNA3112,Contemporary Practices 6,ada
+FNA3903,Film practice,ada
+FNA4001,Project studies (fine art honours),ada
+FNA4002,Major project (fine art honours),ada
+FNA4011,Studio methodology,ada
+FOR4001,Medical evidence,med
+FOR4002,Injury interpretation,med
+FOR4003,"Ethics, medicine and the law",med
+FOR4004,Elements of the forensic sciences,med
+FOR5005,Adult sexual assault,med
+FOR5006,Traffic medicine,med
+FOR5007,Elements of forensic toxicology,med
+FOR5008,Custodial medicine,med
+FOR5009,Advanced issues in sexual violence,med
+FOR5010,Project in forensic medicine,med
+FOR5011,Advanced issues in non-accidental injury of children,med
+FOR5012,Child and adolescent sexual abuse,med
+FOR5013,Non accidental injury in childhood,med
+FOR5014,Elements of forensic odontology,med
+FOR5015,Post mortem dental identification: Principles and methods,med
+FOR5016,Clinical forensic odontology,med
+FOR5017,Disaster victim identification (DVI): Principles and methods,med
+FOR5018,Elements of forensic anthropology,med
+FOR5020,Forensic cross sectional imaging,med
+FOR5021,Mortuary technical science,med
+FPA5004,Autopsy practice,med
+FPA5007,Death investigation,med
+FST1800,Fundamentals of food science,sci
+FST2810,Food bioprocess technology,sci
+FST3800,Food science internship,sci
+FST3810,Human nutrition,sci
+FST3820,Food preservation,sci
+FST3830,Functional foods,sci
+FST3840,Food processing,sci
+FST3850,Food product development,sci
+FST4100,Food science and technology research project,sci
+FST4280,Honours coursework in food science and technology,sci
+GEN2041,Foundations of genetics,sci
+GEN2052,Genomics and population genetics,sci
+GEN3030,"Molecular, cellular and developmental genetics",sci
+GEN3040,Genomics and its applications,sci
+GEN3051,Medical and forensic genetics,sci
+GEN3062,Evolutionary and ecological genetics,sci
+GEN3990,Genetics in action research project,sci
+GHS5841,Research and evidence for practice,med
+GHS5850,Nursing leadership and management,med
+GLS1211,Contemporary glass practices,ada
+GLS1212,Glass practice and theory 2A,ada
+GLS1231,Contemporary glass blowing practices,ada
+GLS1242,Glass practice and theory 2B,ada
+GLS2213,Contemporary glass sculpture,ada
+GLS2214,Glass practice and theory 4A,ada
+GLS2223,Contemporary blown and sculpted glass,ada
+GLS2224,Glass practice and theory 4B,ada
+GLS3215,Glass practice and theory 5,ada
+GLS3216,Glass practice and theory 6,ada
+GMA1010,Foundations of medical practice,med
+GMA2000,Year A final grade,med
+GPS4120,Geophysics research project part time II,sci
+GPS4220,Geophysics honours coursework part time II,sci
+GRS4101,Introduction to reproductive endocrinology,med
+GRS4102,Gonadal development and function,med
+GRS4103,Pregnancy and parturition,med
+GRS4104,Reproductive health,med
+GRS4105,Fertility regulation,med
+GRS4201,Comparative reproduction and conservation,med
+GRS4202,Assisted reproductive and genetic technologies,med
+GVA1203,Photography 1,ada
+GVA1611,Sculpture practice 1,ada
+GVA1612,Sculpture practice 2,ada
+GVA2207,Photography and Photomedia processes,ada
+GVA2208,Photography and Photomedia fabrication,ada
+GVA2223,Minor printmaking 3,ada
+GVA2423,Minor sculpture/woodcraft 3,ada
+GVA2723,Minor photography 3,ada
+GVA3202,Professional practice,ada
+GVA3207,Photography and Photomedia project 1A,ada
+GVA3224,Minor printmaking 4,ada
+GVA3424,Minor sculpture/woodcraft 4,ada
+GVA3724,Minor photography 4,ada
+HED5031,Higher education project: Design and literature review,edu
+HED5041,Research project development and implementation,edu
+HED5043,Contemporary issues in business education,buseco
+HED5044,Reflection and practice in business education,buseco
+HED5052,Contemporary issues in higher education in South East Asia,edu
+HPE5001,Teaching and learning in health professional education,med
+HPE5002,Clinical teaching,med
+HPE5003,Assessment in health professional education,med
+HPE5004,Course design and educational change management,med
+HPE5011,Educational research methods for the health professions,med
+HPE5012,Foundations of simulation in health professional education,med
+HPE5013,Independent project in health professional education,med
+HPE5014,Applied simulation,med
+HPE5015,Contemporary research and innovations in health professional education,med
+HSC1100,Introduction to research and evidence,med
+HSC1200,Introduction to public health,med
+HSC1300,Human health and disease,med
+HSC1400,The Australian healthcare system,med
+HSC2062,Communicating health,med
+HSC2092,Community development and partnership,med
+HSC2100,Emerging challenges in health,med
+HSC2102,Introduction to clinical research,med
+HSC2141,Analysing patterns of health and disease,med
+HSC2200,Health and the human lifespan,med
+HSC2300,Health promotion and disease prevention,med
+HSC3001,"Health, law and ethics",med
+HSC3002,Health for all in a global world,med
+HSC3011,Contemporary health challenges,med
+HSC3041,Disease prevention and control,med
+HSC3052,Health promotion in community and organisational settings,med
+HSC3061,Health program evaluation,med
+HSC3072,Health policy and politics,med
+HSC3082,Health promotion practicum,med
+HSC3102,Environmental determinants of health and disease,med
+HSC3131,Quantitative research design and methodology,med
+HSC3132,Action in public health research,med
+HSC4001,Health science research project 1,med
+HSC4002,Health science research project 2,med
+HSC4011,Advanced studies in contemporary and global health research,med
+HUP3011,Human pathology 1: Understanding disease processes,sci
+HUP3022,Human pathology 2: Pathology of human diseases,sci
+HUP3810,Principles of pathology 1,sci
+HUP3820,Principles of pathology 2,sci
+HUP3990,Human pathology in action research project,sci
+IAR1112,Interior architecture studio 2,ada
+IAR1113,Interior architecture studio 1,ada
+IAR1114,Interior architecture studio 2,ada
+IAR1211,Building construction and materials A,ada
+IAR1401,Communication methods for interior architecture,ada
+IAR1411,Communication and media,ada
+IAR1602,Constructions and environments 1,ada
+IAR2113,Interior architecture studio 3,ada
+IAR2114,Interior architecture studio 4,ada
+IAR2115,Interior architecture studio 3,ada
+IAR2116,Interior architecture studio 4,ada
+IAR2204,Building materials and construction B,ada
+IAR2205,The production of space and place,ada
+IAR2303,Structures and services A,ada
+IAR2401,Interior architecture modelling,ada
+IAR2411,Contemporary interior architecture,ada
+IAR2501,Retail design 1,ada
+IAR2601,Constructions and environments 2,ada
+IAR2602,Constructions and environments 3,ada
+IAR3115,Interior architecture studio 5,ada
+IAR3116,Interior architecture studio 6,ada
+IAR3117,Interior architecture studio 5,ada
+IAR3118,Interior architecture studio 6,ada
+IAR3205,Building construction and materials C,ada
+IAR3303,Folio and reflection,ada
+IAR3308,Structure and services B,ada
+IAR3401,Interior architecture history and theory,ada
+IAR3501,Studies in interior architecture,ada
+IAR4117,Interior architecture studio 7,ada
+IAR4118,Interior architecture studio 8,ada
+IAR4119,Interior architecture studio 7,ada
+IAR4120,Interior architecture design research project,ada
+IAR4406,Industrial experience,ada
+IAR4500,Research: questions and processes,ada
+IAR4501,Interior architecture design research documentation,ada
+IBL2030,Industry based learning: Science,sci
+IDE1112,Industrial design studio 2,ada
+IDE1502,Modelmaking and workshop practice,ada
+IDE1602,Product drawing,ada
+IDE1802,Materials and manufacturing 1,ada
+IDE2113,Industrial design studio 3,ada
+IDE2114,Industrial design studio 4,ada
+IDE2120,Designing for sustainability,ada
+IDE2211,Engineering drawing,ada
+IDE2303,Ergonomics,ada
+IDE2701,Product interface design,ada
+IDE2810,Furniture 1,ada
+IDE2811,Mechanics and electronics for industrial design,ada
+IDE3105,Industrial design studio 5,ada
+IDE3106,Industrial design studio 6,ada
+IDE3115,Industrial design studio 5,ada
+IDE3116,Industrial design studio 6,ada
+IDE3302,Ergonomics 2,ada
+IDE3812,Mobility design 1,ada
+IDE3813,Mobility design 2,ada
+IDE3814,Materials and manufacturing 2,ada
+IDE3815,Furniture design 2,ada
+IDE4117,Industrial design studio 7 (major project 1),ada
+IDE4118,Industrial design studio 8 (major project 2),ada
+IDE4809,Mobility design 3,ada
+IDN1001,Industrial design studio 1,ada
+IDN1002,Industrial design studio 2,ada
+IDN2001,Industrial design studio 3,ada
+IDN2101,Concept art for design,ada
+IDN2102,Service design studio,ada
+IDN3001,Industrial design studio 4,ada
+IDN3002,Industrial design studio 5,ada
+IDN4406,Industry placement for design,ada
+IMM2011,Basic immunology: The body's defence system,sci
+IMM2022,Immunology in health and disease,sci
+IMM3031,Molecular and cellular immunology,sci
+IMM3042,Clinical immunopathology,sci
+IMM3051,Principles of applied immunology,sci
+IMM3062,Clinical and research laboratory immunology,sci
+IMM3802,Essentials of applied immunology,sci
+IMM3990,Immunology in action research project,sci
+IPE1011,Foundations of health in primary clinical care,med
+IRD5000,Master of biomedical science (Part 1): Monash Institute of Medical Research,med
+JWL1311,Contemporary jewellery practice 1,ada
+JWL1312,Contemporary jewellery practice 2,ada
+JWL1331,Metals and jewellery practice and theory 1B,ada
+JWL1342,Metals and jewellery practice and theory 2B,ada
+JWL2313,Contemporary jewellery practice 3,ada
+JWL2314,Contemporary jewellery practice 4,ada
+JWL2323,Metals and jewellery practice and theory 3B,ada
+JWL2324,Metals and jewellery practice and theory 4B,ada
+JWL3315,Metals and jewellery practice and theory 5,ada
+JWL3316,Metals and jewellery practice and theory 6,ada
 LAW1101,Introduction to legal reasoning,law
 LAW1104,Research and writing,law
 LAW1111,Foundations of Law,law
@@ -4085,236 +3770,35 @@ LAW5631,"Lawyers, literature and cinema",law
 LAW5632,International information and media law,law
 LAW5633,Contemporary workplace relations law,law
 LAW6300,Doctor of Juridical Science seminar,law
-MON2005,Law in professional contexts,law
-ASC5001,Addiction science: A biopsychosocial overview,med
-ASC5002,Socio-cultural perspectives of addiction,med
-ASC5003,"Addiction policies, prevention and public health",med
-ASC5004,Addiction assessment and treatment: Practice and innovation,med
-ASC5007,Recovery principles,med
-ASC5008,Co-occurring disorders in mental health and addiction,med
-ASC5009,"Developmental factors: Children and families, youth and early interventions",med
-ASC5010,Gambling and other process addictions,med
-BEH1032,"Evidence based practice, research and population health in community based emergency health services",med
-BEH1041,Human development and health across the lifespan,med
-BEH1042,"Law, ethics and professionalism",med
-BEH2012,Paramedic management of respiratory conditions,med
-BEH2032,Paramedic clinical practice 1,med
-BEH2131,Paramedic management of cardiovascular conditions,med
-BEH2141,The paramedic in the community,med
-BEH2152,Pharmacotherapy in community-based emergency health,med
-BEH2201,Paramedic management of mental health,med
-BEH3011,Paramedic management of medical conditions,med
-BEH3012,"Clinical education, leadership and emergency preparedness",med
-BEH3022,Research and contemporary challenges in community based emergency health,med
-BEH3030,Integrated clinical practice,med
-BEH3032,Paramedic management of critical care specialty situations,med
-BEH3071,Extended care paramedic practice,med
-BEH3121,Paramedic management of toxicological and environmental conditions,med
-BEH3161,Paramedic management of maternal and neonatal health,med
-BEH4100,Honours literature review,med
-BEH4200,Honours research proposal,med
-BEH4300,Honours research report,med
-BMA1011,Foundations of anatomy and physiology for health practice 1,med
-BMA1012,Foundations of anatomy and physiology for health practice 2,med
-BMA1901,Human structure and function 1,med
-BMA1902,Human structure and function 2,med
-BMA1912,Human bioscience in nursing,med
-BMA2901,Processes of disease,med
-BMA2902,Communicable diseases,med
-BMA5011,Introduction to Anatomy and Physiology,med
-BME3032,Introduction to the health system,med
-BME3082,Fetal and neonatal development,med
-BMS1011,Biomedical chemistry,med
-BMS1021,"Cells, tissues and organisms",med
-BMS1031,Medical biophysics,med
-BMS1042,Public health and preventive medicine,med
-BMS1052,Human neurobiology,med
-BMS1062,Molecular biology,med
-BMS2011,Structure of the human body: An evolutionary and functional perspective,med
-BMS2021,Human molecular cell biology,med
-BMS2031,Body systems,med
-BMS2042,Human genetics,med
-BMS2052,Microbes in health and disease,med
-BMS2062,Introduction to bioinformatics,med
-BMS3021,Molecular medicine and biotechnology,med
-BMS3031,Molecular mechanisms of disease,med
-BMS3052,Biomedical basis and epidemiology of human disease,med
-BMS3930,Action in biomedical science major research project,med
-BMS3990,Action in biomedical science minor research project,med
-BMS4100,Biomedical science research project,med
-BMS4200,Advanced studies in biomedical science,med
-BMS4301,Advanced studies in biomedical science,med
-BMS4302,Biomedical science research project,med
-BMS5001,Introduction to research and research methodology,med
-BMS5002,Research skills and techniques,med
-BMS5003,Infectious diseases and population health,med
-BMS5004,Advanced neuroscience,med
-BMS5005,Regenerative medicine and stem cells,med
-BMS5006,Cardiovascular biology and disease,med
-BMS5007,Biotechnology: Commercialising biomedical science,med
-BMS5008,Research project and thesis,med
-BMS5100,Research Project in Biomedical Sciences,med
-BMS5101,Research Project in Biomedical Sciences (Part-time),med
-BMS5200,Advanced Studies in Biomedical Sciences,med
-BMS5201,Advanced Studies in Biomedical Sciences (Part-time),med
-BND3101,Evidence based management,med
-BND3102,Introduction to dietetic practice,med
-BND3202,Food for dietetic practice,med
-BND3302,Dietetic practice 1,med
-BND4082,Improving the populations nutrition,med
-BND4092,Practice and research in public health nutrition,med
-BND4102,Practice and research in dietetics,med
-BND4402,Dietetic practice 2,med
-BNS3021,Neurochemistry and behaviour,med
-BNS3052,"Drugs, brain and altered awareness",med
-BNS3062,Imaging and brain disorders,med
-BNS4100,Behavioural neuroscience honours: Research project,med
-BNS4200,Behavioural neuroscience honours: Research design and analysis,med
-CCS5100,Research Project in Medical Science,med
-CCS5101,Research Project in Medical Science (Part-time),med
-CCS5200,Advanced Studies in Medical Science,med
-CCS5201,Advanced Studies in Medical Science (Part-time),med
-CCS5300,Research Project in Health Sciences,med
-CCS5301,Research Project in Health Sciences (Part-time),med
-CCS5400,Advanced Studies in Health Sciences,med
-CCS5401,Advanced Studies in Health Sciences (Part-time),med
-CMH5001,Mental health practice essentials,med
-CMH5002,The context for mental health practice,med
-CMH5003,Concepts in mental health illness,med
-CMH5004,Recovery oriented mental health practice,med
-CMH5005,Mental health of the elderly,med
-CMH5006,Transcultural mental health,med
-CPS5001,Psychoanalytic and developmental theories 1,med
-CPS5002,Normal developmental observation,med
-CPS5003,Psychoanalytic and developmental theories 2,med
-CPS5004,Psychodynamic assessment of children and adolescents,med
-CPS5005,Principles of child psychotherapy,med
-CPS5006,Principles of adolescent psychotherapy,med
-CPS5007,Principles of short term therapy and crisis work,med
-CPS5008,Principles of working with parents,med
-DPH6005,Doctor of public health: Public health practice,med
-DPSY5101,Psychopathology part 1,med
-DPSY5102,Psychological assessment part 1,med
-DPSY5103,Research methods in professional psychology,med
-DPSY5104,Ethics and Professional Practice,med
-DPSY5105,Clinical developmental psychology,med
-DPSY5161,Ethics and Professional Practice in Neuropsychology,med
-DPSY5162,Neuroanatomy for the clinical neuropsychologist,med
-DPSY5201,Psychopathology part 2,med
-DPSY5203,Theories and techniques of intervention part 1,med
-DPSY5261,Neuropsychological models of cognition and behaviour part 1,med
-DPSY5262,Case analysis and professional practice in neuropsychology 1,med
-DPSY5263,Neuropsychological assessment,med
-DPSY5265,Neuropsychological syndromes,med
-DPSY5299,Introductory practicum,med
-DPSY6103,Theories and techniques of intervention part 2,med
-DPSY6105,Psychopharmacology,med
-DPSY6107,Health psychology and behavioural medicine,med
-DPSY6162,Case analysis and professional practice in neuropsychology 2,med
-DPSY6199,Intermediate practicum,med
-DPSY6204,Clinical neuropsychology,med
-DPSY6261,Developmental neuropsychology,med
-DPSY6262,Case analysis and professional practice in neuropsychology 3,med
-DPSY6263,Recovery of function and rehabilitation after brain injury,med
-DPSY6299,Advanced practicum,med
-DPSY6399,Specialised clinical practicum,med
-DPSY7131,Advanced Clinical Psychology: General,med
-DPSY7141,"Advanced Clinical Psychology: Child, adolescent and family",med
-DPSY7199,Advanced specialised practicum,med
-EPM5001,Health indicators and health surveys,med
-EPM5002,Mathematical background for biostatistics,med
-EPM5003,Principles of statistical inference,med
-EPM5004,Linear models,med
-EPM5005,Data management and statistical computing,med
-EPM5006,Clinical biostatistics,med
-EPM5007,Design of randomised controlled trials,med
-EPM5008,Longitudinal and correlated data analysis,med
-EPM5009,Categorical data and generalised linear models,med
-EPM5010,Survival analysis,med
-EPM5011,Biostatistics practical project - double unit,med
-EPM5012,Bioinformatics,med
-EPM5013,Bayesian statistical methods,med
-EPM5014,Probability and distribution theory,med
-EPM5015,Biostatistics practical project - single unit,med
-EPM5023,Foundations of international health,med
-EPP1011,The contemporary paramedic,med
-EPP1012,Clinical concepts of paramedic practice 1,med
-EPP2011,Clinical concepts of paramedic practice 2,med
-EPP2032,Paramedic clinical practice,med
-EPP2042,Paramedic management of trauma conditions,med
-FBS5001,Fundamentals of forensic behavioural science,med
-FBS5002,The role of mental health in criminal offending,med
-FBS5004,Developmental aspects of forensic behavioural science,med
-FBS5005,The assessment and management of problem behaviours,med
-FOR4001,Medical evidence,med
-FOR4002,Injury interpretation,med
-FOR4003,"Ethics, medicine and the law",med
-FOR4004,Elements of the forensic sciences,med
-FOR5005,Adult sexual assault,med
-FOR5006,Traffic medicine,med
-FOR5007,Elements of forensic toxicology,med
-FOR5008,Custodial medicine,med
-FOR5009,Advanced issues in sexual violence,med
-FOR5010,Project in forensic medicine,med
-FOR5011,Advanced issues in non-accidental injury of children,med
-FOR5012,Child and adolescent sexual abuse,med
-FOR5013,Non accidental injury in childhood,med
-FOR5014,Elements of forensic odontology,med
-FOR5015,Post mortem dental identification: Principles and methods,med
-FOR5016,Clinical forensic odontology,med
-FOR5017,Disaster victim identification (DVI): Principles and methods,med
-FOR5018,Elements of forensic anthropology,med
-FOR5020,Forensic cross sectional imaging,med
-FOR5021,Mortuary technical science,med
-FPA5004,Autopsy practice,med
-FPA5007,Death investigation,med
-GHS5841,Research and evidence for practice,med
-GHS5850,Nursing leadership and management,med
-GMA1010,Foundations of medical practice,med
-GMA2000,Year A final grade,med
-GRS4101,Introduction to reproductive endocrinology,med
-GRS4102,Gonadal development and function,med
-GRS4103,Pregnancy and parturition,med
-GRS4104,Reproductive health,med
-GRS4105,Fertility regulation,med
-GRS4201,Comparative reproduction and conservation,med
-GRS4202,Assisted reproductive and genetic technologies,med
-HPE5001,Teaching and learning in health professional education,med
-HPE5002,Clinical teaching,med
-HPE5003,Assessment in health professional education,med
-HPE5004,Course design and educational change management,med
-HPE5011,Educational research methods for the health professions,med
-HPE5012,Foundations of simulation in health professional education,med
-HPE5013,Independent project in health professional education,med
-HPE5014,Applied simulation,med
-HPE5015,Contemporary research and innovations in health professional education,med
-HSC1100,Introduction to research and evidence,med
-HSC1200,Introduction to public health,med
-HSC1300,Human health and disease,med
-HSC1400,The Australian healthcare system,med
-HSC2062,Communicating health,med
-HSC2092,Community development and partnership,med
-HSC2100,Emerging challenges in health,med
-HSC2102,Introduction to clinical research,med
-HSC2141,Analysing patterns of health and disease,med
-HSC2200,Health and the human lifespan,med
-HSC2300,Health promotion and disease prevention,med
-HSC3001,"Health, law and ethics",med
-HSC3002,Health for all in a global world,med
-HSC3011,Contemporary health challenges,med
-HSC3041,Disease prevention and control,med
-HSC3052,Health promotion in community and organisational settings,med
-HSC3061,Health program evaluation,med
-HSC3072,Health policy and politics,med
-HSC3082,Health promotion practicum,med
-HSC3102,Environmental determinants of health and disease,med
-HSC3131,Quantitative research design and methodology,med
-HSC3132,Action in public health research,med
-HSC4001,Health science research project 1,med
-HSC4002,Health science research project 2,med
-HSC4011,Advanced studies in contemporary and global health research,med
-IPE1011,Foundations of health in primary clinical care,med
-IRD5000,Master of biomedical science (Part 1): Monash Institute of Medical Research,med
+MAE2401,Aircraft structures 1,eng
+MAE2402,Thermodynamics and heat transfer,eng
+MAE2403,Aerospace computational mechanics,eng
+MAE2404,Aerodynamics I,eng
+MAE2405,Aircraft performance,eng
+MAE3401,Aerodynamics II,eng
+MAE3402,Aerospace design project,eng
+MAE3404,Flight vehicle dynamics,eng
+MAE3405,Flight vehicle propulsion,eng
+MAE3406,Aerospace materials,eng
+MAE3407,Aircraft structures II,eng
+MAE3408,Aerospace control,eng
+MAE4404,Aerospace practices,eng
+MAE4407,Instrumentation and avionics,eng
+MAE4408,Damage tolerance and airworthiness,eng
+MAE4409,Wing design,eng
+MAE4904,Minor research project,eng
+MAE4965,Advanced aerodynamics and turbulence,eng
+MAE4980,Aircraft engines,eng
+MAE5401,Aerodynamics,eng
+MAE5402,Aircraft structures,eng
+MAE5403,Composite airframes,eng
+MAE5404,Airworthiness,eng
+MAE5405,Avionics,eng
+MAE5406,Computational fluid mechanics,eng
+MAE5407,Computer aided design of aerospace structures,eng
+MAE5408,Spaceflight dynamics,eng
+MAE5409,Master of aerospace engineering: project thesis A,eng
+MAE5410,Master of aerospace engineering: project thesis B,eng
 MAP4200,Improving indigenous equity in professional practice,med
 MAP5000,Research in advanced health professional practice,med
 MAP5001,Preparatory minor thesis,med
@@ -4324,6 +3808,66 @@ MAP5010,Advanced health practice research project,med
 MAP5101,Advanced critical care skills,med
 MAP5104,Emergency medicine skills,med
 MAP5105,Trauma skills,med
+MAT1830,Discrete mathematics for computer science,it
+MAT1841,Continuous mathematics for computer science,it
+MAT2731,Multivariate analysis,eng
+MAT2742,Mathematical modeling of the environment,eng
+MAT9004,Mathematical foundations for data science,it
+MBA5005,Strategic management,buseco
+MBA5008,Managing people for competitive advantage,buseco
+MBA5030,Specialist elective 1,buseco
+MBA5060,Specialist elective 4,buseco
+MBA5111,Leadership 1: Critical thinking,buseco
+MBA5112,MBA 1,buseco
+MBA5113,MBA Labs: Strategy project,buseco
+MBA5211,MBA5211 Leadership 2: People and performance,buseco
+MBA5212,MBA 2,buseco
+MBA5213,"Technology, innovation and entrepreneurship",buseco
+MBA5311,Leadership 3: Influence and negotiations,buseco
+MBA5312,MBA 3,buseco
+MBA5313,MBA Labs: Technology and entrepreneurship project,buseco
+MBA5400,MBA corporate project 1,buseco
+MBA5410,MBA corporate project 2,buseco
+MBA5411,Leadership 4: Personal and professional development,buseco
+MBA5412,MBA Seminars,buseco
+MBA5413,MBA Labs: International business project,buseco
+MBA5415,Strategy capstone,buseco
+MBA5500,Negotiation and managerial judgment,buseco
+MBA5510,The strategic environment of business,buseco
+MBA5520,Creating sustainable organisations,buseco
+MBA5530,Critical thinking for problem solving,buseco
+MBA5540,Innovation and entrepreneurship in the digital economy,buseco
+MBA5603,Economics for managers,buseco
+MBA5604,Financial and management accounting for decision making,buseco
+MBA5605,Business finance,buseco
+MBA5607,Evidence-based decision making,buseco
+MBA5608,Managing people for competitive advantage in Asia,buseco
+MBA5615,Entrepreneurial marketing,buseco
+MBA5620,Sustainability strategy in contemporary organisation,buseco
+MBA5640,The entrepreneurial and innovative organisation,buseco
+MBA5701,Negotiation,buseco
+MBA5703,Managerial economics,buseco
+MBA5704,Accounting,buseco
+MBA5705,Business finance,buseco
+MBA5706,Business strategy,buseco
+MBA5707,Data analysis in business,buseco
+MBA5708,Managing people,buseco
+MBA5709,The business environment,buseco
+MBA5715,Strategic marketing management,buseco
+MBA5720,Corporate sustainability,buseco
+MBA5721,Experiential learning project,buseco
+MBA5722,MBA study tour,buseco
+MBA5730,Critical thinking,buseco
+MBA5740,Managing innovation,buseco
+MBA5903,Business economics,buseco
+MBA5904,Interpreting accounting information,buseco
+MBA5905,Corporate finance,buseco
+MBA5906,Strategic marketing leadership,buseco
+MBS3800,Medical bioscience internship,sci
+MBS4100,Medical bioscience research project,sci
+MBS4280,Honours coursework in medical bioscience,sci
+MCB2011,Molecular biology and the cell,sci
+MCB2022,The dynamic cell,sci
 MCE5100,Introduction to mammalian embryology,med
 MCE5101,Infertility and treatment strategies,med
 MCE5103,IVF processes: Embryo production and cryopreservation techniques (theory),med
@@ -4338,6 +3882,89 @@ MCM5507,Child health,med
 MCM5601,Women's sexual and reproductive health in general practice,med
 MCM5602,Mindfulness-based stress management,med
 MCM5606,Issues in general practice prescribing,med
+MDC4000,Design project (Part 1),ada
+MDC4001,Design project (part 1),ada
+MDC4002,Design project (part 2),ada
+MDC4010,Advanced design communication,ada
+MDC4100,Design project (part 1),ada
+MDC4110,Interaction design studio 1,ada
+MDC4120,Multimedia design studio 1,ada
+MDC4130,Collaborative design studio 1,ada
+MDC4201,Fundamental interaction design studio 1,ada
+MDC4202,Fundamental interaction design studio 2,ada
+MDC4215,Interaction design lab 1,ada
+MDC4216,Interaction design lab 2,ada
+MDC4500,Design fundamentals studio,ada
+MDC4550,Design technologies and processes,ada
+MDC5000,Major design project,ada
+MDC5001,Design project (part three),ada
+MDC5100,Major design project,ada
+MDC5201,Fundamental interaction design studio 3,ada
+MDC5202,Interaction design research project,ada
+MDC5210,Interaction design studio 2,ada
+MDC5215,Interaction design lab 3,ada
+MDC5220,Multimedia design studio 2,ada
+MDC5230,Collaborative design studio 2,ada
+MDC5310,Interaction design studio 3,ada
+MDC5320,Multimedia design studio 3,ada
+MDC5330,Collaborative design studio 3,ada
+MDC5340,Advanced studies in design,ada
+MDS5022,Design theory workshop,ada
+MDS5031,Research methods in design,ada
+MEC2401,Dynamics I,eng
+MEC2402,Engineering design I,eng
+MEC2403,Mechanics of materials,eng
+MEC2404,Mechanics of fluids,eng
+MEC2405,Thermodynamics,eng
+MEC2407,Electromechanics,eng
+MEC2456,Engineering computational analysis,eng
+MEC3416,Engineering design II,eng
+MEC3451,Fluid mechanics II,eng
+MEC3453,Dynamics II,eng
+MEC3454,Thermodynamics and heat transfer,eng
+MEC3455,Solid mechanics,eng
+MEC3456,Engineering computational analysis,eng
+MEC3457,Systems and control,eng
+MEC3458,Experimental project,eng
+MEC3459,Materials selection for engineering design,eng
+MEC4401,Final year project,eng
+MEC4402,Final year project - Thesis,eng
+MEC4404,Professional practice,eng
+MEC4407,Engineering design III,eng
+MEC4416,"Momentum, energy & mass transport in engineering systems",eng
+MEC4417,Refrigeration and air conditioning,eng
+MEC4418,Control systems,eng
+MEC4425,Micro/nano solid and fluid mechanics,eng
+MEC4426,Computer-aided design,eng
+MEC4428,Advanced dynamics,eng
+MEC4444,Industrial noise and control,eng
+MEC4446,Composite structures,eng
+MEC4447,Computers in fluids and energy,eng
+MEC4456,Robotics,eng
+MEC4459,Wind engineering,eng
+MEC4801,Non-destructive testing and inspection,eng
+MEC4802,Sustainable engineering and design with nanomaterials,eng
+MEC4803,Internal combustion engines,eng
+MEC5415,Research Seminar,eng
+MEC5881,Engineering systems performance analysis,eng
+MEC5882,"Instrumentation, sensing and monitoring",eng
+MEC5883,Mechanical systems design,eng
+MEC5884,Sustainable engineering systems,eng
+MEC5885,Energy efficiency and sustainability engineering,eng
+MEC5886,Sustainable energy technologies,eng
+MEC5887,Environmental and air pollution control,eng
+MEC5888,Renewable energy systems,eng
+MEC5889,Medical device technologies,eng
+MEC6410,Research practices,eng
+MEC6881,Engineering systems performance analysis,eng
+MEC6882,"Instrumentation, sensing and monitoring",eng
+MEC6883,Mechanical systems design,eng
+MEC6884,Sustainable engineering systems,eng
+MEC6885,Energy efficiency and sustainability engineering,eng
+MEC6886,Sustainable energy technologies,eng
+MEC6887,Environmental and air pollution control,eng
+MEC6888,Renewable energy systems,eng
+MEC6889,Medical device technologies,eng
 MED1011,Medicine 1,med
 MED1022,Medicine 2,med
 MED2000,Year 1 and 2 final grade,med
@@ -4361,6 +3988,185 @@ MFM5001,Masters thesis,med
 MFM5004,Chronic disease management,med
 MFM5008,Applied research in general practice,med
 MFM5009,Prevention in general practice and primary care,med
+MGB1010,Introduction to management,buseco
+MGB2230,Organisational behaviour,buseco
+MGB2430,Human resource management,buseco
+MGB3684,Business strategy,buseco
+MGC1010,Introduction to management,buseco
+MGC2021,Organisations and society,buseco
+MGC2120,Managing international business,buseco
+MGC2130,Asian management,buseco
+MGC2230,Organisational behaviour,buseco
+MGC2410,International employment relations,buseco
+MGC2420,Employee relations,buseco
+MGC2430,Human resource management,buseco
+MGC3110,Strategic management,buseco
+MGC3120,International management,buseco
+MGC3130,The management of change,buseco
+MGC3250,Management in small firms,buseco
+MGC3450,Managing conflict,buseco
+MGC3950,Managing for sustainability,buseco
+MGF1010,Introduction to management,buseco
+MGF1100,Managerial communication,buseco
+MGF2111,Organisational behaviour,buseco
+MGF2341,Managing employee relations,buseco
+MGF2351,International business,buseco
+MGF2511,"Managing quality, innovation and knowledge",buseco
+MGF2656,HRM and managing global workforces,buseco
+MGF2661,Human resource management,buseco
+MGF3361,Workplace learning and performance management,buseco
+MGF3381,Managing information systems,buseco
+MGF3420,Human resource development,buseco
+MGF3450,Managing conflict,buseco
+MGF3621,Organisational change,buseco
+MGF3681,International management,buseco
+MGF3684,Business strategy,buseco
+MGF5011,Commercialisation,buseco
+MGF5020,Business ethics in a global environment,buseco
+MGF5030,Corporate social responsibility,buseco
+MGF5130,Managing diversity and inclusion,buseco
+MGF5171,Managing the multinational enterprise: cases and issues,buseco
+MGF5181,International business strategy,buseco
+MGF5220,"Managing work, family and life",buseco
+MGF5261,Human resource management issues,buseco
+MGF5300,Governance,buseco
+MGF5310,International management,buseco
+MGF5360,Strategic management in the public sector,buseco
+MGF5370,Policy analysis,buseco
+MGF5440,Public sector financial management,buseco
+MGF5470,International manufacturing,buseco
+MGF5551,Strategic human resource management,buseco
+MGF5600,Managing innovation,buseco
+MGF5610,People management and work in a global context,buseco
+MGF5611,Advanced supply chain management,buseco
+MGF5630,Principles of negotiation,buseco
+MGF5631,International human resource management,buseco
+MGF5640,Cross-cultural management communication,buseco
+MGF5670,Leadership,buseco
+MGF5680,Managerial problem solving and decision making,buseco
+MGF5690,Services and operations management,buseco
+MGF5691,Sustainable operations and supply chain management,buseco
+MGF5701,Designing business processes,buseco
+MGF5702,People management and strategy,buseco
+MGF5710,Governance of market societies,buseco
+MGF5722,Emerging economies in a globalising world,buseco
+MGF5730,International trade policy,buseco
+MGF5760,International institutions and organisations,buseco
+MGF5911,Diplomacy and statecraft,buseco
+MGF5920,Work and employment relations,buseco
+MGF5921,Foundations in human resource management,buseco
+MGF5923,Public policy,buseco
+MGF5927,Public management,buseco
+MGF5928,Leadership theory and practice,buseco
+MGF5960,Managing people and organisations,buseco
+MGF5961,Supply chain management,buseco
+MGF5962,Principles of management,buseco
+MGF5963,Introduction to management,buseco
+MGF5966,International business theory and practice,buseco
+MGF5972,Managing organisational change,buseco
+MGF5976,Strategic management,buseco
+MGF5985,Human resource management,buseco
+MGF5991,Professional development - career dynamics,buseco
+MGF5992,Professional development - Self and relationships,buseco
+MGG2230,Organisational behaviour,buseco
+MGG2322,Recruitment and selection,buseco
+MGG2323,Employment relations,buseco
+MGG2351,International business,buseco
+MGG2430,Human resource management,buseco
+MGG2700,Project management for small to medium enterprises,buseco
+MGG3130,Organisational change and development,buseco
+MGG3352,Service operations management,buseco
+MGG3401,Strategic management,buseco
+MGG3430,International human resource management,buseco
+MGG3681,International management,buseco
+MGM5181,International business strategy,buseco
+MGM5310,International management,buseco
+MGM5640,Cross-cultural management communication,buseco
+MGM5966,International business theory and practice,buseco
+MGP1010,Introduction to management,buseco
+MGP2200,Festivals and events,buseco
+MGP2279,Inclusive management,buseco
+MGP2501,Introduction to tourism,buseco
+MGP3113,Organisation governance and ethics,buseco
+MGP3249,Project and innovation management,buseco
+MGP3684,Business strategy,buseco
+MGS1010,Introduction to management,buseco
+MGS1100,Managerial communication,buseco
+MGS2230,Organisational behaviour,buseco
+MGS2351,International business,buseco
+MGS2430,Human resource management,buseco
+MGS3130,Organisational change and development,buseco
+MGS3210,Organisational wellness,buseco
+MGS3401,Strategic management,buseco
+MGS3650,Integrated business management simulation,buseco
+MGS3651,Entrepreneurship,buseco
+MGS3991,Leadership principles and practices,buseco
+MGS5000,Introductory management research methods,buseco
+MGS5181,International business strategy,buseco
+MGS5310,International management,buseco
+MGS5640,Cross-cultural management communication,buseco
+MGS5900,Research report,buseco
+MGS5901,Research report: An introduction,buseco
+MGS5966,International business theory and practice,buseco
+MGW1010,Introduction to management,buseco
+MGW1100,Managerial communication,buseco
+MGW1232,Introduction to Islamic business,buseco
+MGW2230,Organisational behaviour,buseco
+MGW2351,International business,buseco
+MGW2430,Human resource management,buseco
+MGW2991,Leadership in Asia,buseco
+MGW3130,Organisational change and development,buseco
+MGW3210,Organisational wellness,buseco
+MGW3234,Social entrepreneurship,buseco
+MGW3381,Management information systems,buseco
+MGW3401,Strategic management,buseco
+MGW3681,International management,buseco
+MGX2200,Introduction to events,buseco
+MGX2501,Introduction to tourism,buseco
+MGX2700,Project management for small to medium enterprises,buseco
+MGX3100,Corporate social responsibility and business ethics,buseco
+MGX3121,International business strategy,buseco
+MGX3441,Human resource strategy,buseco
+MGX3650,Integrated business management simulation,buseco
+MGX3651,Entrepreneurship,buseco
+MGX3771,Operations management,buseco
+MGX3991,Leadership principles and practices,buseco
+MGX4000,Introductory management research methods,buseco
+MGX4100,Perspectives and paradigms in management theory,buseco
+MGX4200,Data analysis for organisational research,buseco
+MGX4300,Contemporary issues in management,buseco
+MGX4400,Honours research thesis,buseco
+MGX5000,Introductory management research methods,buseco
+MGX5020,Business ethics in a global environment,buseco
+MGX5030,Corporate social responsibility,buseco
+MGX5120,Contemporary Asia,buseco
+MGX5130,Managing diversity and inclusion,buseco
+MGX5300,Governance,buseco
+MGX5340,International public policy and management,buseco
+MGX5360,Strategic management in the public sector,buseco
+MGX5370,Policy analysis,buseco
+MGX5440,Public sector financial management,buseco
+MGX5461,Contemporary issues in globalisation,buseco
+MGX5470,International manufacturing,buseco
+MGX5600,Managing innovation,buseco
+MGX5610,Work and employment relations in a global context,buseco
+MGX5630,Principles of negotiation,buseco
+MGX5730,International trade policy,buseco
+MGX5870,Organisational and business dynamics,buseco
+MGX5890,International study program in international business,buseco
+MGX5900,Research report,buseco
+MGX5901,Research report (introduction),buseco
+MGZ5181,International business strategy and cases,buseco
+MGZ5640,Cross cultural management communication,buseco
+MGZ5750,The governance of international trade,buseco
+MGZ5966,International business theory and practice,buseco
+MIC2011,Introduction to microbiology and microbial biotechnology,sci
+MIC2022,Microbes in health and disease,sci
+MIC3011,Molecular microbiology,sci
+MIC3022,Molecular virology and viral pathogenesis,sci
+MIC3032,Pathogenesis of bacterial infectious diseases,sci
+MIC3041,Medical microbiology,sci
+MIC3990,Action in microbiology research project,sci
 MID1000,Introduction to Midwifery,med
 MID1002,Making practice connections,med
 MID1003,The childbearing journey,med
@@ -4383,8 +4189,180 @@ MID5005,Advancing midwifery practice,med
 MID5006,Public and primary health care in midwifery,med
 MID5007,Contextual and professional issues in midwifery,med
 MIMR5001,Master of biomedical science (Part 1): Monash Institute of Medical Research PT,med
+MIS4100,Regenerative medicine research project,sci
+MIS4200,Advanced studies in regenerative medicine,sci
+MKB1200,Principles of marketing,buseco
+MKB2402,Consumer behaviour,buseco
+MKB2420,Marketing research methods,buseco
+MKB2500,Retail management principles,buseco
+MKB2521,Brand management,buseco
+MKB2600,Tourism marketing,buseco
+MKB3301,Services Marketing,buseco
+MKB3461,Marketing communication,buseco
+MKB3531,International marketing,buseco
+MKB3881,Digital marketing,buseco
+MKC1200,Principles of marketing,buseco
+MKC2110,Buyer behaviour in marketing,buseco
+MKC2130,Marketing decision analysis,buseco
+MKC2500,Marketing research analysis,buseco
+MKC2610,Strategic retailing in the global market,buseco
+MKC3110,Market analysis and strategy development,buseco
+MKC3130,Strategic issues in marketing,buseco
+MKC3140,Marketing strategy implementation,buseco
+MKC3220,International marketing,buseco
+MKC3300,Marketing law,buseco
+MKC3460,Integrated marketing communication,buseco
+MKC3500,Survey data analysis,buseco
+MKF1120,Marketing theory and practice,buseco
+MKF2111,Buyer behaviour,buseco
+MKF2121,Marketing research methods,buseco
+MKF2131,Marketing decision analysis,buseco
+MKF2401,Marketing issues in packaging design,buseco
+MKF2521,Brand management,buseco
+MKF2540,Retail management principles,buseco
+MKF2801,Marketing insights,buseco
+MKF3001,Special studies unit,buseco
+MKF3121,Marketing planning and implementation,buseco
+MKF3131,Strategic marketing,buseco
+MKF3141,Issues in competitive advantage,buseco
+MKF3151,Marketing planning and strategy,buseco
+MKF3301,Services marketing,buseco
+MKF3461,Marketing communication,buseco
+MKF3471,Sales management and negotiation,buseco
+MKF3500,Survey data analysis,buseco
+MKF3531,International marketing,buseco
+MKF3621,Advertising management and campaigns,buseco
+MKF3710,Specialised applications in marketing,buseco
+MKF3881,Digital marketing,buseco
+MKF5150,Major project,buseco
+MKF5200,Assessing marketing performance,buseco
+MKF5231,Strategic brand management,buseco
+MKF5241,Sport marketing and sponsorship,buseco
+MKF5251,Case studies in marketing strategy,buseco
+MKF5280,Sustainable marketing,buseco
+MKF5301,Minor thesis,buseco
+MKF5351,Marketing strategy masterclass,buseco
+MKF5371,Business to business marketing,buseco
+MKF5391,Sales management,buseco
+MKF5403,Advanced business research methods,buseco
+MKF5461,Contemporary issues in marketing,buseco
+MKF5463,Advanced buyer behaviour,buseco
+MKF5500,Survey data analysis,buseco
+MKF5505,Marketing for healthcare managers,buseco
+MKF5561,E-marketing,buseco
+MKF5601,Social media marketing,buseco
+MKF5630,Services marketing,buseco
+MKF5641,Advanced marketing communication,buseco
+MKF5660,Relationship marketing,buseco
+MKF5741,Marketing performance and decision analysis,buseco
+MKF5760,Marketing leadership in society,buseco
+MKF5761,Managing supply networks,buseco
+MKF5801,Customer focused innovation,buseco
+MKF5911,Theory and process of buyer behaviour,buseco
+MKF5912,Marketing research,buseco
+MKF5916,Foundations of marketing,buseco
+MKF5917,Understanding marketing and consumers,buseco
+MKF5926,Integrated marketing communication,buseco
+MKF5970,Direct marketing,buseco
+MKF5979,Marketing financial services,buseco
+MKF5981,Retailing,buseco
+MKG2402,Consumer behaviour,buseco
+MKG2420,Marketing research methods,buseco
+MKG2460,Integrated marketing communication,buseco
+MKG3121,Marketing planning and implementation,buseco
+MKG3440,Marketing strategy,buseco
+MKG3442,Sales management,buseco
+MKG3444,International marketing,buseco
+MKM5211,Applied business project,buseco
+MKM5955,Marketing and the international consumer,buseco
+MKP1120,Marketing theory and practice,buseco
+MKP2600,Tourism marketing,buseco
+MKP2701,Consumer psychology,buseco
+MKP2702,Stakeholder marketing communication,buseco
+MKP2720,Research methods and analysis,buseco
+MKP3200,Sports marketing and sponsorship,buseco
+MKP3800,Social marketing,buseco
+MKS1120,Marketing theory and practice,buseco
+MKS2402,Consumer behaviour,buseco
+MKS2420,Marketing research methods,buseco
+MKS2431,Business marketing,buseco
+MKS2460,Integrated marketing communication,buseco
+MKS3121,Marketing planning and implementation,buseco
+MKS3440,Marketing strategy,buseco
+MKS3444,International marketing,buseco
+MKS3631,Marketing internship,buseco
+MKS3881,Electronic marketing,buseco
+MKS5955,Marketing and the international consumer,buseco
+MKW1120,Marketing theory and practice,buseco
+MKW1300,Introduction to social commerce,buseco
+MKW1601,Introduction to e-business,buseco
+MKW2402,Consumer behaviour,buseco
+MKW2420,Marketing research methods,buseco
+MKW2431,Business marketing,buseco
+MKW2460,Integrated marketing communication,buseco
+MKW3121,Marketing planning and implementation,buseco
+MKW3301,Services marketing,buseco
+MKW3440,Marketing strategy,buseco
+MKW3444,International marketing,buseco
+MKW3510,Islamic marketing,buseco
+MKW3610,Marketing strategy and implementation,buseco
+MKW3701,Neuroscience of decision-making: An introduction,buseco
+MKW3841,E-business performance measurement,buseco
+MKW3881,Electronic marketing,buseco
+MKX1500,Retail management principles,buseco
+MKX2531,Not for profit marketing,buseco
+MKX3002,Enhanced research skills,buseco
+MKX3200,Sport marketing and sponsorship,buseco
+MKX3481,Marketing channels,buseco
+MKX3521,Global study programs in marketing,buseco
+MKX3631,Marketing internship,buseco
+MKX4050,Marketing theory,buseco
+MKX4060,Marketing research practice,buseco
+MKX4070,Qualitative research methods,buseco
+MKX4080,Advanced business research methods,buseco
+MKX4461,Contemporary issues in marketing,buseco
+MKX4900,Honours research thesis,buseco
+MKX5123,Entrepreneurial innovation,buseco
+MKX5260,International marketing,buseco
+MKX5521,Global study programs in marketing,buseco
+MKX5931,International dimensions of electronic business,buseco
+MKX5955,Marketing and the international consumer,buseco
+MKZ5955,Marketing and the international consumer,buseco
+MMD1302,Multimedia & digital arts studio A,ada
+MMD2303,Multimedia and digital arts studio B,ada
+MMD2304,Multimedia and digital arts studio C,ada
+MMD2306,Graphic user interface design,ada
+MMD3305,Multimedia studio 5A,ada
+MMD3306,Multimedia studio 6A,ada
+MMD3307,Digital arts studio 5A,ada
+MMD3308,Digital arts studio 6A,ada
+MMD3713,Game design,ada
+MMD4001,Multimedia design studio 1,ada
+MMD4107,Major Project (Multimedia & Digital Arts) Part 1,ada
+MMD4108,Major Project (Multimedia & Digital Arts) Part 2,ada
+MMD5002,Multimedia design studio 2,ada
+MMD5003,Multimedia Design Studio 3,ada
 MMT5002,Medicine minor thesis extension unit,med
 MMT5004,Medicine minor thesis extension unit,med
+MNE1010,Natural resources engineering,eng
+MNE2010,Fixed plant engineering,eng
+MNE2030,"Project, risk and safety management",eng
+MNE3010,Rock mechanics,eng
+MNE3020,Resource estimation,eng
+MNE3030,Ventilation,eng
+MNE3040,Surface mining systems,eng
+MNE3050,Underground mining,eng
+MNE3060,Blasting and fragmentation,eng
+MNE4010,Mine planning and scheduling,eng
+MNE4020,Design and feasibility project,eng
+MNE4030,Mine management and economics,eng
+MNE4040,Mineral processing,eng
+MNE4070,Research project 3,eng
+MNE4120,"Instrumentation, automation and asset management",eng
+MON2005,Law in professional contexts,law
+MON2222,Sustainability: learning and living it,buseco
+MPA5001,Work-based research project,buseco
+MPA5902,Designing public policies and programs,buseco
 MPH5020,Introduction to epidemiology and biostatistics,med
 MPH5040,Introductory epidemiology,med
 MPH5041,Introductory biostatistics,med
@@ -4445,15 +4423,136 @@ MPH5313,Challenges in public health,med
 MPH5314,Epidemiology of chronic disease,med
 MPH6040,Introductory epidemiology,med
 MPH6041,Introductory biostatistics,med
+MRE5001,Terotechnology and life cycle costs,eng
+MRE5002,Maintenance management,eng
+MRE5003,Industrial techniques in maintenance management,eng
+MRE5004,Asset management techniques,eng
+MRE5005,Quantitative techniques for asset management,eng
+MRE5006,Machine condition monitoring and fault diagnosis,eng
+MRE5007,Risk engineering,eng
+MRE5008,Maintenance and reliability engineering project,eng
+MRE5101,Basic quantitative skills for reliability engineering,eng
+MRE5102,Understanding reliability,eng
+MRE5103,Advanced reliability,eng
+MRE5104,Reliability applications,eng
 MRS0001,Coursework core lectures,med
 MRS0002,Coursework semester 1 stream 1 lectures,med
 MRS0003,Coursework semester 1 stream 2 lectures,med
 MRS0004,Coursework semester 2 stream 1 lectures,med
 MRS0005,Coursework semester 2 stream 2 lectures,med
+MSC4100,Materials science project,sci
+MSC4110,Materials science project part time I,sci
+MSC4120,Materials science project part time II,sci
+MSC4200,Advanced materials science,sci
+MSC4210,Materials applications part time I,sci
+MSC4220,Materials applications part time II,sci
 MSM5100,Research Project - Master of Biomedical Science MUM,med
 MSM5101,Research Project - Master of Biomedical Science MUM (PART-TIME),med
 MSM5200,Advanced Studies in Biomedical Sciences MUM,med
 MSM5201,Advanced Studies in Biomedical Sciences MUM (PART-TIME),med
+MTE2541,"Crystal structures, thermodynamics and phase equilibria",eng
+MTE2542,Microstructural development,eng
+MTE2544,Functional materials,eng
+MTE2545,Polymers and ceramics I,eng
+MTE2546,Mechanics of materials,eng
+MTE2547,Structure-property relationships in materials,eng
+MTE2548,Biomaterials I,eng
+MTE3541,Materials durability,eng
+MTE3542,Microstructural design in structural materials,eng
+MTE3543,Microstructure to applications: the mechanics of materials,eng
+MTE3544,Management and practice in materials engineering,eng
+MTE3545,Functional materials and devices,eng
+MTE3546,Polymers and ceramics II,eng
+MTE3547,Materials characterisation and modelling,eng
+MTE4525,Project I,eng
+MTE4526,Project II,eng
+MTE4571,Materials engineering design and practice,eng
+MTE4572,Polymer and composite processing and engineering,eng
+MTE4573,Processing and engineering of metals and ceramics,eng
+MTE4590,Modelling of materials,eng
+MTE4592,Advanced ceramics and applications,eng
+MTE4593,Materials and sustainability,eng
+MTE4594,"Engineering alloy design, processing and selection",eng
+MTE4595,Corrosion mechanisms and protection methods,eng
+MTE4596,Biomaterials II,eng
+MTE4597,Engineering with nanomaterials,eng
+MTE4598,Electron microscopy,eng
+MTE5881,Advanced materials characterisation and applied crystallography,eng
+MTE5882,Advanced polymeric materials,eng
+MTE5883,Environmental durability and protection of metals and engineering materials,eng
+MTE5884,Advanced photovoltaics and energy storage,eng
+MTE5885,Biomaterials and biomechanics,eng
+MTE5886,Additive manufacturing of metallic materials,eng
+MTE5887,Additive manufacturing of polymeric and functional materials,eng
+MTE6881,Advanced materials characterisation and applied crystallography,eng
+MTE6882,Advanced polymeric materials,eng
+MTE6883,Environmental durability and protection of metals and engineering materials,eng
+MTE6884,Advanced photovoltaics and energy storage,eng
+MTE6885,Biomaterials and biomechanics,eng
+MTE6886,Additive manufacturing of metallic materials,eng
+MTE6887,Additive manufacturing of polymeric and functional materials,eng
+MTH1000,Special topics in mathematics level one,sci
+MTH1010,Functions and their applications,sci
+MTH1020,Analysis of change,sci
+MTH1030,Techniques for modelling,sci
+MTH1035,Techniques for modelling (advanced),sci
+MTH2000,Mathematics research project level 2,sci
+MTH2010,Multivariable calculus,sci
+MTH2015,Multivariable calculus (advanced),sci
+MTH2021,Linear algebra with applications,sci
+MTH2025,Linear algebra (advanced),sci
+MTH2032,Differential equations with modelling,sci
+MTH2040,Mathematical modelling,sci
+MTH2121,Algebra and number theory,sci
+MTH2132,The nature and beauty of mathematics,sci
+MTH2140,Real analysis,sci
+MTH2222,Mathematics of uncertainty,sci
+MTH2232,Mathematical statistics,sci
+MTH3000,Mathematics research project level 3,sci
+MTH3011,Partial differential equations,sci
+MTH3020,Complex analysis and integral transforms,sci
+MTH3051,Introduction to computational mathematics,sci
+MTH3060,Advanced ordinary differential equations,sci
+MTH3110,Differential geometry,sci
+MTH3121,Algebra and number theory,sci
+MTH3130,Topology: The mathematics of shape,sci
+MTH3140,Real analysis,sci
+MTH3150,Algebra and number theory II,sci
+MTH3160,Functional analysis,sci
+MTH3170,Network mathematics,sci
+MTH3230,Time series and random processes in linear systems,sci
+MTH3241,Random processes in the sciences and engineering,sci
+MTH3251,Financial mathematics,sci
+MTH3260,Statistics of stochastic processes,sci
+MTH3310,Applied mathematical modelling,sci
+MTH3320,Computational linear algebra,sci
+MTH3360,Fluid dynamics,sci
+MTH3401,Special topics in mathematics I,sci
+MTH3402,Special topics in mathematics II,sci
+MTH4010,Mathematics honours topic A,sci
+MTH4020,Mathematics honours topic B,sci
+MTH4030,Mathematics honours topic C,sci
+MTH4040,Mathematics honours topic D,sci
+MTH4100,Mathematics research studies,sci
+MTH4200,Advanced studies in mathematics,sci
+MTH5112,Partial differential equations in finance,sci
+MTH5210,Stochastic calculus and mathematical finance,sci
+MTH5220,The theory of martingales in discrete time,sci
+MTH5230,Markov chains and random walks,sci
+MTH5510,The mathematics of finance: From derivatives to risk,sci
+MTH5520,Interest rate modelling,sci
+MTH5530,Computational methods in finance,sci
+MTH5540,Statistical learning in finance,sci
+MTH5550,Market microstructure,sci
+MTH5810,Industry research project,sci
+MTH5820,Minor industry research project,sci
+MTH5830,Industry placement,sci
+MTH5840,Minor industry placement,sci
+MVA4001,Studio discipline A,ada
+MVA4002,Studio discipline B,ada
+MVA4021,Philosophies of the studio A,ada
+MVA4022,Philosophies of the studio B,ada
+MVA5001,Studio project,ada
 NEH4001,Preparing for interprofessional practice,med
 NEH4012,Interprofessional practice in community and hospital settings,med
 NUR1001,Professional and scholarly communication,med
@@ -4600,6 +4699,36 @@ OCC5121,Advanced adaptive and assistive technology,med
 OCC5131,"Advanced assessment of children: Methods, policy, ethics and issues",med
 OCC5141,Occupational therapy for children with a disability and their families,med
 OCC5161,Human occupation and health,med
+OHS1000,Introduction to art and design health and safety,ada
+OHS1001,Gippsland Centre of art and design health and safety,ada
+PAC1001,Introduction to Pharmacy,pha
+PAC2151,Biochemistry and molecular biology,pha
+PAC2161,"Cell function, communication and pathology",pha
+PAC2171,Basis of drug action I,pha
+PAC2182,Basis of drug action II,pha
+PAC2232,Drug delivery and disposition,pha
+PAC2331,Pharmacists as communicators,pha
+PAC2342,Pharmacy in a public health context,pha
+PAC2412,Integrated therapeutics: Introduction and cardiovascular,pha
+PAC3191,Microbiology and immunology,pha
+PAC3241,"Drug delivery, disposition and dynamics",pha
+PAC3252,Drug delivery II,pha
+PAC3351,Context for practice I,pha
+PAC3362,Context for practice II,pha
+PAC3421,Integrated therapeutics: Respiratory and gastrointestinal disease,pha
+PAC3432,Integrated therapeutics: Infectious disease,pha
+PAC3512,Current aspects of pharmaceutical research,pha
+PAC3522,Applied research project,pha
+PAC3542,Leadership,pha
+PAC3552,Community engagement,pha
+PAC4261,Drug delivery and development,pha
+PAC4371,Professional experience placement program,pha
+PAC4382,Context for practice III,pha
+PAC4441,Integrated therapeutics: Endocrinology and renal,pha
+PAC4451,Integrated therapeutics: Dermatology and pain,pha
+PAC4462,Integrated therapeutics: Neurology and oncology,pha
+PAC4472,Integrated therapeutics: Mental Health,pha
+PAC4482,Preparation for practice,pha
 PAR4450,Intensive care management of paediatric and obstetric patients,med
 PAR4470,Intensive care paramedicine clinical practicum,med
 PAR5200,Introduction to aeromedical and retrieval concepts,med
@@ -4629,6 +4758,59 @@ PBH2004,"Health, law and ethics",med
 PBH2005,Health program planning,med
 PBH2006,Treatment and technologies,med
 PBH2107,Public health and ethics short international program,med
+PGC5005,Journal club,pha
+PGC5006,Speciality clinical placement,pha
+PGC5007,Introduction to clinical research,pha
+PGC5009,Clinical research 3,pha
+PGC5101,Evidence based practice,pha
+PGC5102,Patient data and pharmacotherapy 1,pha
+PGC5103,Patient data and pharmacotherapy 2,pha
+PGC5104,Patient data and pharmacotherapy 3,pha
+PGC5107,Introduction to clinical research,pha
+PGC5108,Clinical research 2,pha
+PGC5109,Clinical research 3,pha
+PGC5110,Infectious diseases pharmacotherapy,pha
+PGC5113,Dermatology,pha
+PGC5115,Geriatric pharmacy practice,pha
+PGC5116,Geriatric disease state management,pha
+PGC5117,Mental health,pha
+PGC5118,Palliative care,pha
+PGC5119,Advanced practice portfolio,pha
+PGP5011,Applied pharmacy practice 1,pha
+PGP5012,Applied pharmacy practice 2,pha
+PGP5014,Clinical educator preparation,pha
+PGP5021,Foundation practice 1,pha
+PGP5022,Foundation practice 2,pha
+PGW5101,Biology of wound healing,pha
+PGW5103,Wound dressings,pha
+PGW5104,Management of acute wounds,pha
+PGW5105,Management of chronic wounds,pha
+PGW5106,Systemic medication and wound healing,pha
+PGW5108,Nutrition in wound healing,pha
+PGW5109,Dermatology,pha
+PGW5111,Alternative therapies,pha
+PGW5112,Scar management,pha
+PGW5123,Management of burns,pha
+PGW5127,Practical wound care training and assessment,pha
+PGW5201,Principles of wound healing,pha
+PGW5202,Wound assessment,pha
+PGW5203,Wound management principles,pha
+PGW5204,Acute and chronic wounds,pha
+PGW5205,Integrated wound care practice,pha
+PGW5206,The diabetes foot,pha
+PGW5207,Pressure injury management,pha
+PGW5208,Advanced clinical practice in wound care,pha
+PGW5209,Clinical risk management and wound care,pha
+PGW5210,Burns and scar management,pha
+PGW5211,Non-healing wounds and pain management,pha
+PHA2022,Drugs and society,sci
+PHA3011,Principles of drug action,sci
+PHA3021,Drugs in health and disease,sci
+PHA3032,Neuro and endocrine pharmacology,sci
+PHA3042,Modern drug development,sci
+PHA3800,Fundamentals of toxicology,sci
+PHA3801,Principles of pharmacology,sci
+PHA3990,Action in pharmacology research project,sci
 PHC5012,Community based palliative care for health practitioners,med
 PHC5100,Research Project in Health Sciences,med
 PHC5101,Research Project in Health Sciences (Part-time),med
@@ -4660,11 +4842,133 @@ PHH3082,Health promotion practicum,med
 PHH4101,Public health research proposal,med
 PHH4102,Contemporary and global public health issues,med
 PHH4201,Public health research report,med
+PHO1203,Photography 1,ada
+PHO1204,Digital Imaging for Contemporary Art,ada
+PHO2202,Advanced photography,ada
+PHO2204,Video art and the moving image 1,ada
+PHO2207,Photographic processes,ada
+PHO2208,Photographic lighting studio,ada
+PHO3201,Photography and video dialogues,ada
+PHO3202,Photomedia virtual studio,ada
+PHO3207,Photomedia project 1A,ada
+PHO3208,Photomedia project 2,ada
+PHO3209,Photomedia Project 1B,ada
+PHR1011,Professional Practice I,pha
+PHR1012,Professional Practice II,pha
+PHR1021,How Medicines Work I,pha
+PHR1022,How Medicines Work II,pha
+PHR1031,How the Body Works,pha
+PHS1011,Classical physics and relativity,sci
+PHS1022,Fields and quantum physics,sci
+PHS1031,Physics for the living world,sci
+PHS1080,Foundation physics,sci
+PHS1711,Applied physics,eng
+PHS2061,Quantum and thermal physics,sci
+PHS2062,Electromagnetism and optics,sci
+PHS2081,"Atomic, nuclear and condensed matter physics",sci
+PHS2350,Physics and astronomy introductory research project 1,sci
+PHS2360,Physics and astronomy introductory research project 2,sci
+PHS3031,Foundations of contemporary physics,sci
+PHS3042,Fundamentals of condensed matter physics,sci
+PHS3051,Photon physics,sci
+PHS3062,Fundamental particle physics,sci
+PHS3131,Theoretical physics,sci
+PHS3142,Theoretical physics II,sci
+PHS3350,Physics and astronomy research project 1,sci
+PHS3360,Physics and astronomy research project 2,sci
+PHS4100,Physics honours research project,sci
+PHS4110,Physics honours research project - Part 1,sci
+PHS4120,Physics honours research project - Part 2,sci
+PHS4200,Physics honours coursework,sci
+PHS4210,Physics honours coursework - Part 1,sci
+PHS4220,Physics honours coursework - Part 2,sci
+PHY2011,"Neuroscience of communication, sensory and control systems",sci
+PHY2032,Endocrine control systems,sci
+PHY2042,Body systems physiology,sci
+PHY2810,Physiology of human body systems,sci
+PHY2820,Physiology of human health,sci
+PHY3012,Integrative neuroscience,sci
+PHY3072,Exercise physiology and metabolism,sci
+PHY3102,"Nutrition, metabolism and body weight",sci
+PHY3111,Sensory and cognitive neuroscience,sci
+PHY3171,Clinical and experimental cardiovascular physiology,sci
+PHY3181,Hormones and reproduction,sci
+PHY3990,Action in physiology research project,sci
 PMH1011,Mental health in the community,med
+PMM3020,"Psychology, management and marketing",buseco
 POM5001,Perioperative management of the cardiac patient,med
 POM5002,Acute perioperative medicine,med
 POM5003,Organ dysfunction 1,med
 POM5004,Organ dysfunction 2,med
+PPR3102,Professional practice for interior architecture,ada
+PPR3103,Project planning and professional practice for design and multimedia,ada
+PPR3202,Professional practice B,ada
+PPR4002,Professional practice and business planning for design,ada
+PPR4102,Professional practice and business planning for design,ada
+PPR5500,Design management and entrepreneurship,ada
+PRM1001,The contemporary print: Etching and relief printmaking,ada
+PRM1411,Printmedia practice and theory 1A,ada
+PRM1412,Printmedia practice and theory 2A,ada
+PRM1431,Printmedia practice and theory 1B,ada
+PRM1442,Printmedia practice and theory 2B,ada
+PRM1511,Artists' Books,ada
+PRM2401,Screenprinting and the contemporary poster,ada
+PRM2413,Printmedia practice and theory 3A,ada
+PRM2414,Printmedia practice and theory 4A,ada
+PRM2423,Printmedia practice and theory 3B,ada
+PRM2424,Printmedia practice and theory 4B,ada
+PRM2512,Artists' books 2,ada
+PRM3415,Printmedia practice and theory 5,ada
+PRM3416,Printmedia practice and theory 6,ada
+PSC1011,Physiology I,pha
+PSC1012,Physiology II,pha
+PSC1021,Bioorganic and medicinal chemistry I,pha
+PSC1022,Bioorganic and medicinal chemistry II,pha
+PSC1031,Physical chemistry I,pha
+PSC1032,Physical chemistry II,pha
+PSC1041,Scientific Inquiry,pha
+PSC1042,Multi-disciplinary Pharmaceutical Science,pha
+PSC2011,Biochemical pharmacology,pha
+PSC2012,Molecular pharmacology,pha
+PSC2021,Structural organic chemistry,pha
+PSC2031,Analytical methods,pha
+PSC2041,Biopharmaceutics,pha
+PSC2122,Synthetic organic chemistry,pha
+PSC2132,Introduction to spectroscopy,pha
+PSC2142,Computational chemistry,pha
+PSC2222,Formulation chemistry,pha
+PSC2232,Colloid chemistry,pha
+PSC2322,Molecular cell biology,pha
+PSC2332,Diseased-focused pharmacology - Peripheral,pha
+PSC3041,Applied analytical methods,pha
+PSC3111,Molecular basis of drug action,pha
+PSC3112,Drug discovery and development,pha
+PSC3121,Advanced Synthetic organic chemistry,pha
+PSC3122,Applied Medicinal Chemistry,pha
+PSC3131,Analysis of drug-receptor interactions,pha
+PSC3132,Medicinal Chemistry Research Placement,pha
+PSC3142,Computational drug design,pha
+PSC3211,Industrial Formulation,pha
+PSC3212,Product Commercialisation,pha
+PSC3221,Biomolecule formulation & modified release technologies,pha
+PSC3222,Advanced formulation and nanotechnology,pha
+PSC3231,Pharmaceutical Product Manufacture,pha
+PSC3232,Formulation Science Placement,pha
+PSC3311,Microbiology and immunology,pha
+PSC3321,Disease-Focused Pharmacology CNS,pha
+PSC3322,Current aspects of cancer biology,pha
+PSC3332,Drug Discovery Biology research placement,pha
+PSC3432,Medicinal Chemistry pre-honours research project,pha
+PSC3532,Formulation Science pre-honours research project,pha
+PSC3632,Drug Discovery Biology pre-honours research project,pha
+PSC4111,Advanced medicinal chemistry,pha
+PSC4112,Research in medicinal chemistry,pha
+PSC4211,Advanced formulation science,pha
+PSC4212,Research in formulation science,pha
+PSC4311,Advanced drug discovery biology,pha
+PSC4312,Research in drug discovery biology,pha
+PSC4411,Advanced medicine use and safety,pha
+PSC4412,Research in Medicine Use and Safety,pha
 PSY1011,Psychology 1A,med
 PSY1022,Psychology 1B,med
 PSY2031,Developmental and biological psychology,med
@@ -4718,6 +5022,25 @@ PSY5100,Research Project in Psychology,med
 PSY5101,Research Project in Psychology (Part-time),med
 PSY5200,Advanced Studies in Psychology,med
 PSY5201,Advanced Studies in Psychology (Part-time),med
+PTG1001,Painting introduction: materials and methods,ada
+PTG1025,Painting as an interdisciplinary practice A,ada
+PTG1026,Painting as an interdisciplinary practice B,ada
+PTG1511,Painting practice and theory 1A,ada
+PTG1512,Painting practice and theory 2A,ada
+PTG1531,Painting practice and theory 1B,ada
+PTG1542,Painting practice and theory 2B,ada
+PTG2030,Painting as an interdisciplinary practice C,ada
+PTG2031,Abstraction and non-objective painting,ada
+PTG2032,Painting: Installation and the expanded field,ada
+PTG2033,Representational painting: Narrative and figuration,ada
+PTG2034,Sound and space: Dematerialised form,ada
+PTG2035,Interventions: Feminist and conceptual practices,ada
+PTG2513,Painting practice and theory 3A,ada
+PTG2514,Painting practice and theory 4A,ada
+PTG2523,Painting practice and theory 3B,ada
+PTG2524,Painting practice and theory 4B,ada
+PTG3515,Painting practice and theory 5,ada
+PTG3516,Painting practice and theory 6,ada
 PTY1011,Physiotherapy 1,med
 PTY1022,Physiotherapy 2,med
 PTY2000,Honours systematic review,med
@@ -4772,6 +5095,7 @@ RAD4504,Magnetic resonance imaging: Musculo-skeletal system,med
 RAD4505,"Magnetic resonance imaging: Head, spine abdomen and pelvis",med
 RAD4506,Magnetic resonance imaging: Advanced imaging techniques,med
 RAD5105,Pathology for advanced medical imaging practice,med
+RAD5106,Medical imaging data management and health informatics,it
 RAD5107,Hybrid and molecular imaging,med
 RAD5108,Advanced general radiography image interpretation 1,med
 RAD5109,Advanced general radiography image interpretation 2,med
@@ -4779,6 +5103,8 @@ RAD5110,Advanced CT and clinical decision making 1,med
 RAD5111,Advanced CT and clinical decision making 2,med
 RAD5201,Emergency image interpretation 1,med
 RAD5202,Emergency image interpretation 2,med
+RSE4111,Numerical modelling,eng
+RSE4112,Advanced rock mechanics,eng
 RTP4101,Professional issues in radiation therapy 1,med
 RTP4102,Professional issues in radiation therapy 2,med
 RTP4103,Specialised techniques in radiation therapy,med
@@ -4801,6 +5127,35 @@ RUR5100,Research Project in Rural Health,med
 RUR5101,Research Project in Rural Health (Part time),med
 RUR5200,Advanced Studies in Rural Health,med
 RUR5201,Advanced Studies in Rural Health (Part time),med
+SCI1020,Introduction to statistical reasoning,sci
+SCI1200,"Humans, evolution and modern society",sci
+SCI1300,Climate change: From science to society,sci
+SCI1501,Impact through science 1A,sci
+SCI1502,Impact through science 1B,sci
+SCI1800,The sustainable planet,sci
+SCI2010,Scientific practice and communication,sci
+SCI2015,Scientific practice and communication (advanced),sci
+SCI2501,Impact through science 2A,sci
+SCI2502,Impact through science 2B,sci
+SCI3501,Impact through science 3A,sci
+SCI3502,Impact through science 3B,sci
+SCI3716,Laboratory and workplace management,sci
+SCI3790,Science in action communication project,sci
+SCI3800,Science internship,sci
+SCI3910,Schools science project,sci
+SCI3920,Science industry placement,sci
+SCI3990,Science in action research project,sci
+SCI4100,Science honours project,sci
+SCI4110,Science honours project,sci
+SCI4120,Science honours project,sci
+SCI4210,Science honours coursework,sci
+SCI4220,Science honours coursework,sci
+SCI4230,Science honours coursework,sci
+SCI4240,Science honours coursework,sci
+SCI4501,Impact through science 4A: Research,sci
+SCI4502,Impact through science 4B: Professional practice,sci
+SCM5100,MSc Prelim research project,sci
+SCM5200,MSc Prelim coursework,sci
 SCS5100,Research Project in Medical Science,med
 SCS5101,Research Project in Medical Science (Part-time),med
 SCS5200,Advanced Studies in Medical Science,med
@@ -4809,6 +5164,20 @@ SCS5300,Research Project in Health Sciences,med
 SCS5301,Research Project in Health Sciences (Part-time),med
 SCS5400,Advanced Studies in Health Sciences,med
 SCS5401,Advanced Studies in Health Sciences (Part-time),med
+SCU1021,Contemporary casting,ada
+SCU1022,Sculptural construction: Woodworking and welding,ada
+SCU1611,Sculpture practice and theory 1A,ada
+SCU1612,Sculpture practice and theory 2A,ada
+SCU1631,Sculpture practice and theory 1B,ada
+SCU1642,Sculpture practice and theory 2B,ada
+SCU2021,Advanced moulding and casting,ada
+SCU2022,Site specificity: Sculptural and installation interventions,ada
+SCU2613,Sculpture practice and theory 3A,ada
+SCU2614,Sculpture practice and theory 4A,ada
+SCU2623,Sculpture practice and theory 3B,ada
+SCU2624,Sculpture practice and theory 4B,ada
+SCU3615,Sculpture practice and theory 5,ada
+SCU3616,Sculpture practice and theory 6,ada
 SON4000,Physics of medical ultrasound and instrumentation,med
 SON4010,"Embryology, anatomy and pathophysiology",med
 SON5000,Ultrasound research,med
@@ -4824,6 +5193,8 @@ SRH5001,Research methods for health,med
 SRH5003,Designing and conducting health research,med
 SRH5016,Interprofessional practice in communities,med
 SRH5032,Applied research for health practitioners,med
+STA1010,Statistical methods for science,sci
+STA2216,Data analysis for science,sci
 SWK1011,Introduction to human services practice,med
 SWK2001,Introduction to the Australian welfare state,med
 SWK2110,Social welfare and the law,med
@@ -4872,487 +5243,116 @@ SWM5220,Longevity and social work,med
 SWM5241,Mental health practice,med
 SWM5250,Clinical supervision: Becoming a professional developer,med
 SWM5260,"Gender, climate change and social sustainability",med
+TAD1101,Introduction to visual culture in art design and architecture,ada
+TAD1102,Modernism and the avant-gardes,ada
+TAD2102,Post-war practices 2A,ada
+TAD2109,Constructing art in Australia: colonialism to postcolonialism 2,ada
+TAD2138,"Space, Place and Society",ada
+TAD2203,History and criticism of interiors and furniture 2A,ada
+TAD2206,"Ornament, meaning and design 2A",ada
+TAD2207,Popular culture and contemporary communication 2,ada
+TAD2214,Critical issues in design,ada
+TAD3102,Post-war practices 3A,ada
+TAD3105,Contemporary International Art since 1989,ada
+TAD3109,Constructing art in Australia: colonialism to postcolonialism 3A,ada
+TAD3203,History and criticism of interiors and furniture 3A,ada
+TAD3206,"Ornament, meaning and design 3A",ada
+TAD3214,Contemporary discourse in design,ada
+TAD4503,Advanced art theory,ada
+TAD4504,Art theory research seminar,ada
+TAD4523,Design research methods and seminar,ada
+TAD4542,Research seminar in design,ada
+TAD4793,Issues for multimedia practice,ada
+TAD4794,Multimedia and society,ada
+TAD5500,Exegesis,ada
+TDN1002,Design and the avant-garde,ada
+TDN2001,Sociologies of design,ada
+TDN2002,Communication design theory,ada
+TDN3001,Research for design,ada
+TDN3002,Design strategy and professional practice,ada
+TDN3003,Design criticism,ada
+TDN4001,Research methods in industrial design,ada
+TDN4401,Human factors for interaction design,ada
+TRC2001,Introduction to systems engineering,eng
+TRC2200,Thermo-fluids and power systems,eng
+TRC2201,Mechanics,eng
+TRC3000,Mechatronics project II,eng
+TRC3200,Dynamical systems,eng
+TRC3500,Sensors and artificial perception,eng
+TRC3600,Modelling and control,eng
+TRC3801,Mechatronics and manufacturing,eng
+TRC4000,Mechatronics final year project I,eng
+TRC4001,Mechatronics final year project II,eng
+TRC4002,Professional practice,eng
+TRC4100,Bio-interfacing devices,eng
+TRC4800,Robotics,eng
+TRC4900,Real time embedded systems,eng
+TRC4901,Computation intelligence and AI,eng
 TRM4001,Introduction to clinical trials,med
 TRM4002,Translational research,med
 TRM6001,Introduction to clinical trials,med
 TRM6002,Translational research,med
-PAC1001,Introduction to Pharmacy,pha
-PAC2151,Biochemistry and molecular biology,pha
-PAC2161,"Cell function, communication and pathology",pha
-PAC2171,Basis of drug action I,pha
-PAC2182,Basis of drug action II,pha
-PAC2232,Drug delivery and disposition,pha
-PAC2331,Pharmacists as communicators,pha
-PAC2342,Pharmacy in a public health context,pha
-PAC2412,Integrated therapeutics: Introduction and cardiovascular,pha
-PAC3191,Microbiology and immunology,pha
-PAC3241,"Drug delivery, disposition and dynamics",pha
-PAC3252,Drug delivery II,pha
-PAC3351,Context for practice I,pha
-PAC3362,Context for practice II,pha
-PAC3421,Integrated therapeutics: Respiratory and gastrointestinal disease,pha
-PAC3432,Integrated therapeutics: Infectious disease,pha
-PAC3512,Current aspects of pharmaceutical research,pha
-PAC3522,Applied research project,pha
-PAC3542,Leadership,pha
-PAC3552,Community engagement,pha
-PAC4261,Drug delivery and development,pha
-PAC4371,Professional experience placement program,pha
-PAC4382,Context for practice III,pha
-PAC4441,Integrated therapeutics: Endocrinology and renal,pha
-PAC4451,Integrated therapeutics: Dermatology and pain,pha
-PAC4462,Integrated therapeutics: Neurology and oncology,pha
-PAC4472,Integrated therapeutics: Mental Health,pha
-PAC4482,Preparation for practice,pha
-PGC5005,Journal club,pha
-PGC5006,Speciality clinical placement,pha
-PGC5007,Introduction to clinical research,pha
-PGC5009,Clinical research 3,pha
-PGC5101,Evidence based practice,pha
-PGC5102,Patient data and pharmacotherapy 1,pha
-PGC5103,Patient data and pharmacotherapy 2,pha
-PGC5104,Patient data and pharmacotherapy 3,pha
-PGC5107,Introduction to clinical research,pha
-PGC5108,Clinical research 2,pha
-PGC5109,Clinical research 3,pha
-PGC5110,Infectious diseases pharmacotherapy,pha
-PGC5113,Dermatology,pha
-PGC5115,Geriatric pharmacy practice,pha
-PGC5116,Geriatric disease state management,pha
-PGC5117,Mental health,pha
-PGC5118,Palliative care,pha
-PGC5119,Advanced practice portfolio,pha
-PGP5011,Applied pharmacy practice 1,pha
-PGP5012,Applied pharmacy practice 2,pha
-PGP5014,Clinical educator preparation,pha
-PGP5021,Foundation practice 1,pha
-PGP5022,Foundation practice 2,pha
-PGW5101,Biology of wound healing,pha
-PGW5103,Wound dressings,pha
-PGW5104,Management of acute wounds,pha
-PGW5105,Management of chronic wounds,pha
-PGW5106,Systemic medication and wound healing,pha
-PGW5108,Nutrition in wound healing,pha
-PGW5109,Dermatology,pha
-PGW5111,Alternative therapies,pha
-PGW5112,Scar management,pha
-PGW5123,Management of burns,pha
-PGW5127,Practical wound care training and assessment,pha
-PGW5201,Principles of wound healing,pha
-PGW5202,Wound assessment,pha
-PGW5203,Wound management principles,pha
-PGW5204,Acute and chronic wounds,pha
-PGW5205,Integrated wound care practice,pha
-PGW5206,The diabetes foot,pha
-PGW5207,Pressure injury management,pha
-PGW5208,Advanced clinical practice in wound care,pha
-PGW5209,Clinical risk management and wound care,pha
-PGW5210,Burns and scar management,pha
-PGW5211,Non-healing wounds and pain management,pha
-PHR1011,Professional Practice I,pha
-PHR1012,Professional Practice II,pha
-PHR1021,How Medicines Work I,pha
-PHR1022,How Medicines Work II,pha
-PHR1031,How the Body Works,pha
-PSC1011,Physiology I,pha
-PSC1012,Physiology II,pha
-PSC1021,Bioorganic and medicinal chemistry I,pha
-PSC1022,Bioorganic and medicinal chemistry II,pha
-PSC1031,Physical chemistry I,pha
-PSC1032,Physical chemistry II,pha
-PSC1041,Scientific Inquiry,pha
-PSC1042,Multi-disciplinary Pharmaceutical Science,pha
-PSC2011,Biochemical pharmacology,pha
-PSC2012,Molecular pharmacology,pha
-PSC2021,Structural organic chemistry,pha
-PSC2031,Analytical methods,pha
-PSC2041,Biopharmaceutics,pha
-PSC2122,Synthetic organic chemistry,pha
-PSC2132,Introduction to spectroscopy,pha
-PSC2142,Computational chemistry,pha
-PSC2222,Formulation chemistry,pha
-PSC2232,Colloid chemistry,pha
-PSC2322,Molecular cell biology,pha
-PSC2332,Diseased-focused pharmacology - Peripheral,pha
-PSC3041,Applied analytical methods,pha
-PSC3111,Molecular basis of drug action,pha
-PSC3112,Drug discovery and development,pha
-PSC3121,Advanced Synthetic organic chemistry,pha
-PSC3122,Applied Medicinal Chemistry,pha
-PSC3131,Analysis of drug-receptor interactions,pha
-PSC3132,Medicinal Chemistry Research Placement,pha
-PSC3142,Computational drug design,pha
-PSC3211,Industrial Formulation,pha
-PSC3212,Product Commercialisation,pha
-PSC3221,Biomolecule formulation & modified release technologies,pha
-PSC3222,Advanced formulation and nanotechnology,pha
-PSC3231,Pharmaceutical Product Manufacture,pha
-PSC3232,Formulation Science Placement,pha
-PSC3311,Microbiology and immunology,pha
-PSC3321,Disease-Focused Pharmacology CNS,pha
-PSC3322,Current aspects of cancer biology,pha
-PSC3332,Drug Discovery Biology research placement,pha
-PSC3432,Medicinal Chemistry pre-honours research project,pha
-PSC3532,Formulation Science pre-honours research project,pha
-PSC3632,Drug Discovery Biology pre-honours research project,pha
-PSC4111,Advanced medicinal chemistry,pha
-PSC4112,Research in medicinal chemistry,pha
-PSC4211,Advanced formulation science,pha
-PSC4212,Research in formulation science,pha
-PSC4311,Advanced drug discovery biology,pha
-PSC4312,Research in drug discovery biology,pha
-PSC4411,Advanced medicine use and safety,pha
-PSC4412,Research in Medicine Use and Safety,pha
-ANT1800,Introduction to anatomy and medical terminology,sci
-ASP1010,Earth to cosmos - introductory astronomy,sci
-ASP1022,Life in the universe - astrobiology,sci
-ASP2011,Astronomy,sci
-ASP2062,Introduction to astrophysics,sci
-ASP3012,Stars and galaxies,sci
-ASP3051,Relativity and cosmology,sci
-ASP3162,Computational astrophysics and the extreme universe,sci
-ASP3231,Observational astronomy,sci
-ASP4100,Astrophysics honours research project,sci
-ASP4110,Astrophysics honours research project - Part 1,sci
-ASP4120,Astrophysics honours research project - Part 2,sci
-ASP4200,Astrophysics honours coursework,sci
-ASP4210,Astrophysics honours coursework part 1,sci
-ASP4220,Astrophysics honours coursework part 2,sci
-ATM3040,Physical meteorology,sci
-ATM3050,Dynamical meteorology,sci
-BCH2011,Structure and function of cellular biomolecules,sci
-BCH2022,Metabolic basis of human diseases,sci
-BCH3021,Cellular organisation: Organelle structure and function in health and disease,sci
-BCH3031,Functional genomics and molecular medicine,sci
-BCH3042,Cell signal transduction: Role in cancer and human disease,sci
-BCH3052,Protein biology: From sequence to structure and disease,sci
-BCH3990,Action in biochemistry research project,sci
-BIO1011,Biology I,sci
-BIO1022,Biology II,sci
-BIO1042,Environmental biology,sci
-BIO1711,Vertebrate biology,sci
-BIO1722,Cell biology,sci
-BIO2011,Ecology and biodiversity,sci
-BIO2022,Evolutionary ecology,sci
-BIO2040,Conservation biology,sci
-BIO2060,Analytical methods in biology,sci
-BIO2181,Evolution of plant diversity,sci
-BIO2231,Animal diversity,sci
-BIO2242,Animal structure and function,sci
-BIO2800,Tropical field biology,sci
-BIO2810,Tropical ecology,sci
-BIO3011,Research methods in biology,sci
-BIO3021,Marine biology,sci
-BIO3052,Animal behaviour,sci
-BIO3070,Trends in ecology,sci
-BIO3082,Global change biology,sci
-BIO3091,Biology of Australian vegetation,sci
-BIO3111,Ecological applications,sci
-BIO3132,Biology of Australian vertebrates,sci
-BIO3800,Tropical environmental management,sci
-BIO3810,Tropical aquatic biology,sci
-BIO3820,Tropical terrestrial biology,sci
-BIO3990,Biology in action research project,sci
-BIO4100,Biology research project,sci
-BIO4180,Tropical environmental biology research project,sci
-BIO4200,Advanced coursework in biology,sci
-BIO4280,Honours coursework in tropical environmental biology,sci
-BMH4100,Biomedicine research project,sci
-BMH4110,Biomedicine research project part time A,sci
-BMH4120,Biomedicine research project part time B,sci
-BMH4200,Advanced studies in biomedicine,sci
-BMH4210,Advanced studies in biomedicine part time A,sci
-BMH4220,Advanced studies in biomedicine part time B,sci
-BTH1802,Fundamentals of biotechnology,sci
-BTH2732,Recombinant DNA technology,sci
-BTH2741,Biochemistry,sci
-BTH2752,Cellular metabolism,sci
-BTH2820,Crop science,sci
-BTH2830,Fundamentals of microbiology,sci
-BTH3012,"Biotechnology science, industry and commercialisation",sci
-BTH3711,Food and industrial microbiology,sci
-BTH3722,Medical microbiology,sci
-BTH3732,Environmental microbiology,sci
-BTH3741,Medical cell biology,sci
-BTH3752,Molecular biology and biotechnology,sci
-BTH3800,Bioinformatics,sci
-BTH3820,Plant biotechnology,sci
-BTH3960,Interdisciplinary advanced practical in pharmacology and chemistry,sci
-BTH4100,Biotechnology research project,sci
-BTH4200,The practice of biotechnology,sci
-BTH4280,Honours coursework in biotechnology,sci
-CHM1011,Chemistry I,sci
-CHM1022,Chemistry II,sci
-CHM1051,Chemistry I advanced,sci
-CHM1052,Chemistry II advanced,sci
-CHM2752,Chemistry of the environment,sci
-CHM2911,Inorganic and organic chemistry,sci
-CHM2922,Spectroscopy and analytical chemistry,sci
-CHM2942,Biological chemistry,sci
-CHM2951,Environmental chemistry - water,sci
-CHM2962,Food chemistry,sci
-CHM2990,Introductory chemical research project,sci
-CHM3180,Materials chemistry,sci
-CHM3742,Chemistry of the environment 2,sci
-CHM3911,Advanced physical chemistry,sci
-CHM3922,Advanced organic chemistry,sci
-CHM3930,Medicinal chemistry,sci
-CHM3941,Advanced inorganic chemistry,sci
-CHM3952,Advanced analytical chemistry,sci
-CHM3960,Environmental chemistry,sci
-CHM3972,Sustainable chemistry,sci
-CHM3980,Chemistry study abroad,sci
-CHM3990,Chemistry project,sci
-CHM4100,Chemistry research project,sci
-CHM4110,Chemistry research project part time I,sci
-CHM4120,Chemistry research project part time II,sci
-CHM4180,Medicinal chemistry research project,sci
-CHM4201,Chemistry honours coursework,sci
-CHM4211,Chemistry honours coursework part time I,sci
-CHM4221,Chemistry honours coursework part time II,sci
-CHM4280,Honours coursework in medicinal chemistry,sci
-DEV2011,Early human development from cells to tissues,sci
-DEV2022,Human anatomy and development: Tissues and body systems,sci
-DEV3011,Fundamentals of developmental processes,sci
-DEV3022,Developmental and anatomical basis of human health and disease,sci
-DEV3032,Stem cells and the foundations of life,sci
-DEV3990,Action in developmental biology research project,sci
-EAE1011,"Earth, atmosphere and environment 1",sci
-EAE1022,"Earth, atmosphere and environment 2",sci
-EAE2011,Environmental problem solving and visualisation,sci
-EAE2111,Introduction to climate science,sci
-EAE2122,Introduction to atmospheric physics and dynamics,sci
-EAE2322,Environmental earth science,sci
-EAE2511,Deep earth processes,sci
-EAE2522,Sediments and basins,sci
-EAE3000,"Earth, atmosphere and environment research project",sci
-EAE3900,"Landscape, environment and sustainability in Italy",sci
-EAE4100,"Earth, atmosphere and environment honours research project",sci
-EAE4110,"Earth, atmosphere and environment honours research project part time 1",sci
-EAE4120,"Earth, atmosphere and environment honours research project part time 2",sci
-EAE4200,"Earth, atmosphere and environment honours coursework",sci
-EAE4210,"Earth, atmosphere and environment honours coursework part time 1",sci
-EAE4220,"Earth, atmosphere and environment honours coursework part time 2",sci
-EAE5258,Geographical information systems (GIS) for environmental science,sci
-ENS5010,Global challenges and sustainability,sci
-ENS5020,Perspectives on sustainability,sci
-ENS5310,Securing biodiversity and ecosystems,sci
-ENS5320,"Climate change, energy and human security",sci
-ENS5330,Water security and environmental pollution,sci
-ENS5510,Processes to influence change,sci
-ENS5520,Understanding human behaviour to influence change,sci
-ENS5530,Leading change for sustainable development,sci
-ENS5900,Research project in environment and sustainability,sci
-ENS5901,Research project in environment and sustainability part A,sci
-ENS5902,Research project in environment and sustainability B,sci
-ENS5910,Interdisciplinary project for sustainable development solutions,sci
-ENS5920,Environment and sustainability project,sci
-ENS5930,Sustainability internship,sci
-ENV1800,Environmental science: A Southeast Asian perspective,sci
-ENV2022,Environmental sampling and monitoring,sci
-ENV2726,Ecosystems and bioresources,sci
-ENV2757,Environmental health,sci
-ENV3022,Environmental technology,sci
-ENV3639,Minerals and energy,sci
-ESC3162,Ore deposit geology and global metallogeny,sci
-ESC3180,Field mapping,sci
-ESC3190,Hydrogeology and environmental geoscience,sci
-ESC3201,Deformation of the crust,sci
-ESC3232,The dynamic biosphere: Changing fauna and flora through geological time,sci
-ESC3259,Geographical information systems (GIS) for environmental management,sci
-ESC3311,Applied Geophysics,sci
-ESC3332,Global dynamics and crustal evolution,sci
-ESC3340,Geophysics: Special topics,sci
-ESC3421,Igneous and metamorphic processes and geochemistry,sci
-ESC3545,Environmental hydrology,sci
-ESC3552,Remote sensing of the environment,sci
-ESC3788,"Soils, landscapes and their management",sci
-ESC3791,Environmental change: Past to future,sci
-ESC3887,"Designing urban futures: Urban climate, water and adaptation",sci
-ESC3900,Dynamic earth,sci
-ESC4120,Earth sciences research project part time II,sci
-ESC4220,Earth science honours coursework part time II,sci
-FST1800,Fundamentals of food science,sci
-FST2810,Food bioprocess technology,sci
-FST3800,Food science internship,sci
-FST3810,Human nutrition,sci
-FST3820,Food preservation,sci
-FST3830,Functional foods,sci
-FST3840,Food processing,sci
-FST3850,Food product development,sci
-FST4100,Food science and technology research project,sci
-FST4280,Honours coursework in food science and technology,sci
-GEN2041,Foundations of genetics,sci
-GEN2052,Genomics and population genetics,sci
-GEN3030,"Molecular, cellular and developmental genetics",sci
-GEN3040,Genomics and its applications,sci
-GEN3051,Medical and forensic genetics,sci
-GEN3062,Evolutionary and ecological genetics,sci
-GEN3990,Genetics in action research project,sci
-GPS4120,Geophysics research project part time II,sci
-GPS4220,Geophysics honours coursework part time II,sci
-HUP3011,Human pathology 1: Understanding disease processes,sci
-HUP3022,Human pathology 2: Pathology of human diseases,sci
-HUP3810,Principles of pathology 1,sci
-HUP3820,Principles of pathology 2,sci
-HUP3990,Human pathology in action research project,sci
-IBL2030,Industry based learning: Science,sci
-IMM2011,Basic immunology: The body's defence system,sci
-IMM2022,Immunology in health and disease,sci
-IMM3031,Molecular and cellular immunology,sci
-IMM3042,Clinical immunopathology,sci
-IMM3051,Principles of applied immunology,sci
-IMM3062,Clinical and research laboratory immunology,sci
-IMM3802,Essentials of applied immunology,sci
-IMM3990,Immunology in action research project,sci
-MBS3800,Medical bioscience internship,sci
-MBS4100,Medical bioscience research project,sci
-MBS4280,Honours coursework in medical bioscience,sci
-MCB2011,Molecular biology and the cell,sci
-MCB2022,The dynamic cell,sci
-MIC2011,Introduction to microbiology and microbial biotechnology,sci
-MIC2022,Microbes in health and disease,sci
-MIC3011,Molecular microbiology,sci
-MIC3022,Molecular virology and viral pathogenesis,sci
-MIC3032,Pathogenesis of bacterial infectious diseases,sci
-MIC3041,Medical microbiology,sci
-MIC3990,Action in microbiology research project,sci
-MIS4100,Regenerative medicine research project,sci
-MIS4200,Advanced studies in regenerative medicine,sci
-MSC4100,Materials science project,sci
-MSC4110,Materials science project part time I,sci
-MSC4120,Materials science project part time II,sci
-MSC4200,Advanced materials science,sci
-MSC4210,Materials applications part time I,sci
-MSC4220,Materials applications part time II,sci
-MTH1000,Special topics in mathematics level one,sci
-MTH1010,Functions and their applications,sci
-MTH1020,Analysis of change,sci
-MTH1030,Techniques for modelling,sci
-MTH1035,Techniques for modelling (advanced),sci
-MTH2000,Mathematics research project level 2,sci
-MTH2010,Multivariable calculus,sci
-MTH2015,Multivariable calculus (advanced),sci
-MTH2021,Linear algebra with applications,sci
-MTH2025,Linear algebra (advanced),sci
-MTH2032,Differential equations with modelling,sci
-MTH2040,Mathematical modelling,sci
-MTH2121,Algebra and number theory,sci
-MTH2132,The nature and beauty of mathematics,sci
-MTH2140,Real analysis,sci
-MTH2222,Mathematics of uncertainty,sci
-MTH2232,Mathematical statistics,sci
-MTH3000,Mathematics research project level 3,sci
-MTH3011,Partial differential equations,sci
-MTH3020,Complex analysis and integral transforms,sci
-MTH3051,Introduction to computational mathematics,sci
-MTH3060,Advanced ordinary differential equations,sci
-MTH3110,Differential geometry,sci
-MTH3121,Algebra and number theory,sci
-MTH3130,Topology: The mathematics of shape,sci
-MTH3140,Real analysis,sci
-MTH3150,Algebra and number theory II,sci
-MTH3160,Functional analysis,sci
-MTH3170,Network mathematics,sci
-MTH3230,Time series and random processes in linear systems,sci
-MTH3241,Random processes in the sciences and engineering,sci
-MTH3251,Financial mathematics,sci
-MTH3260,Statistics of stochastic processes,sci
-MTH3310,Applied mathematical modelling,sci
-MTH3320,Computational linear algebra,sci
-MTH3360,Fluid dynamics,sci
-MTH3401,Special topics in mathematics I,sci
-MTH3402,Special topics in mathematics II,sci
-MTH4010,Mathematics honours topic A,sci
-MTH4020,Mathematics honours topic B,sci
-MTH4030,Mathematics honours topic C,sci
-MTH4040,Mathematics honours topic D,sci
-MTH4100,Mathematics research studies,sci
-MTH4200,Advanced studies in mathematics,sci
-MTH5112,Partial differential equations in finance,sci
-MTH5210,Stochastic calculus and mathematical finance,sci
-MTH5220,The theory of martingales in discrete time,sci
-MTH5230,Markov chains and random walks,sci
-MTH5510,The mathematics of finance: From derivatives to risk,sci
-MTH5520,Interest rate modelling,sci
-MTH5530,Computational methods in finance,sci
-MTH5540,Statistical learning in finance,sci
-MTH5550,Market microstructure,sci
-MTH5810,Industry research project,sci
-MTH5820,Minor industry research project,sci
-MTH5830,Industry placement,sci
-MTH5840,Minor industry placement,sci
-PHA2022,Drugs and society,sci
-PHA3011,Principles of drug action,sci
-PHA3021,Drugs in health and disease,sci
-PHA3032,Neuro and endocrine pharmacology,sci
-PHA3042,Modern drug development,sci
-PHA3800,Fundamentals of toxicology,sci
-PHA3801,Principles of pharmacology,sci
-PHA3990,Action in pharmacology research project,sci
-PHS1011,Classical physics and relativity,sci
-PHS1022,Fields and quantum physics,sci
-PHS1031,Physics for the living world,sci
-PHS1080,Foundation physics,sci
-PHS2061,Quantum and thermal physics,sci
-PHS2062,Electromagnetism and optics,sci
-PHS2081,"Atomic, nuclear and condensed matter physics",sci
-PHS2350,Physics and astronomy introductory research project 1,sci
-PHS2360,Physics and astronomy introductory research project 2,sci
-PHS3031,Foundations of contemporary physics,sci
-PHS3042,Fundamentals of condensed matter physics,sci
-PHS3051,Photon physics,sci
-PHS3062,Fundamental particle physics,sci
-PHS3131,Theoretical physics,sci
-PHS3142,Theoretical physics II,sci
-PHS3350,Physics and astronomy research project 1,sci
-PHS3360,Physics and astronomy research project 2,sci
-PHS4100,Physics honours research project,sci
-PHS4110,Physics honours research project - Part 1,sci
-PHS4120,Physics honours research project - Part 2,sci
-PHS4200,Physics honours coursework,sci
-PHS4210,Physics honours coursework - Part 1,sci
-PHS4220,Physics honours coursework - Part 2,sci
-PHY2011,"Neuroscience of communication, sensory and control systems",sci
-PHY2032,Endocrine control systems,sci
-PHY2042,Body systems physiology,sci
-PHY2810,Physiology of human body systems,sci
-PHY2820,Physiology of human health,sci
-PHY3012,Integrative neuroscience,sci
-PHY3072,Exercise physiology and metabolism,sci
-PHY3102,"Nutrition, metabolism and body weight",sci
-PHY3111,Sensory and cognitive neuroscience,sci
-PHY3171,Clinical and experimental cardiovascular physiology,sci
-PHY3181,Hormones and reproduction,sci
-PHY3990,Action in physiology research project,sci
-SCI1020,Introduction to statistical reasoning,sci
-SCI1200,"Humans, evolution and modern society",sci
-SCI1300,Climate change: From science to society,sci
-SCI1501,Impact through science 1A,sci
-SCI1502,Impact through science 1B,sci
-SCI1800,The sustainable planet,sci
-SCI2010,Scientific practice and communication,sci
-SCI2015,Scientific practice and communication (advanced),sci
-SCI2501,Impact through science 2A,sci
-SCI2502,Impact through science 2B,sci
-SCI3501,Impact through science 3A,sci
-SCI3502,Impact through science 3B,sci
-SCI3716,Laboratory and workplace management,sci
-SCI3790,Science in action communication project,sci
-SCI3800,Science internship,sci
-SCI3910,Schools science project,sci
-SCI3920,Science industry placement,sci
-SCI3990,Science in action research project,sci
-SCI4100,Science honours project,sci
-SCI4110,Science honours project,sci
-SCI4120,Science honours project,sci
-SCI4210,Science honours coursework,sci
-SCI4220,Science honours coursework,sci
-SCI4230,Science honours coursework,sci
-SCI4240,Science honours coursework,sci
-SCI4501,Impact through science 4A: Research,sci
-SCI4502,Impact through science 4B: Professional practice,sci
-SCM5100,MSc Prelim research project,sci
-SCM5200,MSc Prelim coursework,sci
-STA1010,Statistical methods for science,sci
-STA2216,Data analysis for science,sci
+VAM4010,Visual culture and its theories,ada
+VAM4021,Beyond the museum: Institutions and insurrections,ada
+VAM5010,Visual culture and its theories,ada
+VAM5021,Beyond the Museum: Institutions and Insurrections,ada
+VCM1001,Visual communication,ada
+VCM1002,Multimedia imaging (moving image studies),ada
+VCM4029,Designing multimedia systems,ada
+VCM4101,Introduction to multimedia imaging,ada
+VCM4601,Design principles for multimedia 1,ada
+VCM4602,Design principles for multimedia 2,ada
+VCM4604,Information design for multimedia,ada
+VCM5001,Multimedia Product Development,ada
+VCO1104,Graphic design studio 2,ada
+VCO1203,Introduction to contemporary illustration,ada
+VCO1302,Typography 1,ada
+VCO1303,The language of graphic design,ada
+VCO2003,Graphic design studio 3,ada
+VCO2004,Graphic design studio 4,ada
+VCO2204,Illustration as design,ada
+VCO2205,Illustration for editorial,ada
+VCO2304,Typography 2,ada
+VCO2402,Advertising design 1,ada
+VCO2409,Methods of production,ada
+VCO2904,"Image, communication and location",ada
+VCO3005,Graphic design studio 5,ada
+VCO3006,Graphic design studio 6,ada
+VCO3206,Conceptual illustration,ada
+VCO3207,The business of illustration,ada
+VCO3305,Digital font design,ada
+VCO3307,Typography 3,ada
+VCO3403,Advertising design 2,ada
+VCO4107,Major project (visual communication) part 1,ada
+VCO4108,Major project (visual communication) part 2,ada
+VCO4204,Illustration,ada
+VIS1111,Visual arts studio 1,ada
+VIS1112,Visual arts studio 2,ada
+VIS2103,Visual arts studio 3,ada
+VIS2104,Visual arts studio 4,ada
+VIS2113,Visual arts studio 3A,ada
+VIS2114,Visual arts studio 4A,ada
+VIS3101,Co-operative Work Experience,ada
+VIS3105,Visual arts studio 5,ada
+VIS3106,Visual arts studio 6,ada
+VIS4001,Project studies (visual arts honours),ada
+VIS4002,Major project (visual arts honours),ada
+VPR1001,Visual Practices 1,ada
+VPR1002,Visual Practices 2,ada
+VPR1011,Visual practices 1,ada
+VPR1012,Visual practices 2,ada
+VPR1113,Research practices,ada
+VPR2001,Visual Practices 3,ada
+VPR2002,Visual Practices 4,ada
+VPR2011,Research practices advanced,ada
+VPR2012,Professional practice,ada
+VPR3001,Visual Practices 5,ada
+VPR3002,Visual Practices 6,ada
+VPR3011,Professional practice advanced,ada
+VPR3012,Visual practices 3,ada
+VSA4002(A),Minor thesis part 1,ada
+VSA4002(B),Minor thesis part 2,ada
+VSA4012,Visual culture and its theories,ada
+VSA4022,Beyond the museum,ada
+VSA4025,Visual culture internship,ada
+VSA4076,Australian postmodernism,ada

@@ -1,5 +1,5 @@
-# Monash Course Planner
-Plan out your degree with **Monash Course Planner**. Monash University Course Planner is designed to help you to choose your units for the coming semesters. And takes account into prerequisites as well as prohibitions 
+# Monash Course Planner (monPlan)
+Plan out your degree with **Monash Course Planner**. Monash University Course Planner is designed to help you to choose your units for the coming semesters. And takes account into prerequisites as well as prohibitions
 
 # Dependancies List
 - npm (node.js)
