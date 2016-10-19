@@ -11,9 +11,9 @@
   <title>monPlan Beta</title>
 
   <!--JavaScript Sources-->
-  <script src="./js/ext/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="./js/ext/jquery-3.1.1.min.js" type="text/javascript"></script> <!--This library is here to piss someone off-->
   <script src="./js/ext/semantic.min.js" type="text/javascript"></script>
-  <script src="./js/tableDrawer.js" type="text/javascript"></script>
+  <script src="./js/monPlan.js" type="text/javascript"></script>
   <script src="./js/main.js" type="text/javascript"></script>
   <script src="./js/tools.js" type="text/javascript"></script>
 
@@ -73,6 +73,7 @@
           <div class="ui inverted link list">
             <a href="https://monashunitplanner.github.io" target="_blank"  class="item">The Project</a>
             <a href="about.html" target="_blank"  class="item">About</a>
+            <a class="item" disabled>Server Status</a>
           </div>
         </div>
         <div class="seven wide column">
@@ -100,7 +101,7 @@
         <div class="ui header">Please enter your course details</div>
 
         <input id="startingYear" placeholder="Starting Year" class="field">
-        <input id="duration" placeholder="Duration of Course" class="field" disabled>
+        <input id="duration" placeholder="Course Length (incl. Starting Year)" class="field">
         <input id="semPerYear" placeholder="Semesters Per Year" class="field" disabled>
       </div>
     </div>
@@ -126,7 +127,7 @@
       </div>
       <div class="actions">
         <div class="ui positive right labeled icon button" onClick="submitYear()">
-          Submit
+          OK, I Got it!
           <i class="checkmark icon"></i>
         </div>
       </div>

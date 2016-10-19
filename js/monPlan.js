@@ -47,9 +47,9 @@ function drawTable(startingYear, semesters, units) {
             } else {
               var td = document.createElement('TD');
               if (i % 2 === 0){
-                var currentSem = (startingYear + i / 2) + " A"
+                var currentSem = (startingYear + i / 2) + " Sem 1"
               } else {
-                var currentSem = (startingYear + Math.floor(i/2)) + " B"
+                var currentSem = (startingYear + Math.floor(i/2)) + " Sem 2"
               }
               td.appendChild(document.createTextNode(currentSem));
               tr.appendChild(td);
@@ -65,16 +65,23 @@ function submitYear(){
     if(element) element.parentNode.removeChild(element);
   }
   var startingYear = document.getElementById('startingYear').value;
-  var minThreshold = (new Date().getFullYear()-7)
-  var maxThreshold = (new Date().getFullYear()+7)
-  if(startingYear > minThreshold && maxThreshold > startingYear ) {
-    drawTable(startingYear,8,4)
-  } else {
-    if(startingYear < minThreshold){
-       errorHandler("SUBYRLWR");
-    } else if(startingYear > maxThreshold) {
-      errorHandler("SUBYRGRTR");
+  var duration = document.getElementById('duration').value;
+  if (startingYear !== '' && duration !== '' ) {
+    var numOfSem = duration * 2;
+    var currentYear =  new Date().getFullYear();
+    var minThreshold = currentYear - 7;
+    var maxThreshold = currentYear + 7;
+    if(startingYear > minThreshold && maxThreshold > startingYear ) {
+      drawTable(startingYear,numOfSem,4)
+    } else {
+      if(startingYear < minThreshold){
+         errorHandler("SUBYRLWR");
+      } else if(startingYear > maxThreshold) {
+        errorHandler("SUBYRGRTR");
+      }
     }
+  } else {
+    errorHandler("CRSEFLDEMPTY")
   }
 }
 
@@ -92,13 +99,17 @@ function errorHandler(errorCode){
   if(errorCode !== "" || errorCode !== null){
       if(errorCode === "SUBYRLWR"){
         var errorMsg = 'Starting year is smaller than the minimum threshold year (current year - 7 years). You must be a current student';
-        var errorCode = 'Error SUBYRLWR (startingYear < minThreshold)';
+        var errorCode = 'Error ' + errorCode + ' (startingYear < minThreshold)';
       } else if (errorCode === "SUBYRGRTR"){
         var errorMsg = ('Starting year is larger than the max threshold year (current year + 7 years). Are you looking courses for a grandchild?');
-        var errorCode = 'Error SUBYRGRTR (startingYear > maxThreshold)';
+        var errorCode = 'Error ' + errorCode + ' (startingYear > maxThreshold)';
+      } else if (errorCode === "CRSEFLDEMPTY"){
+        var errorMsg = ('Some fields are empty on the Course Details Submission form. Please try again.');
+        var errorCode = 'Error ' + errorCode;
       }
       $('#errorCode').text(errorCode)
       $('#errorMessage').text(errorMsg);
       $('#errorModal').modal('show');
+      console.error(errorCode + ': ' + errorMsg);
   }
 }
