@@ -21,7 +21,8 @@ function search(target, array) {
 
 function parseCsv(){
   Papa.parse('./units/db.csv', {
-    download: true, 
+    download: true,
+	  header: true,
   	complete: function(results) {
   		console.log("Finished:", results.data);
   	}
