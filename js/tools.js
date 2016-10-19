@@ -24,8 +24,7 @@ function parseCsv(){
     download: true,
 	  header: true,
   	complete: function(results) {
-  		console.log("Finished:", results.data);
+  		sessionStorage.setItem('data', results.data);
   	}
   });
-
 }
