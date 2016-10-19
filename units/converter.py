@@ -14,16 +14,6 @@ def convsubtoarray(fileName,faculty):
 
 import csv
 
-def qsort_index(lst, index):
-    if len(lst) == 0:
-        return []
-    else:
-        pivot = lst[0]
-        lesser = qsort_index([x for x in lst[1:] if x[index] < pivot[index]], index)
-        greater = qsort_index([x for x in lst[1:] if x[index] >= pivot[index]], index)
-        return lesser + [pivot] + greater
-
-
 def toCSV(array):
     CSVfileName = 'db.csv'
     fl = open(CSVfileName, 'w')

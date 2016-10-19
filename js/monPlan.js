@@ -67,18 +67,22 @@ function submitYear(){
   var startingYear = document.getElementById('startingYear').value;
   var duration = document.getElementById('duration').value;
   if (startingYear !== '' && duration !== '' ) {
-    var numOfSem = duration * 2;
-    var currentYear =  new Date().getFullYear();
-    var minThreshold = currentYear - 7;
-    var maxThreshold = currentYear + 7;
-    if(startingYear > minThreshold && maxThreshold > startingYear ) {
-      drawTable(startingYear,numOfSem,4)
-    } else {
-      if(startingYear < minThreshold){
-         errorHandler("SUBYRLWR");
-      } else if(startingYear > maxThreshold) {
-        errorHandler("SUBYRGRTR");
+    if(duration < 10 && duration > 0){
+      var numOfSem = duration * 2;
+      var currentYear =  new Date().getFullYear();
+      var minThreshold = currentYear - 7;
+      var maxThreshold = currentYear + 7;
+      if(startingYear > minThreshold && maxThreshold > startingYear ) {
+        drawTable(startingYear,numOfSem,4)
+      } else {
+        if(startingYear < minThreshold){
+           errorHandler("SUBYRLWR");
+        } else if(startingYear > maxThreshold) {
+          errorHandler("SUBYRGRTR");
+        }
       }
+    } else {
+      errorHandler("DURNOTINRANGE")
     }
   } else {
     errorHandler("CRSEFLDEMPTY")
@@ -88,8 +92,7 @@ function submitYear(){
 function addUnit(year,semester,unit,unitName){
   var targetID = 'year-' + year + '-semester-' + semester +'-unit-'+unit
   var target =  document.getElementById(targetID);
-  if (typeof(target) != 'undefined' && target != null)  {
-    document.getElementById(target).value = "";
+  if (typeof(target) !== 'undefined' && target !== null)  {
     target.appendChild(document.createTextNode(unitName));
   }
 
@@ -97,15 +100,21 @@ function addUnit(year,semester,unit,unitName){
 
 function errorHandler(errorCode){
   if(errorCode !== "" || errorCode !== null){
+    var errorMsg;
       if(errorCode === "SUBYRLWR"){
-        var errorMsg = 'Starting year is smaller than the minimum threshold year (current year - 7 years). You must be a current student';
-        var errorCode = 'Error ' + errorCode + ' (startingYear < minThreshold)';
+        errorMsg = 'Starting year is smaller than the minimum threshold year (current year - 7 years). You must be a current student';
+        errorCode = 'Error ' + errorCode + ' (startingYear < minThreshold)';
       } else if (errorCode === "SUBYRGRTR"){
-        var errorMsg = ('Starting year is larger than the max threshold year (current year + 7 years). Are you looking courses for a grandchild?');
-        var errorCode = 'Error ' + errorCode + ' (startingYear > maxThreshold)';
+        errorMsg = ('Starting year is larger than the max threshold year (current year + 7 years). Are you looking courses for a grandchild?');
+        errorCode =  'Error ' + errorCode + ' (startingYear > maxThreshold)';
       } else if (errorCode === "CRSEFLDEMPTY"){
-        var errorMsg = ('Some fields are empty on the Course Details Submission form. Please try again.');
-        var errorCode = 'Error ' + errorCode;
+        errorMsg = ('Some fields are empty on the Course Details Submission form. Please try again.');
+      } else if (errorCode === "DURNOTINRANGE"){
+        errorMsg = ("Duration is not in range (0-10 years). Please make sure that you don't have a large HECS debt");
+        errorCode = 'Error ' + errorCode
+      } else {
+        errorCode = 'An Unknown Error Occured';
+        errorMsg = ('An unknown error occured, please contact the developers');
       }
       $('#errorCode').text(errorCode)
       $('#errorMessage').text(errorMsg);
