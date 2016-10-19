@@ -17,5 +17,14 @@ function search(target, array) {
     }
   }
   return false
+}
+
+function parseCsv(){
+  Papa.parse('./units/db.csv', {
+    download: true, 
+  	complete: function(results) {
+  		console.log("Finished:", results.data);
+  	}
+  });
 
 }

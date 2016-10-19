@@ -92,8 +92,7 @@ function submitYear(){
 function addUnit(year,semester,unit,unitName){
   var targetID = 'year-' + year + '-semester-' + semester +'-unit-'+unit
   var target =  document.getElementById(targetID);
-  if (typeof(target) != 'undefined' && target != null)  {
-    document.getElementById(target).value = "";
+  if (typeof(target) !== 'undefined' && target !== null)  {
     target.appendChild(document.createTextNode(unitName));
   }
 
