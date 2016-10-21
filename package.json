@@ -13,9 +13,6 @@
   "keywords": ["Monash Uni","degree","course planner","electron"],
   "author": "monPlan",
   "license": "MIT",
-  "dependencies": {
-    "jQuery": "~1.7.4"
-  },
   "bugs": {
     "url": "https://github.com/MonashUnitPlanner/monPlan/issues"
   },

@@ -20,11 +20,11 @@ function search(target, array) {
 }
 
 function parseCsv(){
-  Papa.parse('./units/db.csv', {
+  var dbObject = Papa.parse('./units/db.csv', {
     download: true,
 	  header: true,
-  	complete: function(results) {
-      console.log(results)
-  	}
+    worker: true,
+    }
   });
+  return dbObject
 }
