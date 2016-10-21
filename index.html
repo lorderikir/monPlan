@@ -116,25 +116,61 @@
   </div>
 
 
-    <div class="ui modal" id="errorModal">
-      <i class="close icon"></i>
-      <div class="header">
-        <i class="warning sign icon"></i>
-        An Error has Occured!
-      </div>
-      <div class="content">
-        <div class="description">
-          <div id="errorCode" class="ui header">The following error has occured</div>
-          <div id="errorMessage"></div>
-        </div>
-      </div>
-      <div class="actions">
-        <div class="ui positive right labeled icon button" onClick="submitYear()">
-          OK, I Got it!
-          <i class="checkmark icon"></i>
-        </div>
+  <div class="ui modal" id="errorModal">
+    <i class="close icon"></i>
+    <div class="header">
+      <i class="warning sign icon"></i>
+      An Error has Occured!
+    </div>
+    <div class="content">
+      <div class="description">
+        <div id="errorCode" class="ui header">The following error has occured</div>
+        <div id="errorMessage"></div>
       </div>
     </div>
+    <div class="actions">
+      <div class="ui positive right labeled icon button">
+        OK, I Got it!
+        <i class="checkmark icon"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui modal" id="addUnit">
+    <i class="close icon"></i>
+    <div class="header">
+      <i class="add square icon"></i>
+      Add Unit - Search for Unit
+    </div>
+    <div class="content">
+      <div class="description">
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui positive right labeled icon button" onClick="submitYear()">
+        Look For Unit!
+        <i class="checkmark icon"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui modal" id="addUnitStep2">
+    <i class="close icon"></i>
+    <div class="header">
+      <i class="add square icon"></i>
+      Add Unit -Are You Sure?
+    </div>
+    <div class="content">
+      <div class="description">
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui positive right labeled icon button" onClick="submitYear()">
+        Add Unit
+        <i class="checkmark icon"></i>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
