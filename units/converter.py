@@ -56,7 +56,7 @@ def convsubtoarray(fileName,faculty):
         record = record.split(' ',1)
         unitCode=str(record[0])
         unitName=record[1]
-        print("Getting Record for " + unitCode)
+        print("Getting Record for " + unitCode + '(' +faculty +')')
         syp = webScraper.getSypnosis(unitCode)
         preq = webScraper.getPreq(unitCode)
         proh = webScraper.getProhibitions(unitCode)
@@ -76,7 +76,7 @@ def toCSV(array):
         writer.writerow(values)
     fl.close()
 
-faculties = ['ada']
+faculties = ['ada','arts','buseco','edu','eng','it','law','med','pha','sci']
 newarray = []
 for f in faculties:
     fileName = f + '.txt'
