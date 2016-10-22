@@ -1,14 +1,18 @@
 # Monash Course Planner (monPlan)
 Plan out your degree with **Monash Course Planner**. Monash University Course Planner is designed to help you to choose your units for the coming semesters. And takes account into prerequisites as well as prohibitions
 
+# Notice for Devs
+Please note that we are using **Agile** for this project, each sprint will be 1-2 months, with each a meeting in **Slack** before the start of each week and the start/end of each sprint.
+
+To visit the our sprint(s) visit: https://github.com/MonashUnitPlanner/monPlan/projects/
+
+Our Slack address is at: https://monplan.slack.com, please contact an admin to have access to our slack, our admins are currently are @lorderikir and @Joshua-Xavier
+
 # Dependancies List
 - npm (node.js)
 - electron
-- Pure.css
-
-- (sql.js)
-
-_Database is currently stored as a sqlite db, this may be pushed onto a SQL Server in the near future_
+- Semantic-ui
+- Papaparse.js
 
 # Usage
 ## Installation
@@ -25,9 +29,12 @@ This will run an electron instance
 
 # Team
 ## Developement Leads
+@lorderikir
+@Joshua-Xavier
 
 ## Developers
-
+@jos0003
+@Shoryo
 
 # License
 MIT License
