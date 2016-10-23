@@ -23,8 +23,16 @@ function parseCsv(){
   var dbObject = Papa.parse('./units/db.csv', {
     download: true,
 	  header: true,
+    complete: parseCsvCallback(results,file),
     worker: true,
-    }
   });
   return dbObject
+}
+
+function parseCsvCallback(results,file){
+  console.log(results)
+}
+
+function togglePrivacy(){
+  $('#privacy').modal('toggle');
 }
