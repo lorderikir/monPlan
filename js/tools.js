@@ -1,3 +1,24 @@
+
+
+
+function parseCsvCallback(results,file){
+  console.log(results)
+}
+
+function togglePrivacy(){
+  $('#privacy').modal('toggle');
+}
+
+function toggleToS(){
+  $('#termsOfUse').modal('toggle');
+}
+
+function findUnit() {
+  $.getJSON("./units/db.json", function(json) {
+    console.log(json); // this will show the info it in firebug console
+  });
+}
+
 //asume list is already sorted, use binary search
 function search(target, array) {
   var lowerBound = 0;
@@ -9,7 +30,7 @@ function search(target, array) {
     if(target === array[middle]){
       return true
     } else {
-      if(target < array[middle]){
+      if(target < array[middle]) {
         upperBound = middle - 1
       } else {
         lowerBound = middle + 1
@@ -17,22 +38,4 @@ function search(target, array) {
     }
   }
   return false
-}
-
-function parseCsv(){
-  var dbObject = Papa.parse('./units/db.csv', {
-    download: true,
-	  header: true,
-    complete: parseCsvCallback(results,file),
-    worker: true,
-  });
-  return dbObject
-}
-
-function parseCsvCallback(results,file){
-  console.log(results)
-}
-
-function togglePrivacy(){
-  $('#privacy').modal('toggle');
 }

@@ -65,7 +65,7 @@
           <h4 class="ui inverted header">Developers</h4>
           <div class="ui inverted link list">
             <a href="https://github.com/MonashUnitPlanner" target="_blank" class="item">GitHub Project</a>
-            <a href="https://monplan.slack.com" class="item">Slack</a>
+            <a href="https://monplan.slack.com" class="item">Slack (for Devs)</a>
           </div>
         </div>
         <div class="four wide column">
@@ -84,7 +84,7 @@
       <p class="item">monPlan</p>
       <div class="ui horizontal inverted small divided link list">
         <a class="item" href="#">Contact Us</a>
-        <a class="item" href="#">Terms and Conditions</a>
+        <a class="item" onClick="toggleToS()">Terms of Use</a>
         <a class="item" onClick="togglePrivacy()">Privacy Policy</a><br>
           <p class="item">This project is licensed under <strong>the MIT License</strong></p>
       </div>
@@ -174,7 +174,7 @@
     </div>
   </div>
 
-  <div class="ui modal" id="termsOfUse">
+  <div class="ui basic modal" id="termsOfUse">
     <i class="close icon"></i>
     <div class="header">
       <i class="users icon"></i>
@@ -182,11 +182,23 @@
     </div>
     <div class="content">
       <div class="description">
+        By using this site, you are agreeing to the following:
+        <ul>
+          <li>The site's source code and the project are automatically bound by <strong>the MIT License</strong>, unless otherwise stated
+              <ul>
+                <li>Copying the site's source code or code from the GitHub repository is a Federal Offence, all code and work is protected under the Australian Copyright Act 1966</li>
+                <li>The following libraries used within this project are bound by other Licenses: PapaParse, Semantic UI</li>
+              </ul>
+          </li>
+          <li>You acknowledge that your data is protected under our Privacy Policy, which may change from time to time</li>
+          <li>At this stage, this site is not endorsed by Monash University, we are in no way affiliated with Monash University's Administration Staff</li>
+          <li>This Terms of Use (ToS) agreement may change from time to time</li>
+        </ul>
       </div>
     </div>
     <div class="actions">
       <div class="ui positive right labeled icon button" onClick="">
-        Add Unit
+        OK
         <i class="checkmark icon"></i>
       </div>
     </div>
@@ -231,8 +243,10 @@
         <div class="innerText">We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place. </div>
         <div class="innerText"><br><strong>Does our site allow third-party behavioral tracking?</strong><br></div>
         <div class="innerText">It's also important to note that we do not allow third-party behavioral tracking</div><span id="coppAct"></span><br>
-        <div class="blueText"><strong>COPPA (Children Online Privacy Protection Act)</strong></div><br><div class="innerText">When it comes to the collection of personal information from children under the age of 13 years old, the Children's Online Privacy Protection Act (COPPA) puts parents in control.  The Federal Trade Commission, United States' consumer protection agency, enforces the COPPA Rule, which spells out what operators of websites and online services must do to protect children's privacy and safety online.<br><br></div><div class="innerText">We do not specifically market to children under the age of 13 years old.</div><span id="ftcFip"></span><br><div class="blueText"><strong>Fair Information Practices</strong></div><br><div class="innerText">The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.<br><br></div><div class="innerText"><strong>In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:</strong></div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Within 1 business day</div><div class="innerText">We will notify the users via in-site notification</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Within 1 business day</div><div class="innerText"><br>We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.</div><span id="canSpam"></span><br><div class="blueText"><strong>CAN SPAM Act</strong></div><br><div class="innerText">The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.<br><br></div><div class="innerText"><strong>We collect your email address in order to:</strong></div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Send information, respond to inquiries, and/or other requests or questions</div><div class="innerText"><br><strong>To be in accordance with CANSPAM, we agree to the following:</strong></div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Not use false or misleading subjects or email addresses.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Identify the message as an advertisement in some reasonable way.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Include the physical address of our business or site headquarters.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Monitor third-party email marketing services for compliance, if one is used.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Honor opt-out/unsubscribe requests quickly.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Allow users to unsubscribe by using the link at the bottom of each email.</div><div class="innerText"><strong><br>If at any time you would like to unsubscribe from receiving future emails, you can email us at</strong></div> and we will promptly remove you from <strong>ALL</strong> correspondence.</div><br><span id="ourCon"></span><br><div class="blueText"><strong>Contacting Us</strong></div><br><div class="innerText">If there are any questions regarding this privacy policy, you may contact us using the information below.<br><br></div>
-        <div class="innerText">https://monashunitplanner.github.io/monPlan/</div><div class="innerText"><br>Last Edited on 2016-10-22</div></body></html>
+        <div class="blueText"><strong>COPPA (Children Online Privacy Protection Act)</strong></div><br><div class="innerText">When it comes to the collection of personal information from children under the age of 13 years old, the Children's Online Privacy Protection Act (COPPA) puts parents in control.  The Federal Trade Commission, United States' consumer protection agency, enforces the COPPA Rule, which spells out what operators of websites and online services must do to protect children's privacy and safety online.<br><br></div><div class="innerText">We do not specifically market to children under the age of 13 years old.</div><span id="ftcFip"></span><br><div class="blueText"><strong>Fair Information Practices</strong></div><br><div class="innerText">The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.<br><br></div><div class="innerText"><strong>In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:</strong></div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Within 1 business day</div><div class="innerText">We will notify the users via in-site notification</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Within 1 business day</div><div class="innerText"><br>We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.</div><span id="canSpam"></span><br><div class="blueText"><strong>CAN SPAM Act</strong></div><br><div class="innerText">The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.<br><br></div><div class="innerText"><strong>We collect your email address in order to:</strong></div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Send information, respond to inquiries, and/or other requests or questions</div><div class="innerText"><br><strong>To be in accordance with CANSPAM, we agree to the following:</strong></div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Not use false or misleading subjects or email addresses.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Identify the message as an advertisement in some reasonable way.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Include the physical address of our business or site headquarters.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Monitor third-party email marketing services for compliance, if one is used.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Honor opt-out/unsubscribe requests quickly.</div><div class="innerText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>�</strong> Allow users to unsubscribe by using the link at the bottom of each email.</div><div class="innerText"><strong><br>If at any time you would like to unsubscribe from receiving future emails, you can email us at</strong></div> and we will promptly remove you from <strong>ALL</strong> correspondence.</div><br><span id="ourCon"></span><br><div class="blueText"><strong>Contacting Us</strong></div><br>
+        <div class="innerText">If there are any questions regarding this privacy policy, you may contact us using the information below.<br><br></div>
+        <div class="innerText">https://monashunitplanner.github.io/monPlan/
+        </div><div class="innerText"><br>Last Edited on 2016-10-22</div>
     </div>
     <div class="actions">
       <div class="ui positive right labeled icon button">
