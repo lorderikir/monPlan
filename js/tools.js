@@ -14,23 +14,23 @@ function toggleToS(){
 }
 
 function findUnit() {
-  $.getJSON("./units/db.json", function(json) {
-    console.log(json); // this will show the info it in firebug console
-  });
+  var jsonObj = $.getJSON("./units/db.json")
+  var unitCode = jsonObj.responseJSON
+
 }
 
 //asume list is already sorted, use binary search
-function search(target, array) {
+function findUnitCode(target, array, targetName) {
   var lowerBound = 0;
   var upperBound = (array.length - 1);
   var currentbound;
 
   while (lowerBound <= upperBound){
     var middle = Math.floor((lowerBound + upperBound)/2) //integer dicision to find middle
-    if(target === array[middle]){
+    if(target === array[middle].UnitCode){
       return true
     } else {
-      if(target < array[middle]) {
+      if(target < array[middle].UnitCode) {
         upperBound = middle - 1
       } else {
         lowerBound = middle + 1
