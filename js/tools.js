@@ -15,12 +15,16 @@ function toggleToS(){
 
 function findUnit() {
   var jsonObj = $.getJSON("./units/db.json");
-  var unitCode = jsonObj.responseJSON;
   var tgt = $('#unitCodeSearch').val();
 
   if (tgt !== null || tgt !== "") {
-    var unitDetails = findUnitCode(tgt, unitCode);
-    console.log(unitDetails);
+    var unitDetails = findUnitCode(tgt, jsonObj.responseJSON);
+    if (unitDetails === false) {
+      errorHandler('UNITCODENOTFOUND')
+    } else {
+      console.info('Success')
+      console.log(unitDetails);
+    }
   } else {
     errorHandler('UNITCODEEMPTY');
   }

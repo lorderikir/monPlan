@@ -74,6 +74,7 @@ function submitYear(){
       var maxThreshold = currentYear + 7;
       if(startingYear > minThreshold && maxThreshold > startingYear ) {
         drawTable(startingYear,numOfSem,4)
+        sessionStorage.setItem('tableDrawn', true);
       } else {
         if(startingYear < minThreshold){
            errorHandler("SUBYRLWR");
@@ -115,9 +116,12 @@ function errorHandler(errorCode){
       } else if (errorCode === "UNITCODEEMPTY"){
         errorMsg = ("Unit Code is empty. Please enter a Code for a UNIT");
         errorCode = 'Error ' + errorCode
+      } else if (errorCode === "UNITCODENOTFOUND") {
+        errorMsg = ("Unit Code cannot be found. Please enter verify unit code is valid");
+        errorCode = 'Error ' + errorCode
       } else {
         errorCode = 'An Unknown Error Occured';
-        errorMsg = ('An unknown error occured, please contact the developers');
+        errorMsg = ('An unknown error occured, if this problem persists please contact the developers or log an issue request at https://gitreports.com/issue/MonashUnitPlanner/monPlan/');
       }
       $('#errorCode').text(errorCode)
       $('#errorMessage').text(errorMsg);
