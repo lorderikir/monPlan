@@ -1,4 +1,7 @@
-
+//document onLoad instructions
+$(document).ready(function(){
+  $('.ui.checkbox').checkbox();
+});
 
 
 function parseCsvCallback(results,file){

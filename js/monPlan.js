@@ -1,4 +1,4 @@
-function drawTable(startingYear, semesters, units) {
+function drawTable(startingYear, semesters, units, summerSem, winterSem) {
     var startingYear = parseInt(startingYear);
     var myTableDiv = document.getElementById("tableLoc");
 
@@ -29,12 +29,12 @@ function drawTable(startingYear, semesters, units) {
     var tableBody = document.createElement('TBODY');
     table.appendChild(tableBody);
 
+    //rows
     for (var i = 0; i < semesters; i++) {
         var tr = document.createElement('TR');
         tableBody.appendChild(tr);
-
-
         console.log(currentSem)
+        //columns
         for (var j = 0; j < units+1; j++) {
             if(j > 0) {
               var td = document.createElement('TD');
@@ -66,6 +66,8 @@ function submitYear(){
   }
   var startingYear = document.getElementById('startingYear').value;
   var duration = document.getElementById('duration').value;
+
+
   if (startingYear !== '' && duration !== '' ) {
     if(duration < 10 && duration > 0){
       var numOfSem = duration * 2;
@@ -73,6 +75,12 @@ function submitYear(){
       var minThreshold = currentYear - 7;
       var maxThreshold = currentYear + 7;
       if(startingYear > minThreshold && maxThreshold > startingYear ) {
+        if($('#summer').is(':checked')) {
+          numOfSem += 2
+        }
+        if($('#winter').is(':checked')){
+          numOfSem += 1
+        }
         drawTable(startingYear,numOfSem,4)
         sessionStorage.setItem('tableDrawn', true);
       } else {
