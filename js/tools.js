@@ -14,10 +14,16 @@ function toggleToS(){
 }
 
 function findUnit() {
-  var jsonObj = $.getJSON("./units/db.json")
-  var unitCode = jsonObj.responseJSON
+  var jsonObj = $.getJSON("./units/db.json");
+  var unitCode = jsonObj.responseJSON;
+  var tgt = $('#unitCodeSearch').val();
 
-  var unitDetails = (tgt, unitCode)
+  if (tgt !== null || tgt !== "") {
+    var unitDetails = findUnitCode(tgt, unitCode);
+    console.log(unitDetails);
+  } else {
+    errorHandler('UNITCODEEMPTY');
+  }
 }
 
 //asume list is already sorted, use binary search
@@ -31,7 +37,6 @@ function findUnitCode(target, array) {
     if(target === array[middle].UnitCode){
       var unitName = array[middle].UnitName
       var unitFac = array[middle].Faculty
-
 
       var returnObject = {"UnitName": unitName,"Faculty": unitFac}
       return returnObject

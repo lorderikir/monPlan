@@ -112,6 +112,9 @@ function errorHandler(errorCode){
       } else if (errorCode === "DURNOTINRANGE"){
         errorMsg = ("Duration is not in range (0-10 years). Please make sure that you don't have a large HECS debt");
         errorCode = 'Error ' + errorCode
+      } else if (errorCode === "UNITCODEEMPTY"){
+        errorMsg = ("Unit Code is empty. Please enter a Code for a UNIT");
+        errorCode = 'Error ' + errorCode
       } else {
         errorCode = 'An Unknown Error Occured';
         errorMsg = ('An unknown error occured, please contact the developers');
