@@ -1,5 +1,11 @@
-# Monash Course Planner (monPlan)
-Plan out your degree with **Monash Course Planner**. Monash University Course Planner is designed to help you to choose your units for the coming semesters. And takes account into prerequisites as well as prohibitions
+# monPlan
+Plan out your degree with **monPlan** _Previously known as Monash Unit Planner_ . monPlan is designed to help you to choose your units for the coming semesters. And takes account into prerequisites as well as prohibitions
+
+# Notice(s)
+There are several notice(s) at the moment:
+- We are currently looking for more devs! Submit an application here today: https://goo.gl/TO6Z3M
+- We are currently holding on progamming/finding a solution for Course Verification, as we will be talking with _eSolutions_ regarding this matter
+- Our WebScraper has been Open-Sourced! this is avaliable at: https://github.com/MonashUnitPlanner/webScrape/
 
 # Notice for Devs
 Please note that we are using **Agile** for this project, each sprint will be 1-2 months, with each a meeting in **Slack** before the start of each week and the start/end of each sprint.
@@ -7,6 +13,12 @@ Please note that we are using **Agile** for this project, each sprint will be 1-
 To visit the our sprint(s) visit: https://github.com/MonashUnitPlanner/monPlan/projects/
 
 Our Slack address is at: https://monplan.slack.com, please contact an admin to have access to our slack, our admins are currently are @lorderikir and @Joshua-Xavier
+
+## To Do List
+- [ ] Implement more features within the core-code, e.g. add unit description pop-up modals 
+- [X] Implement Summer and Winter Units
+- [ ] Test out a node.js API solution
+- [ ] Test out an ASP.Net Solution with an SQL connection
 
 # Dependancies List
 - npm (node.js)
@@ -39,7 +51,7 @@ This will run an electron instance
 # License
 MIT License
 
-Copyright (c) 2016 MonashUnitPlan (monPlan)
+Copyright (c) 2016 monPlan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
