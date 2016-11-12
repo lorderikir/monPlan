@@ -39,10 +39,11 @@ function drawTable(startingYear, semesters, units, summerSem, winterSem) {
             if(j > 0) {
               var td = document.createElement('TD');
               if (i % 2 === 0){
-                td.setAttribute('id',('year-'+i+'-semester-'+'a'+'-unit-'+j))
+                var mode = 'a'
               } else {
-                td.setAttribute('id',('year-'+i+'-semester-'+'b'+'-unit-'+j))
+                var mode = 'b'
               }
+              td.setAttribute('id',('year-'+i+'-semester-'+ mode +'-unit-'+j))
               tr.appendChild(td);
             } else {
               var td = document.createElement('TD');
@@ -55,6 +56,53 @@ function drawTable(startingYear, semesters, units, summerSem, winterSem) {
               tr.appendChild(td);
             }
         }
+        if(summerSem === true && i % 2 !== 0){
+          var tr = document.createElement('TR');
+          tableBody.appendChild(tr);
+          for (var j = 0; j < units+1; j++) {
+              if(j > 0) {
+                var td = document.createElement('TD');
+                td.setAttribute('id',('year-'+i+'-semester-summerA-' +'-unit-'+j))
+                tr.appendChild(td);
+              } else {
+                var td = document.createElement('TD');
+                var currentSem = (startingYear + Math.floor(i/2)) + " Summer A"
+                td.appendChild(document.createTextNode(currentSem));
+                tr.appendChild(td);
+              }
+          }
+          var tr = document.createElement('TR');
+          tableBody.appendChild(tr);
+          for (var j = 0; j < units+1; j++) {
+              if(j > 0) {
+                var td = document.createElement('TD');
+                td.setAttribute('id',('year-'+i+'-semester-summerA-' +'-unit-'+j))
+                tr.appendChild(td);
+              } else {
+                var td = document.createElement('TD');
+                var currentSem = (startingYear + Math.floor(i/2)) + " Summer B"
+                td.appendChild(document.createTextNode(currentSem));
+                tr.appendChild(td);
+              }
+          }
+
+        }
+      if(winterSem === true && i % 2 === 0){
+        var tr = document.createElement('TR');
+        tableBody.appendChild(tr);
+        for (var j = 0; j < units+1; j++) {
+            if(j > 0) {
+              var td = document.createElement('TD');
+              td.setAttribute('id',('year-'+i+'-semester-winterA-' +'-unit-'+j))
+              tr.appendChild(td);
+            } else {
+              var td = document.createElement('TD');
+              var currentSem = (startingYear + Math.floor(i/2)) + " Winter A"
+              td.appendChild(document.createTextNode(currentSem));
+              tr.appendChild(td);
+            }
+        }
+      }
     }
     myTableDiv.appendChild(table);
 }
@@ -76,12 +124,12 @@ function submitYear(){
       var maxThreshold = currentYear + 7;
       if(startingYear > minThreshold && maxThreshold > startingYear ) {
         if($('#summer').is(':checked')) {
-          numOfSem += 2
+          var summerSemester = true;
         }
         if($('#winter').is(':checked')){
-          numOfSem += 1
+          var winterSemester = true;
         }
-        drawTable(startingYear,numOfSem,4)
+        drawTable(startingYear,numOfSem,4, summerSemester, winterSemester);
         sessionStorage.setItem('tableDrawn', true);
       } else {
         if(startingYear < minThreshold){
@@ -104,7 +152,6 @@ function addUnit(year,semester,unit,unitName){
   if (typeof(target) !== 'undefined' && target !== null)  {
     target.appendChild(document.createTextNode(unitName));
   }
-
 }
 
 function errorHandler(errorCode){
