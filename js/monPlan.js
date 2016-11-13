@@ -175,8 +175,8 @@ function errorHandler(errorCode){
         errorMsg = ("Unit Code cannot be found. Please enter verify unit code is valid");
         errorCode = 'Error ' + errorCode
       } else {
-        errorCode = 'An Unknown Error Occured';
-        errorMsg = ('An unknown error occured, if this problem persists please contact the developers or log an issue request at https://gitreports.com/issue/MonashUnitPlanner/monPlan/');
+        errorCode = 'An Unknown Error has Occured';
+        errorMsg = ('An unknown error has occured, if this problem persists please contact the developers or log an issue request at https://gitreports.com/issue/MonashUnitPlanner/monPlan/');
       }
       $('#errorCode').text(errorCode)
       $('#errorMessage').text(errorMsg);

@@ -6,10 +6,18 @@ $(document).ready(function(){
 });
 
 function storeData(){
-  var jsonObj = $.getJSON("./units/db.json");
-  var searchArray = jsonObj.responseJSON;
+  var xhr = new XMLHttpRequest();
+  var url = "./units/db.json"
 
-  sessionStorage.setItem('basicDB',searchArray);
+  xhr.onreadystatechange = function() {
+    if(this.readyState === 4 && this.status == 200){
+      var data = JSON.parse(this.responseText);
+      sessionStorage.setItem('basicDB',data);
+      console.log('Success!');
+    }
+  };
+  xhr.open("GET",url,true);
+  xhr.send();
 }
 
 function parseCsvCallback(results,file){
