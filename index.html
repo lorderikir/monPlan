@@ -42,20 +42,33 @@
 <body class="site">
 
   <div class="ui top attached inverted stackable menu">
-    <div class="ui container">
-      <a class="header item">
-        <img class="logo" src="./img/logo.png">
-        monPlan Alpha
-      </a>
-      <a href="index.html" class="item">Home</a>
-      <a class="item">
-        <div class="ui primary button" id="openCourseModal">Draw Course Map</div>
-      </a>
-      <a class="item">
-        <div class="ui grey button" disabled>Add Units</div>
-      </a>
+    <a class="header item">
+      <img class="logo" src="./img/logo.png">
+      monPlan Alpha
+    </a>
+    <a href="index.html" class="item">Home</a>
+    <a class="item">
+      <div class="ui primary button" id="openCourseModal">Draw Course Map</div>
+    </a>
+    <a class="item">
+      <div class="ui grey button" disabled>Add Units</div>
+    </a>
+
+    <div class="right menu">
+      <div class="ui dropdown icon item">
+        <i class="info icon"></i>
+        <div class="menu">
+            <h4 class="ui inverted header">Quick Links (for Devs)</h4>
+            <a href="https://github.com/MonashUnitPlanner" target="_blank" class="item"><i class="github icon"></i>GitHub Project</a>
+            <a href="https://monplan.slack.com" class="item"><i class="slack icon"></i>Slack (for Devs)</a>
+            <h4 class="ui inverted header">About</h4>
+            <a href="https://gitreports.com/issue/MonashUnitPlanner/monPlan" target="_blank"  class="item"><i class="bug icon"></i> Submit an Issue</a>
+            <a href="https://monashunitplanner.github.io" target="_blank"  class="item"><i class="info icon"></i>The Project</a>
+            <a href="https://goo.gl/TO6Z3M" target="_blank" class="item"><i class="users icon"></i> Join the Team</a>
+        </div>
+      </div>
     </div>
-  </div>
+</div>
 
   <div class="ui main text container">
     <h1 class="ui header">Monash Course Planner Beta</h1>
@@ -65,37 +78,15 @@
 
   <div class="ui inverted vertical footer stackable segment">
     <div class="ui center aligned container">
-      <div class="ui stackable inverted divided grid">
-        <div class="four wide column">
-          <h4 class="ui inverted header">Developers</h4>
-          <div class="ui inverted link list">
-            <a href="https://github.com/MonashUnitPlanner" target="_blank" class="item"><i class="github icon"></i>GitHub Project</a>
-            <a href="https://monplan.slack.com" class="item"><i class="slack icon"></i>Slack (for Devs)</a>
-          </div>
-        </div>
-        <div class="four wide column">
-          <h4 class="ui inverted header">About</h4>
-          <div class="ui inverted link list">
-            <a href="https://gitreports.com/issue/MonashUnitPlanner/monPlan" target="_blank"  class="item"><i class="bug icon"></i> Submit an Issue</a>
-            <a href="https://monashunitplanner.github.io" target="_blank"  class="item">The Project</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">monPlan</h4>
-          <p>A Monash University Course Planner, designed by Monash Students, for Monash Students </p>
-        </div>
-      </div>
-      <div class="ui inverted section divider"></div>
       <img src="./img/logo.png" class="ui centered mini image">
-      <p class="item">monPlan</p>
+      <h4 class="ui inverted header">monPlan</h4>
+      <p>A Monash University Course Planner, designed by Monash Students, for Monash Students </p>
       <div class="ui horizontal inverted small divided link list">
-        <a class="item" href="#">Contact Us</a>
         <a class="item" onClick="toggleToS()">Terms of Use</a>
         <a class="item" onClick="togglePrivacy()">Privacy Policy</a><br>
-          <p class="item">This project is licensed under <strong>the MIT License</strong></p>
       </div>
-      <div class="ui horizontal inverted small divided link list">
-      </div>
+      <p>This project is licensed under <strong>the MIT License</strong></p>
+      <p>Copyright &copy; monPlan 2016</p>
     </div>
   </div>
 
@@ -168,7 +159,7 @@
       </div>
     </div>
     <div class="actions">
-      <div class="ui positive right labeled icon button" onClick="">
+      <div class="ui positive right labeled icon button" onClick="findUnit()">
         Look For Unit!
         <i class="checkmark icon"></i>
       </div>
@@ -192,6 +183,7 @@
       </div>
     </div>
   </div>
+
 
   <div class="ui basic modal" id="termsOfUse">
     <i class="close icon"></i>
