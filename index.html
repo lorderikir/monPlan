@@ -36,10 +36,18 @@
     margin: 5em 0em 0em;
     padding: 5em 0em;
   }
-  </style>
+  #Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  #Site-Content{
+    flex: 2;
+  }
+</style>
 
 </head>
-<body class="site">
+<body class="site" id="Site">
 
   <div class="ui top attached inverted stackable menu">
     <a class="header item">
@@ -70,13 +78,19 @@
     </div>
 </div>
 
-  <div class="ui main text container">
+  <div class="ui main text container" id="Site-Content">
     <h1 class="ui header">Monash Course Planner Beta</h1>
 
     <div id="tableLoc"></div>
+
+    <div class="ui right rail">
+      <div class="ui segment">
+          Test
+      </div>
+    </div>
   </div>
 
-  <div class="ui inverted vertical footer stackable segment">
+  <div class="ui inverted fixed vertical footer stackable segment">
     <div class="ui center aligned container">
       <img src="./img/logo.png" class="ui centered mini image">
       <h4 class="ui inverted header">monPlan</h4>
