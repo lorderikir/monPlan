@@ -18,10 +18,14 @@ function toggleToS(){
 
 function findUnit() {
   var jsonObj = $.getJSON("./units/db.json");
+  var searchArray = jsonObj.responseJSON;
+  console.log(jsonObj);
   var tgt = $('#unitCodeSearch').val();
+  console.log(jsonObj.responseJSON);
+  console.log(tgt)
 
   if (tgt !== null || tgt !== "") {
-    var unitDetails = findUnitCode(tgt, jsonObj.responseJSON);
+    var unitDetails = findUnitCode(tgt, searchArray);
     if (unitDetails === false) {
       errorHandler('UNITCODENOTFOUND')
     } else {
