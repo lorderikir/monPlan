@@ -2,7 +2,15 @@
 $(document).ready(function(){
   $('.ui.checkbox').checkbox();
   $('.ui.dropdown').dropdown();
+  storeData();
 });
+
+function storeData(){
+  var jsonObj = $.getJSON("./units/db.json");
+  var searchArray = jsonObj.responseJSON;
+
+  sessionStorage.setItem('basicDB',searchArray);
+}
 
 function parseCsvCallback(results,file){
   console.log(results)
@@ -17,13 +25,8 @@ function toggleToS(){
 }
 
 function findUnit() {
-  var jsonObj = $.getJSON("./units/db.json");
-  var searchArray = jsonObj.responseJSON;
-  console.log(jsonObj);
   var tgt = $('#unitCodeSearch').val();
-  console.log(jsonObj.responseJSON);
-  console.log(tgt)
-
+  var searchArray = sessionStorage.getItem('basicDB')
   if (tgt !== null || tgt !== "") {
     var unitDetails = findUnitCode(tgt, searchArray);
     if (unitDetails === false) {
