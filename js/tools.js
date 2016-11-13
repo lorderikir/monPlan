@@ -1,8 +1,8 @@
 //document onLoad instructions
 $(document).ready(function(){
   $('.ui.checkbox').checkbox();
+  $('.ui.dropdown').dropdown();
 });
-
 
 function parseCsvCallback(results,file){
   console.log(results)
