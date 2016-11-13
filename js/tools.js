@@ -12,7 +12,7 @@ function storeData(){
   xhr.onreadystatechange = function() {
     if(this.readyState === 4 && this.status == 200){
       var data = JSON.parse(this.responseText);
-      sessionStorage.setItem('basicDB',data);
+      sessionStorage.setItem('basicDB',JSON.stringify(data));
       console.log('Success!');
     }
   };
@@ -36,7 +36,7 @@ function findUnit() {
   var tgt = $('#unitCodeSearch').val();
   var searchArray = sessionStorage.getItem('basicDB')
   if (tgt !== null || tgt !== "") {
-    var unitDetails = findUnitCode(tgt, searchArray);
+    var unitDetails = findUnitCode(tgt, JSON.parse(searchArray));
     if (unitDetails === false) {
       errorHandler('UNITCODENOTFOUND')
     } else {
