@@ -72,3 +72,10 @@ function findUnitCode(target, array) {
   }
   return false
 }
+
+function addUnitDetails(unitCode, unitName,unitDescription){
+  $('#unitDetCode').text(unitCode);
+  $('#unitDetName').text(unitName);
+  $('#unitDetDescrip').text(unitDescription);
+  $('#addUnitDetails').modal('toggle')
+}
