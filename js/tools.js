@@ -11,6 +11,9 @@ $(document).ready(function(){
       searchFields   : [
         'UnitCode'
       ],
+      fields: [
+        'UnitCode'
+      ],
       searchFullText: false
     })  ;
 
