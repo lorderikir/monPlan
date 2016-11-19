@@ -37,11 +37,13 @@ function findUnit() {
   var searchArray = sessionStorage.getItem('basicDB')
   if (tgt !== null || tgt !== "") {
     var unitDetails = findUnitCode(tgt, JSON.parse(searchArray));
+    console.log(untiDetails)
     if (unitDetails === false) {
       errorHandler('UNITCODENOTFOUND')
     } else {
-      console.info('Success')
-      addUnitDetails(tgt, unitDetails.unitName ,unitDetails.descrip, unitDetails.unitPeqs, unitDetails.unitProhib);
+      console.info('Success');
+      var unitHeader = tgt + " " + "Faculty: " + unitDetails.Faculty;
+      addUnitDetails(unitHeader, unitDetails.UnitName ,unitDetails.Description, unitDetails.Prerequisites, unitDetails.Prohibitions);
     }
   } else {
     errorHandler('UNITCODEEMPTY');
