@@ -9,12 +9,10 @@ $(document).ready(function(){
     .search({
       source : content,
       searchFields   : [
-        'UnitCode'
+        'UnitCode', 'UnitName'
       ],
-      fields: [
-        'UnitCode'
-      ],
-      searchFullText: false
+      searchFullText: false,
+      minCharacters: 3
     })  ;
 
   $('#SearchUnit').click(function(){
