@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 function storeData(){
   var xhr = new XMLHttpRequest();
-  var url = "./units/db.json"
+  var url = "./units/extended.json"
 
   xhr.onreadystatechange = function() {
     if(this.readyState === 4 && this.status == 200){
@@ -48,7 +48,7 @@ function findUnit() {
   }
 }
 
-//asume list is already sorted, use binary search
+// Find target Course using Binary Search
 function findUnitCode(target, array) {
   var lowerBound = 0;
   var upperBound = (array.length - 1);
@@ -57,10 +57,13 @@ function findUnitCode(target, array) {
   while (lowerBound <= upperBound){
     var middle = Math.floor((lowerBound + upperBound)/2) //integer dicision to find middle
     if(target === array[middle].UnitCode){
-      var unitName = array[middle].UnitName
-      var unitFac = array[middle].Faculty
+      var unitName = array[middle].UnitName;
+      var unitFac = array[middle].Faculty;
+      var descrip = array[middle].Sypnosis;
+      var unitPreqs = array[middle].Preqs;
+      var unitProhib = array[middle].Proh;
 
-      var returnObject = {"UnitName": unitName,"Faculty": unitFac}
+      var returnObject = {"UnitName": unitName,"Description": descrip, "Faculty": unitFac, "Prerequisites": unitPreqs, "Prohibitions":unitProhib}
       return returnObject
     } else {
       if(target < array[middle].UnitCode) {
@@ -76,6 +79,6 @@ function findUnitCode(target, array) {
 function addUnitDetails(unitCode, unitName,unitDescription){
   $('#unitDetCode').text(unitCode);
   $('#unitDetName').text(unitName);
-  $('#unitDetDescrip').text(unitDescription);
-  $('#addUnitDetails').modal('toggle')
+  $('#unitDetDescrip').text(unitName);
+
 }
