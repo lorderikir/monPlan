@@ -3,17 +3,6 @@ $(document).ready(function(){
   $('.ui.checkbox').checkbox();
   $('.ui.dropdown').dropdown();
 
-  storeData();
-  var content = JSON.parse(sessionStorage.getItem('basicDB'));
-  $('.ui.search')
-    .search({
-      source : content,
-      searchFields   : [
-        'UnitCode', 'UnitName'
-      ],
-      searchFullText: false,
-      minCharacters: 3
-    })  ;
 
   $('#SearchUnit').click(function(){
     $('#addUnit').modal('toggle');
