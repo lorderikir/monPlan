@@ -37,7 +37,7 @@ function findUnit() {
   var searchArray = sessionStorage.getItem('basicDB')
   if (tgt !== null || tgt !== "") {
     var unitDetails = findUnitCode(tgt, JSON.parse(searchArray));
-    console.log(untiDetails)
+    console.log(unitDetails)
     if (unitDetails === false) {
       errorHandler('UNITCODENOTFOUND')
     } else {
