@@ -2,12 +2,26 @@
 $(document).ready(function(){
   $('.ui.checkbox').checkbox();
   $('.ui.dropdown').dropdown();
+
   storeData();
+  var content = JSON.parse(sessionStorage.getItem('basicDB'));
+  $('.ui.search')
+    .search({
+      source : content,
+      searchFields   : [
+        'UnitCode'
+      ],
+      searchFullText: false
+    })  ;
+
+
 
   $('#SearchUnit').click(function(){
     $('#addUnit').modal('toggle');
   })
 });
+
+
 
 function storeData(){
   var xhr = new XMLHttpRequest();
