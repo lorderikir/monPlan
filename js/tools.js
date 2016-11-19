@@ -14,8 +14,6 @@ $(document).ready(function(){
       searchFullText: false
     })  ;
 
-
-
   $('#SearchUnit').click(function(){
     $('#addUnit').modal('toggle');
   })
