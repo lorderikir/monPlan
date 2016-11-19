@@ -3,6 +3,10 @@ $(document).ready(function(){
   $('.ui.checkbox').checkbox();
   $('.ui.dropdown').dropdown();
   storeData();
+
+  $('#SearchUnit').click(function(){
+    $('#addUnit').modal('toggle');
+  })
 });
 
 function storeData(){
@@ -42,11 +46,36 @@ function findUnit() {
       errorHandler('UNITCODENOTFOUND')
     } else {
       console.info('Success');
-      var unitHeader = tgt + " " + "Faculty: " + unitDetails.Faculty;
+      var fullFaculty = faculty(unitDetails.Faculty)
+      var unitHeader = tgt + " | " + "Faculty: " + fullFaculty;
       addUnitDetails(unitHeader, unitDetails.UnitName ,unitDetails.Description, unitDetails.Prerequisites, unitDetails.Prohibitions);
     }
   } else {
     errorHandler('UNITCODEEMPTY');
+  }
+}
+
+function faculty(fac){
+  if(fac === "buseco"){
+    return "Business and Economics"
+  } else if(fac === "ada"){
+    return "Arts, Design and Architeecture"
+  } else if(fac === "arts"){
+    return "Arts"
+  } else if(fac === "edu"){
+    return "Education"
+  } else if(fac === "eng"){
+    return "Engineering"
+  } else if(fac === "it"){
+    return "Information Technology"
+  } else if(fac === "law"){
+    return "Law"
+  } else if(fac === "med"){
+    return "Medicine"
+  } else if(fac === "pha"){
+    return "Pharmacy and Pharmaceutical Sciences"
+  } else if(fac === "sci"){
+    return "Science"
   }
 }
 
