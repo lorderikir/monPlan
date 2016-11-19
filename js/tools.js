@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 function storeData(){
   var xhr = new XMLHttpRequest();
-  var url = "./units/extended.json"
+  var url = "./units/db.json"
 
   xhr.onreadystatechange = function() {
     if(this.readyState === 4 && this.status == 200){
