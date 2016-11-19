@@ -41,7 +41,7 @@ function findUnit() {
       errorHandler('UNITCODENOTFOUND')
     } else {
       console.info('Success')
-      console.log(unitDetails);
+      addUnitDetails(tgt, unitDetails.unitName ,unitDetails.descrip, unitDetails.unitPeqs, unitDetails.unitProhib);
     }
   } else {
     errorHandler('UNITCODEEMPTY');
@@ -76,9 +76,12 @@ function findUnitCode(target, array) {
   return false
 }
 
-function addUnitDetails(unitCode, unitName,unitDescription){
+function addUnitDetails(unitCode, unitName,unitDescription, unitPreqs, unitProhib){
   $('#unitDetCode').text(unitCode);
   $('#unitDetName').text(unitName);
-  $('#unitDetDescrip').text(unitName);
+  $('#unitDetDescrip').text(unitDescription);
+  $('#unitPreqs').text(unitPreqs);
+  $('#unitProhibitions').text(unitProhib);
 
+  $('#addUnitDetails').modal('toggle');
 }
