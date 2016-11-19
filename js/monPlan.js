@@ -43,6 +43,10 @@ $(document).ready(function(){
   }
 });
 
+function setStartYear(){
+  var year = $('#startYr').val();
+  localStorage.setItem('startingYear',year);
+}
 
 function myCreateFunction() {
     var table = document.getElementById("myTable");

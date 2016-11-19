@@ -22,7 +22,7 @@
   <link rel="stylesheet" type="text/css" href="./css/custom.css">
 
 </head>
-<body class="site" id="Site">
+<body class="site">
 
   <div class="ui top attached inverted stackable menu">
     <a class="header item">
@@ -55,8 +55,16 @@
     </div>
 </div>
 
-  <div class="ui main text container" id="Site-Content">
-    <div class="ui divider"></div><div class="row">
+  <div class="ui main text container">
+    <div class="row">
+      <h3>General Settings</h3>
+      <div class="ui action input">
+        <input id="startYr" type="text" placeholder="Starting Year">
+        <button class="ui green button" onClick="setStartYear()">Set</button>
+      </div>
+    </div>
+    <div class="ui divider"></div>
+    <div class="row">
       <h3>Recommended Units</h3>
     </div>
     <div class="ui divider"></div>
