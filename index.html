@@ -14,9 +14,8 @@
   <script src="./js/ext/jquery-3.1.1.min.js" type="text/javascript"></script> <!--this library is here to piss someone off-->
   <script src="./js/ext/semantic.min.js" type="text/javascript"></script>
   <script src="./js/ext/papaparse.min.js" type="text/javascript"></script> <!--CSV Parser-->
+
   <script src="./js/monPlan.js" type="text/javascript"></script>
-  <script src="./js/main.js" type="text/javascript"></script>
-  <script src="./js/tools.js" type="text/javascript"></script>
   <script src="./js/search.js" type="text/javascript"></script>
 
   <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
@@ -30,13 +29,6 @@
       <img class="logo" src="./img/logo.png">
       monPlan Alpha
     </a>
-    <a href="index.html" class="item">Home</a>
-    <a class="item">
-      <div class="ui primary button" id="openCourseModal">Draw Course Map</div>
-    </a>
-    <a class="item">
-      <div class="ui button" id="SearchUnit" >Search Units</div>
-    </a>
     <a class="item">
       <div class="ui search">
         <input class="prompt" type="text" placeholder="Search Units">
@@ -45,6 +37,9 @@
     </a>
 
     <div class="right menu">
+      <div class="item">
+        Status: <i id="status" class="icon green checkmark "></i>
+      </div>
       <div class="ui dropdown icon item">
         <i class="info icon"></i>
         <div class="menu">
@@ -61,12 +56,28 @@
 </div>
 
   <div class="ui main text container" id="Site-Content">
-    <div class="ui segment">
-      <h1 class="ui header">Monash Course Planner Beta</h1>
-
-      <div id="tableLoc"></div>
+    <div class="ui divider"></div><div class="row">
+      <h3>Recommended Units</h3>
     </div>
-
+    <div class="ui divider"></div>
+    <div class="row">
+      <div>
+          <table id="myTable" class="ui celled table">
+            <thead>
+              <tr>
+                <th>Semester</th>
+                <th>Unit 1</th>
+                <th>Unit 2</th>
+                <th>Unit 3</th>
+                <th>Unit 4</th>
+              </tr>
+              </thead>
+          </table>
+      </div>
+    </div>
+    <div class="row">
+      <button class="ui red right floated button" onClick="deleteFunction()"><i class="trash icon"></i>Remove Semester</button>
+    </div>
   </div>
 
   <div class="ui inverted fixed vertical footer stackable segment">
@@ -83,7 +94,7 @@
     </div>
   </div>
 
-  <div class="ui modal" id="modal">
+  <div class="ui modal" id="yearModal">
     <i class="close icon"></i>
     <div class="header">
       <i class="write icon"></i>
@@ -91,24 +102,10 @@
     </div>
     <div class="content">
       <div class="description">
-        <div class="ui header">Please enter your course details</div>
+        <div class="ui header">Please enter your starting year</div>
         <div class="row">
           <input id="startingYear" placeholder="Starting Year" class="field">
-          <input id="duration" placeholder="Course Length (incl. Starting Year)" class="field">
         </div>
-        <hr>
-        <h3>Extra Semesters</h3>
-        <div class="row">
-          <div class="ui toggle checkbox">
-            <input id="summer" type="checkbox" tabindex="0" class="hidden">
-            <label>Summer Semsters</label>
-          </div><br><br>
-          <div class="ui toggle checkbox">
-            <input id="winter" type="checkbox" tabindex="0" class="hidden">
-            <label>Winter Semsters</label>
-          </div><br>
-        </div>
-
       </div>
     </div>
     <div class="actions">
@@ -119,71 +116,6 @@
     </div>
   </div>
 
-
-  <div class="ui modal" id="errorModal">
-    <i class="close icon"></i>
-    <div class="header">
-      <i class="warning sign icon"></i>
-      An Error has Occured!
-    </div>
-    <div class="content">
-      <div class="description">
-        <div id="errorCode" class="ui header">The following error has occured</div>
-        <div id="errorMessage"></div>
-      </div>
-    </div>
-    <div class="actions">
-      <div class="ui positive right labeled icon button">
-        OK, I Got it!
-        <i class="checkmark icon"></i>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui modal" id="addUnit">
-    <i class="close icon"></i>
-    <div class="header">
-      <i class="add square icon"></i>
-      Add Unit - Search for Unit
-    </div>
-    <div class="content">
-      <div class="description">
-        <input id="unitCodeSearch" placeholder="Enter Unit Code" class="field">
-      </div>
-    </div>
-    <div class="actions">
-      <div class="ui positive right labeled icon button" onClick="findUnit()">
-        Look For Unit!
-        <i class="checkmark icon"></i>
-      </div>
-    </div>
-  </div>
-
-  <div class="ui modal" id="addUnitDetails">
-    <i class="close icon"></i>
-    <div class="header">
-      <i class="add square icon"></i>
-      Add Unit -Unit Details
-    </div>
-    <div class="content">
-      <div class="description">
-        <h3 id="unitDetCode"></h3>
-        <h3 id="unitDetName"></h3>
-        <b>Description:</b>
-        <p id="unitDetDescrip"></p>
-        <b>Preqs</b>
-        <p id="unitPreqs"></p>
-        <b>Prohibitions</b>
-        <p id="unitProhibitions"></p>
-      </div>
-    </div>
-    <div class="actions">
-      <div class="ui positive right labeled icon button" onClick="">
-        Add Unit
-        <i class="checkmark icon"></i>
-      </div>
-    </div>
-  </div>
 
 
   <div class="ui basic modal" id="termsOfUse">
