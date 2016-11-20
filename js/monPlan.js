@@ -25,6 +25,7 @@ window.addEventListener('load', function() {
     var startPlanning = document.getElementById("startPlanning");
     var startPlanningEmpty = document.getElementById("startPlanningEmpty");
     var addTeachingPeriod = document.getElementById("addTeachingPeriod");
+    var addUnit = document.getElementById("addUnit");
     var myTable = document.getElementById("myTable");
 
     startPlanning.addEventListener('click', function() {
