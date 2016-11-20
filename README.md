@@ -4,21 +4,14 @@ Plan out your degree with **monPlan** _Previously known as Monash Unit Planner_ 
 # Notice(s)
 There are several notice(s) at the moment:
 - We are currently looking for more devs! Submit an application here today: https://goo.gl/TO6Z3M
-- We are currently holding on progamming/finding a solution for Course Verification, as we will be talking with _eSolutions_ regarding this matter
-- Our WebScraper has been Open-Sourced! this is avaliable at: https://github.com/MonashUnitPlanner/webScrape/
+- We are currently holding on progamming/finding a solution for Course Verification, as we will be talking with _eSolutions_ regarding this matter.
+- Our WebScraper has been Open-Sourced! View it at: https://github.com/MonashUnitPlanner/webScrape/
 
 # Notice for Devs
-Please note that we are using **Agile** for this project, each sprint will be 1-2 months, with each a meeting in **Slack** before the start of each week and the start/end of each sprint.
-
-To visit the our sprint(s) visit: https://github.com/MonashUnitPlanner/monPlan/projects/
-
-Our Slack address is at: https://monplan.slack.com, please contact an admin to have access to our slack, our admins are currently are @lorderikir and @Joshua-Xavier
+Please note that we are using **Agile** for this project, each sprint will be 1-2 months, with each a meeting in **Slack** before the start of each week and the start/end of each sprint. Our Slack address is at: https://monplan.slack.com, please contact an admin to have access to our slack, our admins are currently are @lorderikir and @Joshua-Xavier
 
 ## To Do List
-- [ ] Implement more features within the core-code, e.g. add unit description pop-up modals
-- [X] Implement Summer and Winter Units
-- [X] Test out a node.js API solution, availiable at: https://github.com/MonashUnitPlanner/monPlan-API
-- [ ] Test out an ASP.Net Solution with an SQL connection
+_See https://github.com/MonashUnitPlanner/monPlan/issues/72 for full to-do list_
 
 # Dependancies List
 - Semantic-ui

@@ -7,12 +7,12 @@ function TeachingPeriod(year, type) {
 }
 
 TeachingPeriod.typeStrings = {
-    "S1-01": "Semester one",
-    "S2-02": "Semester two",
-    "FY-01": "Full-year",
-    "SSA-02": "Summer semester A",
-    "SSB-01": "Summer semester B",
-    "WS-01": "Winter semester"
+    "S1-01": "Semester One",
+    "S2-02": "Semester Two",
+    "FY-01": "Full-Year",
+    "SSA-02": "Summer Semester A",
+    "SSB-01": "Summer Semester B",
+    "WS-01": "Winter Semester"
 };
 
 TeachingPeriod.prototype.toString = function() {
