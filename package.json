@@ -1,7 +1,7 @@
 {
   "name": "monPlan",
   "version": "0.1.0",
-  "description": "A Monash Unit Course Planner. ",
+  "description": "A Monash University Degree Planner.",
   "main": "main.js",
   "repository": {
     "type": "git",
