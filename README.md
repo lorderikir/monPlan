@@ -17,33 +17,14 @@ Our Slack address is at: https://monplan.slack.com, please contact an admin to h
 ## To Do List
 - [ ] Implement more features within the core-code, e.g. add unit description pop-up modals
 - [X] Implement Summer and Winter Units
-- [ ] Test out a node.js API solution
+- [X] Test out a node.js API solution, availiable at: https://github.com/MonashUnitPlanner/monPlan-API
 - [ ] Test out an ASP.Net Solution with an SQL connection
 
 # Dependancies List
 - Semantic-ui
 
 # Usage
-## Installation
-This uses Electron, to install npm package type
-```
-sudo npm install
-```
-## Developement and Testing
-To test simply run
-```
-npm start
-```
-This will run an electron instance
-
-# Team
-## Developement Leads
-@lorderikir
-@Joshua-Xavier
-
-## Developers
-@jos0003
-@Shoryo
+No installation is required. All you need to do is deploy to a web server and run it.
 
 # License
 MIT License
