@@ -15,16 +15,13 @@ To visit the our sprint(s) visit: https://github.com/MonashUnitPlanner/monPlan/p
 Our Slack address is at: https://monplan.slack.com, please contact an admin to have access to our slack, our admins are currently are @lorderikir and @Joshua-Xavier
 
 ## To Do List
-- [ ] Implement more features within the core-code, e.g. add unit description pop-up modals 
+- [ ] Implement more features within the core-code, e.g. add unit description pop-up modals
 - [X] Implement Summer and Winter Units
 - [ ] Test out a node.js API solution
 - [ ] Test out an ASP.Net Solution with an SQL connection
 
 # Dependancies List
-- npm (node.js)
-- electron
 - Semantic-ui
-- Papaparse.js
 
 # Usage
 ## Installation
