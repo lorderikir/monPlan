@@ -23,8 +23,8 @@ window.addEventListener('load', function() {
     var endYr         = document.getElementById("gradYr");
     var main          = document.getElementById("main");
     var startPlanning = document.getElementById("startPlanning");
-    var startPlanningEmpty = document.getElementById("startPlanningEmpty"),
-    var addTeachingPeriod = document.getElementById("addTeachingPeriod"),
+    var startPlanningEmpty = document.getElementById("startPlanningEmpty");
+    var addTeachingPeriod = document.getElementById("addTeachingPeriod");
     var myTable = document.getElementById("myTable");
 
     startPlanning.addEventListener('click', function() {
