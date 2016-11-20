@@ -47,7 +47,8 @@ window.addEventListener('load', function() {
         }
     });
 
-    /*$('.ui.checkbox').checkbox();
+    $('.ui.checkbox').checkbox();
     $('.ui.dropdown').dropdown();
-    $('.ui.modal').modal();*/
+    $('.ui.modal').modal();
+    $('.ui.pop').popup();
 });

@@ -32,17 +32,18 @@
             <img class="logo" src="./img/logo.png">
             monPlan Alpha
         </a>
-        <a class="item">
+        <div class="item">
             <div class="ui search">
                 <input class="prompt" type="text" placeholder="Search Units">
                 <div class="results"></div>
             </div>
-        </a>
+        </div>
 
         <div class="right menu">
-            <a class="item">
-                Status: <b>OK</b> <i id="status" class="icon green checkmark "></i>
-            </a>
+            <div class="ui item pop" data-title="Everything looks good" data-content="As you add units, we will inform you of any
+                conflicts, such as missing prerequisites.">
+                Status: <b>OK</b> <i id="status" class="icon green checkmark"></i>
+            </div>
             <div class="ui dropdown icon item">
                 <i class="info icon"></i>
                 <div class="menu">
@@ -66,20 +67,26 @@
                 designed a web app that you can use to simplify tasks.</p>
                 <p>Please enter your commencement and graduation year to get started.</p>
                 <div class="row">
-                    <div class="ui action input">
-                        <label>Commencement Year:</label> <input id="startYr" type="text" placeholder="2016">
-                    </div>
+                    <form onsubmit="return false;" class="ui large form">
+                        <div class="ui raised segment">
+                            <div class="field">
+                                <div class="ui labeled input">
+                                    <div class="ui label">Commencement Year:</div>
+                                    <input id="startYr" type="text" placeholder="2016">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="ui labeled input">
+                                    <div class="ui label">Graduation Year:</div>
+                                    <input id="gradYr" type="text" placeholder="2018">
+                                </div>
+                            </div>
+                            <button id="startPlanning" class="ui green button">Start planning</button>
+                            <button id="startPlanningEmpty" class="ui button">Start with empty template</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="row">
-                    <div class="ui action input">
-                        <label>Graduation Year:</label> <input id="gradYr" type="text" placeholder="2018">
-                    </div>
-                </div>
-                <div class="row">
-                    <button id="startPlanning" class="ui green button">Start planning</button>
-                    <button id="startPlanningEmpty" class="ui button">Start with empty template</button>
-                </div>
-                <div class="ui divider"></div>
+                <!--<div class="ui divider"></div>-->
             </div>
             <div class="row display-none">
                 <h3>Recommended Units</h3>
@@ -107,7 +114,7 @@
             <div class="ui center aligned container">
                 <img src="./img/logo.png" class="ui centered mini image">
                 <h4 class="ui inverted header">monPlan</h4>
-                <p>A Monash University Course Planner, designed by Monash Students, for Monash Students </p>
+                <p>A Monash University Course Planner, designed by Monash Students, for Monash Students.</p>
                 <div class="ui horizontal inverted small divided link list">
                     <a class="item" onClick="toggleToS()">Terms of Use</a>
                     <a class="item" onClick="togglePrivacy()">Privacy Policy</a><br>

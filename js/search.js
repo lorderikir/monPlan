@@ -26794,7 +26794,6 @@ $(document).ready(function(){
         'title', 'description'
       ],
       searchFullText: false,
-      minCharacters: 3,
       maxResults: 5
     })  ;
 });
