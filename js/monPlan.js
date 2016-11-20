@@ -19,10 +19,10 @@ var courseStructure;
 
 //document onLoad instructions
 window.addEventListener('load', function() {
-    var startYr = document.getElementById("startYr"),
-    endYr = document.getElementById("gradYr"),
-    main = document.getElementById("main"),
-    startPlanning = document.getElementById("startPlanning"),
+    var startYr       = document.getElementById("startYr");
+    var endYr         = document.getElementById("gradYr");
+    var main          = document.getElementById("main");
+    var startPlanning = document.getElementById("startPlanning");
     startPlanningEmpty = document.getElementById("startPlanningEmpty"),
     addTeachingPeriod = document.getElementById("addTeachingPeriod"),
     myTable = document.getElementById("myTable");
