@@ -48,19 +48,25 @@ function setStartYear(){
   localStorage.setItem('startingYear',year);
 }
 
-function myCreateFunction() {
+function addRow(year,semester) {
     var table = document.getElementById("myTable");
     var row = table.insertRow(-1);
-    var cell1 = row.insertCell(0);
-    var cell2 = row.insertCell(1);
-    cell1.innerHTML = "NEW CELL1";
-    cell2.innerHTML = "NEW CELL2";
+
+
+    for(i = 0; i < 5; i++) {
+      var cell = row.insertCell(i);
+      if(i === 0) {
+        //row header
+        cell.innerHTML = year + " Semester " + semester;
+      } else {
+        cell.id = year + '-semester-' + semester + '-unit-' + i
+      }
+    }
 }
 
-function deleteFunction() {
+function deleteRow() {
   var table = document.getElementById("myTable");
   if(table.rows.length > 2){
     table.deleteRow(-1);
-
   }
 }
