@@ -53,3 +53,17 @@ CourseStructure.prototype.deleteTeachingPeriod = function() {
     this.domTable.deleteRow(-1);
   }
 };
+
+CourseStructure.prototype.addUnit = function() {
+  var tblHeadObj = document.getElementById('fullTable').tHead;
+  for (var h=0; h<tblHeadObj.rows.length; h++) {
+    var newTH = document.createElement('th');
+    tblHeadObj.rows[h].appendChild(newTH);
+    newTH.innerHTML = 'Unit'
+  }
+
+  var tblBodyObj = document.getElementById('fullTable').tBodies[0];
+  for (var i=0; i<tblBodyObj.rows.length; i++) {
+    var newCell = tblBodyObj.rows[i].insertCell(-1);
+  }
+}
