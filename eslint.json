@@ -1,6 +1,6 @@
 {
     "rules": {
-        "eqeqeq": "off",
+        "eqeqeq": "error",
         "curly": "warn",
         "quotes": ["warn", "double"]
     }
