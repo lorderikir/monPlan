@@ -2,7 +2,7 @@ function CourseStructure(domTable, commencementYear, graduationYear) {
     this.domTable = domTable;
     this.teachingPeriods = [];
 
-    if(typeof commencementYear != "undefined") {
+    if(typeof commencementYear !== "undefined") {
         this.commencementYear = commencementYear;
         this.graduationYear = graduationYear;
 
@@ -20,10 +20,10 @@ CourseStructure.prototype.populateTable = function() {
 };
 
 CourseStructure.prototype.addTeachingPeriod = function(teachingPeriod) {
-    if(typeof teachingPeriod == "undefined") {
+    if(typeof teachingPeriod === "undefined") {
         if(this.teachingPeriods.length > 0) {
             var oldTeachingPeriod = this.teachingPeriods[this.teachingPeriods.length - 1];
-            if(oldTeachingPeriod.type == "S1-01") {
+            if(oldTeachingPeriod.type === "S1-01") {
                 teachingPeriod = new TeachingPeriod(oldTeachingPeriod.year, "S2-02");
             } else {
                 teachingPeriod = new TeachingPeriod(oldTeachingPeriod.year + 1, "S1-01");
@@ -43,7 +43,7 @@ CourseStructure.prototype.addTeachingPeriod = function(teachingPeriod) {
         //row header
         cell.textContent = teachingPeriod.toString();
       } else {
-          cell.id = teachingPeriod.toStringCode() + '-unit-' + i;
+          cell.id = teachingPeriod.toStringCode() + "-unit-" + i;
       }
     }
 };
@@ -55,14 +55,14 @@ CourseStructure.prototype.deleteTeachingPeriod = function() {
 };
 
 CourseStructure.prototype.addUnit = function() {
-  var tblHeadObj = document.getElementById('fullTable').tHead;
+  var tblHeadObj = document.getElementById("fullTable").tHead;
   for (var h=0; h<tblHeadObj.rows.length; h++) {
-    var newTH = document.createElement('th');
+    var newTH = document.createElement("th");
     tblHeadObj.rows[h].appendChild(newTH);
-    newTH.innerHTML = 'Unit'
+    newTH.innerHTML = "Unit"
   }
 
-  var tblBodyObj = document.getElementById('fullTable').tBodies[0];
+  var tblBodyObj = document.getElementById("fullTable").tBodies[0];
   for (var i=0; i<tblBodyObj.rows.length; i++) {
     var newCell = tblBodyObj.rows[i].insertCell(-1);
   }
