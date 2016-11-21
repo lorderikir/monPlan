@@ -28,3 +28,23 @@ function displayStatus(mode, title, message){
     statusIcon.setAttribute("class", "icon orange warning");
   }
 }
+
+//this function does a getRequest to the target URL, then saves it to the sessionStorage value that the attribute is called to within the function 
+function getRequest(fileAddress, sessionStorageTitle){
+     var xhr = new XMLHttpRequest();
+
+     xhr.onreadystatechange = function() {
+         if(xhr.readyState === 4){
+             if(xhr.status == 200){
+                console.info('Successful');
+                console.log(xhr.responseText);
+                sessionStorage.setItem(sessionStorageTitle,xhr.responseText);
+             }
+             else if(xhr.status == 404){
+               console.error('Invalid Address');
+             }
+         }
+     };
+     xhr.open('GET',fileAddress,true);
+     xhr.send();
+ }
