@@ -25,7 +25,11 @@ window.addEventListener("load", function() {
     var main          = document.getElementById("main");
     var startPlanning = document.getElementById("startPlanning");
     var startPlanningEmpty = document.getElementById("startPlanningEmpty");
-    var addTeachingPeriod = document.getElementById("addTeachingPeriod");
+    var addSemester = document.getElementById("addSemester");
+    var addSummerSemesterA = document.getElementById("addSummerSemesterA");
+    var addSummerSemesterB = document.getElementById("addSummerSemesterB");
+    var addWinterSemester = document.getElementById("addWinterSemester");
+    var addFullYear = document.getElementById("addFullYear");
     var addUnit = document.getElementById("addUnit");
     var myTable = document.getElementById("myTable");
 
@@ -43,9 +47,33 @@ window.addEventListener("load", function() {
         courseStructure = new CourseStructure(myTable);
     });
 
-    addTeachingPeriod.addEventListener("click", function() {
+    addSemester.addEventListener("click", function() {
         if(typeof courseStructure !== "undefined") {
             courseStructure.addTeachingPeriod();
+        }
+    });
+
+    addSummerSemesterA.addEventListener("click", function() {
+        if(typeof courseStructure !== "undefined") {
+            courseStructure.addTeachingPeriod(new TeachingPeriod(courseStructure, 2016, "SSA-02"));
+        }
+    });
+
+    addSummerSemesterB.addEventListener("click", function() {
+        if(typeof courseStructure !== "undefined") {
+            courseStructure.addTeachingPeriod(new TeachingPeriod(courseStructure, 2016, "SSB-01"));
+        }
+    });
+
+    addWinterSemester.addEventListener("click", function() {
+        if(typeof courseStructure !== "undefined") {
+            courseStructure.addTeachingPeriod(new TeachingPeriod(courseStructure, 2016, "WS-01"));
+        }
+    });
+
+    addFullYear.addEventListener("click", function() {
+        if(typeof courseStructure !== "undefined") {
+            courseStructure.addTeachingPeriod(new TeachingPeriod(courseStructure, 2016, "FY-01"));
         }
     });
 
