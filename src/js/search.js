@@ -26787,13 +26787,13 @@ $(document).ready(function(){
     }
   ];
 
-  $('.ui.search')
+  $(".ui.search")
     .search({
       source : content,
-      searchFields   : [
-        'title', 'description'
+      searchFields: [
+        "title", "description"
       ],
       searchFullText: false,
       maxResults: 5
-    })  ;
+    });
 });
