@@ -39,9 +39,9 @@
         </div>
 
         <div class="right menu">
-            <div class="ui item pop" data-title="Everything looks good" data-content="As you add units, we will inform you of any
+            <div id="displayMessage" class="ui item pop" data-title="Everything looks good" data-content="As you add units, we will inform you of any
                 conflicts, such as missing prerequisites.">
-                Status: <b>OK</b> <i id="status" class="icon green checkmark"></i>
+                Status:  <span id="statusTag">OK</span> <i id="statusIcon" class="icon green checkmark"></i>
             </div>
             <div class="ui dropdown icon item">
                 <i class="info icon"></i>
@@ -89,6 +89,7 @@
             </div>
             <div class="row display-none">
                 <h3>Recommended Units</h3>
+
             </div>
             <!--<div class="ui divider"></div>-->
             <div id="main" class="row display-none">
