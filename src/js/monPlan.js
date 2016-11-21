@@ -36,8 +36,8 @@ window.addEventListener("load", function() {
     startPlanning.addEventListener("click", function() {
         welcome.style.display = "none";
         main.style.display = "block";
-
-        courseStructure = new CourseStructure(myTable, parseInt(startYr.value) || 2016, parseInt(endYr.value) || 2018);
+        var currentYear = new Date().getFullYear();
+        courseStructure = new CourseStructure(myTable, parseInt(startYr.value) || currentYear, parseInt(endYr.value) || (currentYear + 2));
     });
 
     startPlanningEmpty.addEventListener("click", function() {
