@@ -13,8 +13,8 @@ function CourseStructure(domTable, commencementYear, graduationYear) {
 CourseStructure.prototype.populateTable = function() {
     var year = this.commencementYear;
     while(year <= this.graduationYear) {
-        this.addTeachingPeriod(new TeachingPeriod(year, "S1-01"));
-        this.addTeachingPeriod(new TeachingPeriod(year, "S2-02"));
+        this.addTeachingPeriod(new TeachingPeriod(this, year, "S1-01"));
+        this.addTeachingPeriod(new TeachingPeriod(this, year, "S2-02"));
         year ++;
     }
 };
@@ -24,28 +24,19 @@ CourseStructure.prototype.addTeachingPeriod = function(teachingPeriod) {
         if(this.teachingPeriods.length > 0) {
             var oldTeachingPeriod = this.teachingPeriods[this.teachingPeriods.length - 1];
             if(oldTeachingPeriod.type === "S1-01") {
-                teachingPeriod = new TeachingPeriod(oldTeachingPeriod.year, "S2-02");
+                teachingPeriod = new TeachingPeriod(this, oldTeachingPeriod.year, "S2-02");
             } else {
-                teachingPeriod = new TeachingPeriod(oldTeachingPeriod.year + 1, "S1-01");
+                teachingPeriod = new TeachingPeriod(this, oldTeachingPeriod.year + 1, "S1-01");
             }
         } else {
-            teachingPeriod = new TeachingPeriod(2016, "S1-01");
+            teachingPeriod = new TeachingPeriod(this, new Date().getFullYear(), "S1-01");
         }
     }
 
     this.teachingPeriods.push(teachingPeriod);
 
     var row = this.domTable.insertRow(-1);
-
-    for(var i = 0; i <= teachingPeriod.numberOfUnits; i++) {
-      var cell = row.insertCell();
-      if(i === 0) {
-        //row header
-        cell.textContent = teachingPeriod.toString();
-      } else {
-          cell.id = teachingPeriod.toStringCode() + "-unit-" + i;
-      }
-    }
+    teachingPeriod.populate(row);
 };
 
 CourseStructure.prototype.deleteTeachingPeriod = function() {
@@ -66,4 +57,22 @@ CourseStructure.prototype.addUnit = function() {
   for (var i=0; i<tblBodyObj.rows.length; i++) {
     var newCell = tblBodyObj.rows[i].insertCell(-1);
   }
-}
+};
+
+CourseStructure.prototype.promptUserToAddUnit = function(unit, callback) {
+    this.onDismissAddUnits = callback;
+
+    for(var i = 0; i < this.teachingPeriods.length; i++) {
+        this.teachingPeriods[i].highlightEmptyUnitSlots(unit);
+    }
+};
+
+CourseStructure.prototype.dismissPromptUserToAddUnits = function() {
+    for(var i = 0; i < this.teachingPeriods.length; i++) {
+        this.teachingPeriods[i].unhighlightEmptyUnitSlots();
+    }
+
+    if(this.onDismissAddUnits) {
+        this.onDismissAddUnits();
+    }
+};

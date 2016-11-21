@@ -93,6 +93,12 @@
             </div>
             <!--<div class="ui divider"></div>-->
             <div id="main" class="row display-none">
+                <div id="addUnitMessage" class="ui message hide">
+                    <div class="header">
+                        Add unit
+                    </div>
+                    <p>Select an empty (blue) unit slot to add unit.</p>
+                </div>
                 <div>
                     <table id="fullTable" class="ui celled table">
                         <thead>
@@ -108,7 +114,19 @@
                         </tbody>
                     </table>
                 </div>
-                <button id="addTeachingPeriod" class="ui green right floated button"><i class="add square icon"></i>Add Teaching Period</button>
+                <div class="ui divider"></div>
+                <div class="ui green right floated buttons">
+                    <button id="addSemester" class="ui button"><i class="add square icon"></i>Add Semester</button>
+                    <div class="ui floating dropdown icon button">
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div id="addSummerSemesterA" class="item">Add Summer Semester A</div>
+                            <div id="addSummerSemesterB" class="item">Add Summer Semester B</div>
+                            <div id="addWinterSemester" class="item">Add Winter Semester</div>
+                            <div id="addFullYear" class="item">Add Full Year</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
