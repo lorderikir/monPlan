@@ -24,12 +24,12 @@ CourseStructure.prototype.addTeachingPeriod = function(teachingPeriod) {
         if(this.teachingPeriods.length > 0) {
             var oldTeachingPeriod = this.teachingPeriods[this.teachingPeriods.length - 1];
             if(oldTeachingPeriod.type === "S1-01") {
-                teachingPeriod = new TeachingPeriod(oldTeachingPeriod.year, "S2-02");
+                teachingPeriod = new TeachingPeriod(this, oldTeachingPeriod.year, "S2-02");
             } else {
-                teachingPeriod = new TeachingPeriod(oldTeachingPeriod.year + 1, "S1-01");
+                teachingPeriod = new TeachingPeriod(this, oldTeachingPeriod.year + 1, "S1-01");
             }
         } else {
-            teachingPeriod = new TeachingPeriod(2016, "S1-01");
+            teachingPeriod = new TeachingPeriod(this, new Date().getFullYear(), "S1-01");
         }
     }
 
@@ -59,7 +59,9 @@ CourseStructure.prototype.addUnit = function() {
   }
 };
 
-CourseStructure.prototype.promptUserToAddUnit = function(unit) {
+CourseStructure.prototype.promptUserToAddUnit = function(unit, callback) {
+    this.onDismissAddUnits = callback;
+
     for(var i = 0; i < this.teachingPeriods.length; i++) {
         this.teachingPeriods[i].highlightEmptyUnitSlots(unit);
     }
@@ -68,5 +70,9 @@ CourseStructure.prototype.promptUserToAddUnit = function(unit) {
 CourseStructure.prototype.dismissPromptUserToAddUnits = function() {
     for(var i = 0; i < this.teachingPeriods.length; i++) {
         this.teachingPeriods[i].unhighlightEmptyUnitSlots();
+    }
+
+    if(this.onDismissAddUnits) {
+        this.onDismissAddUnits();
     }
 };

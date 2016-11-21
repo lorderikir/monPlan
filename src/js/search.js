@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    var addUnitMessage = document.getElementById("addUnitMessage");
+
     $.ajax({
         url: "units/db.json"
     }).done(function(content) {
@@ -17,7 +19,10 @@ $(document).ready(function() {
             onSelect: function(result) {
                 if(typeof courseStructure !== "undefined") {
                     var unit = new Unit(result.UnitCode, result.UnitName);
-                    courseStructure.promptUserToAddUnit(unit);
+                    courseStructure.promptUserToAddUnit(unit, function() {
+                        addUnitMessage.classList.add("hide");
+                    });
+                    addUnitMessage.classList.remove("hide");
                 }
             }
         });
