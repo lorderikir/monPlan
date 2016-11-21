@@ -90,7 +90,7 @@ module.exports = function(grunt) {
   grunt.registerTask("run", ["open:dev", "connect"]);
   grunt.registerTask("bar", ["build", "run"]);
   grunt.registerTask("bar-dev", ["build-dev", "run"]);
-  grunt.registerTask("test", ["clean", "copy:dev", "eslint", "htmllint"]);
+  grunt.registerTask("test", ["clean", "eslint", "copy:dev", "htmllint"]);
   grunt.registerTask("default", ["bar"]);
 
 };
