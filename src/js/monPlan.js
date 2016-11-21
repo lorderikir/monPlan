@@ -5,6 +5,7 @@ function errorHandler(errorCode){
             errorMsg = "Starting year is smaller than the minimum threshold year (current year - 7 years). You must be a current student";
             errorCode = "Error " + errorCode + " (startingYear < minThreshold)";
         } else {
+            //if an unknown error has occured
             errorCode = "An Unknown Error has Occured";
             errorMsg = ("An unknown error has occured, if this problem persists please contact the developers or log an issue request at https://gitreports.com/issue/MonashUnitPlanner/monPlan/");
         }
