@@ -2,8 +2,8 @@ function TeachingPeriod(courseStructure, year, type) {
     this.courseStructure = courseStructure;
     this.year = year;
     this.type = type;
-    this.units = [];
     this.numberOfUnits = 4;
+    this.units = new Array(this.numberOfUnits);
     this.numberOfCredits = 24;
 
     this.domRow = false;
@@ -35,8 +35,13 @@ TeachingPeriod.prototype.populate = function(row) {
             //row header
             cell.textContent = this.toString();
         } else {
+            var unit = this.units[i - 1];
             cell.id = this.toStringCode() + "-unit-" + i;
             cell.dataset.unitIndex = i;
+
+            if(typeof unit !== "undefined") {
+                cell.textContent = unit.code;
+            }
         }
     }
 
@@ -52,7 +57,7 @@ TeachingPeriod.prototype.populate = function(row) {
 
             self.units[index] = self.unitToBeAdded;
             self.active = false;
-            e.target.innerText = self.unitToBeAdded.code;
+            e.target.textContent = self.unitToBeAdded.code;
             e.target.setAttribute("class", "");
             self.courseStructure.dismissPromptUserToAddUnits();
         }
@@ -119,4 +124,40 @@ TeachingPeriod.prototype.unhighlightEmptyUnitSlots = function() {
             this.domRow.cells[i].setAttribute("class", "");
         }
     }
-}
+};
+
+TeachingPeriod.prototype.serialise = function() {
+    var serialised = {
+        year: this.year,
+        type: this.type,
+        numberOfUnits: this.numberOfUnits,
+        units: []
+    };
+
+    for(var i = 0; i < this.numberOfUnits; i++) {
+        if(typeof this.units[i] === "undefined") {
+            serialised.units.push(undefined);
+        } else {
+            serialised.units.push(this.units[i].serialise());
+        }
+    }
+
+    return serialised;
+};
+
+TeachingPeriod.deserialise = function(courseStructure, serialised) {
+    var teachingPeriod = new TeachingPeriod(courseStructure, serialised.year, serialised.type);
+    teachingPeriod.numberOfUnits = serialised.numberOfUnits;
+
+    for(var i = 0; i < serialised.numberOfUnits; i++) {
+        var unit = serialised.units[i];
+
+        if(unit === undefined || unit === null) {
+            teachingPeriod.units[i] = undefined;
+        } else {
+            teachingPeriod.units[i] = Unit.deserialise(unit);
+        }
+    }
+
+    return teachingPeriod;
+};
