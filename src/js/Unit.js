@@ -12,8 +12,10 @@ function Unit(code, name, faculty, synposis, preqs, proh) {
     this.eftsl = 0.125;
 }
 
-var currentUnits = localStorage.getItem("units");
+Unit.prototype.serialise = function() {
+    return this.code;
+};
 
-Unit.prototype.addUnit = function(code, name, faculty, synposis,preqs, proh){
- //do noithng
-}
+Unit.deserialise = function(serialised) {
+    return new Unit(serialised);
+};
