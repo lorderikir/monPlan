@@ -129,21 +129,6 @@
                             <div id="addFullYear" class="item">Add Full Year</div>
                         </div>
                     </div>
-                </div
-                <div class="ui divider"></div>
-                <div class="ui stackable grid container display-none">
-                  <div class="two column row">
-                      <div class="column">
-                        <div class="ui segment">
-                          <!--Current Select Course Requirements-->
-                        </div>
-                      </div>
-                      <div class="column">
-                        <div class="ui segment">
-                          <!--Current Select Unit Details -->
-                        </div>
-                      </div>
-                  </div>
                 </div>
             </div>
         </div>
@@ -207,12 +192,43 @@
                   In our future versions, if you are logged into our site, we will load data about your course via an API supplied by the University to help you
                   plan out your degree and make sure you get the most out of your degree.
                 </div>
-                <div class="actions">
-                    <div class="ui positive right labeled icon button">
-                        Ok. I got it.
-                        <i class="checkmark icon"></i>
-                    </div>
+            </div>
+            <div class="actions">
+                <div class="ui positive right labeled icon button">
+                    OK. I got it.
+                    <i class="checkmark icon"></i>
                 </div>
+            </div>
+        </div>
+
+        <div class="ui modal" id="unitDets">
+            <i class="close icon"></i>
+            <div class="header">
+                <i class="privacy icon"></i>
+                Selected Unit Details
+            </div>
+            <div class="content">
+                <div class="description">
+                    <h3 id="unitNameCode"></h3>
+
+                    <h4>Description</h4>
+                    <span id="unitDescription"></span>
+
+                    <h4>Unit Preqs</h4>
+                    <span id="unitPreqs"></span>
+
+                    <h4>Unit Prohitibions</h4>
+                    <span id="unitProhib"></span>
+
+                    <h4>Unit Prohitibions</h4>
+                    <span id="unitProhib"></span>
+                </div>
+            </div>
+            <div class="actions">
+              <div class="ui positive right labeled icon button">
+                  OK. Proceed to add unit.
+                  <i class="checkmark icon"></i>
+              </div>
             </div>
         </div>
     </body>
