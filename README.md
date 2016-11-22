@@ -15,9 +15,21 @@ _See https://github.com/MonashUnitPlanner/monPlan/issues/72 for full to-do list_
 
 # Dependancies List
 - Semantic-ui
+- npm
 
 # Usage
-No installation is required. All you need to do is deploy to a web server and run it.
+## Initial Setup
+To setup initially, please run the following
+```
+npm install
+npm install grunt-cli
+```
+
+| Instruction | Executes |
+| ----------- | -------- |
+| `grunt bar-dev` | runs an instance in the address http://localhost:8080 |
+| `grunt test` | runs testing with eslint and htmlint |
+| `grunt build` | builds the project to /build/*, this can copied onto a web server |
 
 # License
 MIT License
