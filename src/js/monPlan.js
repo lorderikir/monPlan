@@ -101,3 +101,7 @@ window.addEventListener("load", function() {
     $(".ui.modal").modal();
     $(".ui.pop").popup();
 });
+
+$(document).ready(function(){
+  $('.ui.dropdown').dropdown();
+});
