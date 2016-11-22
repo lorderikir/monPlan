@@ -27,8 +27,8 @@ module.exports = function(grunt) {
         },
         main: {
             src: [
-                "js/ext/*.js",
-                "js/*.js"
+                "src/js/ext/*.js",
+                "src/js/*.js"
             ],
             dest: "working/monplan.concat.js"
         }
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
     uglify: {
         main: {
             files: {
-                "build/js/monplan.min.js": ["working/monplan.regenerate.js"]
+                "build/js/monplan.min.js": ["working/monplan.concat.js"]
             }
         }
     },
@@ -85,7 +85,7 @@ module.exports = function(grunt) {
     clean: ["build", "working"]
   });
 
-  grunt.registerTask("build", ["clean", "concat", "uglify", "copy:dist"]);
+  grunt.registerTask("build", ["clean", "concat", "uglify", "copy:dev"]);
   grunt.registerTask("build-dev", ["clean", "copy:dev"]);
   grunt.registerTask("run", ["open:dev", "connect"]);
   grunt.registerTask("bar", ["build", "run"]);
