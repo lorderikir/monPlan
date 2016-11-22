@@ -47,6 +47,26 @@ TeachingPeriod.prototype.populate = function(row) {
 
     var self = this;
 
+    this.domRow.addEventListener("mouseover", function(e) {
+        if(typeof e.target.dataset.unitIndex !== "undefined" && self.active) {
+            var index = parseInt(e.target.dataset.unitIndex) - 1;
+            if(typeof self.units[index] === "undefined") {
+                e.target.classList.add("positive");
+                e.target.classList.remove("active");
+            }
+        }
+    });
+
+    this.domRow.addEventListener("mouseout", function(e) {
+        if(typeof e.target.dataset.unitIndex !== "undefined" && self.active) {
+            var index = parseInt(e.target.dataset.unitIndex) - 1;
+            if(typeof self.units[index] === "undefined") {
+                e.target.classList.add("active");
+                e.target.classList.remove("positive");
+            }
+        }
+    });
+
     this.domRow.addEventListener("click", function(e) {
         if(typeof e.target.dataset.unitIndex !== "undefined" && self.active) {
             var index = parseInt(e.target.dataset.unitIndex) - 1;
@@ -55,13 +75,19 @@ TeachingPeriod.prototype.populate = function(row) {
                 return;
             }
 
-            self.units[index] = self.unitToBeAdded;
-            self.active = false;
-            e.target.textContent = self.unitToBeAdded.code;
+            self.addUnit(self.unitToBeAdded, index);
             e.target.setAttribute("class", "");
             self.courseStructure.dismissPromptUserToAddUnits();
         }
     });
+};
+
+TeachingPeriod.prototype.addUnit = function(unit, index) {
+    this.units[index] = unit;
+    this.active = false;
+    this.domRow.cells[index + 1].textContent = this.unitToBeAdded.code;
+    this.courseStructure.totalCredits += unit.creditPoints;
+    this.courseStructure.updateTotalCredits();
 };
 
 TeachingPeriod.prototype.checkIfPopulated = function() {
@@ -150,12 +176,14 @@ TeachingPeriod.deserialise = function(courseStructure, serialised) {
     teachingPeriod.numberOfUnits = serialised.numberOfUnits;
 
     for(var i = 0; i < serialised.numberOfUnits; i++) {
-        var unit = serialised.units[i];
+        var unitCode = serialised.units[i];
 
-        if(unit === undefined || unit === null) {
+        if(unitCode === undefined || unitCode === null) {
             teachingPeriod.units[i] = undefined;
         } else {
-            teachingPeriod.units[i] = Unit.deserialise(unit);
+            var unit = Unit.deserialise(unitCode);
+            teachingPeriod.units[i] = unit; 
+            courseStructure.totalCredits += unit.creditPoints;
         }
     }
 
