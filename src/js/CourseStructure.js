@@ -1,6 +1,7 @@
 function CourseStructure(domTable, commencementYear, graduationYear) {
     this.domTable = domTable;
     this.teachingPeriods = [];
+    this.totalCredits = 0;
 
     this.clearTable();
 
@@ -25,6 +26,15 @@ CourseStructure.prototype.clearTable = function() {
     while(this.domTable.rows.length > 0) {
         this.domTable.deleteRow(-1);
     }
+};
+
+CourseStructure.prototype.populateTotalCredits = function(credits) {
+    this.domCredits = credits;
+    this.updateTotalCredits();
+};
+
+CourseStructure.prototype.updateTotalCredits = function() {
+    this.domCredits.textContent = this.totalCredits;
 };
 
 CourseStructure.prototype.addTeachingPeriod = function(teachingPeriod) {
@@ -99,7 +109,7 @@ CourseStructure.deserialise = function(domTable, serialised) {
     var courseStructure = new CourseStructure(domTable);
 
     for(var i = 0; i < serialised.teachingPeriods.length; i++) {
-        var teachingPeriod = TeachingPeriod.deserialise(this, serialised.teachingPeriods[i]);
+        var teachingPeriod = TeachingPeriod.deserialise(courseStructure, serialised.teachingPeriods[i]);
         courseStructure.addTeachingPeriod(teachingPeriod);
     }
 

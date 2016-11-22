@@ -25,6 +25,7 @@ window.addEventListener("load", function() {
     var main          = document.getElementById("main");
     var startPlanning = document.getElementById("startPlanning");
     var startPlanningEmpty = document.getElementById("startPlanningEmpty");
+    var save = document.getElementById("save");
     var addSemester = document.getElementById("addSemester");
     var addSummerSemesterA = document.getElementById("addSummerSemesterA");
     var addSummerSemesterB = document.getElementById("addSummerSemesterB");
@@ -32,6 +33,16 @@ window.addEventListener("load", function() {
     var addFullYear = document.getElementById("addFullYear");
     var addUnit = document.getElementById("addUnit");
     var myTable = document.getElementById("myTable");
+    var credits = document.getElementById("credits");
+
+    // Load course structure if it exists
+    var serialised = localStorage.getItem("courseStructure");
+    if(serialised !== null) {
+        // Restore saved course structure
+        welcome.style.display = "none";
+        main.style.display = "block";
+        courseStructure = CourseStructure.deserialise(myTable, JSON.parse(serialised));
+    }
 
     startPlanning.addEventListener("click", function() {
         welcome.style.display = "none";
@@ -40,11 +51,19 @@ window.addEventListener("load", function() {
         courseStructure = new CourseStructure(myTable, parseInt(startYr.value) || currentYear, parseInt(endYr.value) || (currentYear + 2));
     });
 
+    courseStructure.populateTotalCredits(credits);
+
     startPlanningEmpty.addEventListener("click", function() {
         welcome.style.display = "none";
         main.style.display = "block";
 
         courseStructure = new CourseStructure(myTable);
+    });
+
+    save.addEventListener("click", function() {
+        if(typeof courseStructure !== "undefined") {
+            localStorage.setItem("courseStructure", JSON.stringify(courseStructure.serialise()));
+        }
     });
 
     addSemester.addEventListener("click", function() {
