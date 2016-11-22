@@ -33,7 +33,10 @@
         </a>
         <div class="item">
             <div class="ui search">
-                <input class="prompt" type="text" placeholder="Search Units">
+                <div class="ui icon input">
+                    <input class="prompt" type="text" placeholder="Add Unit">
+                    <i class="search icon"></i>
+                </div>
                 <div class="results"></div>
             </div>
         </div>
@@ -93,6 +96,10 @@
             </div>
             <!--<div class="ui divider"></div>-->
             <div id="main" class="row display-none">
+                <div class="ui label">
+                    Total Credits
+                    <div id="credits" class="detail">0</div>
+                </div>
                 <div id="addUnitMessage" class="ui message hide">
                     <div class="header">
                         Add unit
@@ -101,7 +108,7 @@
                 </div>
                 <div class="ui stackable grid container">
                     <div class="ui container">
-                      <table id="fullTable" class="ui celled table">
+                      <table id="fullTable" class="ui celled fixed table">
                           <thead>
                               <tr>
                                   <th>Teaching Period</th>
@@ -116,8 +123,8 @@
                       </table>
                     </div>
                 </div>
-
                 <div class="ui divider"></div>
+                <button id="save" class="ui primary button">Save</button>
                 <div class="ui green right floated buttons">
                     <button id="addSemester" class="ui button"><i class="add square icon"></i>Add Semester</button>
                     <div class="ui floating dropdown icon button">
@@ -148,25 +155,24 @@
         </div>
 
 
-        <div class="ui basic modal" id="termsOfUse">
-            <i class="close icon"></i>
+        <div class="ui modal" id="termsOfUse">
             <div class="header">
                 <i class="users icon"></i>
                 Terms of Use Agreement
             </div>
             <div class="content">
                 <div class="description">
-                    By using this site, you are agreeing to the following:
+                    By using this site, you agree to the following:
                     <ul>
-                        <li>The site's source code and the project are automatically bound by <strong>the MIT License</strong>, unless otherwise stated
+                        <li>The site's source code and the project are automatically bound by <strong>the MIT License</strong>, unless otherwise stated.
                             <ul>
                                 <li>Copying the site's source code or code from the GitHub repository is a Federal Offence, all code and work is protected under the Australian Copyright Act 1966</li>
                                 <li>The following libraries used within this project are bound by other Licenses: Semantic UI</li>
                             </ul>
                         </li>
-                        <li>You acknowledge that your data is protected under our Privacy Policy, which may change from time to time</li>
-                        <li>At this stage, this site is not endorsed by Monash University, we are in no way affiliated with Monash University's Administration Staff</li>
-                        <li>This Terms of Use (ToS) agreement may change from time to time</li>
+                        <li>You acknowledge that your data is protected under our Privacy Policy, which may change from time to time.</li>
+                        <li>At this stage, this site is not endorsed by Monash University, we are in no way affiliated with Monash University's Administration Staff.</li>
+                        <li>This Terms of Use (ToS) agreement may change from time to time.</li>
                     </ul>
                 </div>
             </div>
@@ -178,8 +184,7 @@
             </div>
         </div>
 
-        <div class="ui basic modal" id="privacy">
-            <i class="close icon"></i>
+        <div class="ui modal" id="privacy">
             <div class="header">
                 <i class="privacy icon"></i>
                 Privacy Policy
@@ -187,15 +192,14 @@
             <div class="content">
                 <div class="description">
                   We do not record any data across our services.  Your data will be recorded and saved into your browser's cache for future performance, to improve user experience with our site.
-                  As our site is currently hosted by GitHub Pages, we (being monPlan) do not track your activity, but the organisation at times, may track your activities
-                  within our site to display data, we also honor Do Not Track (DNT) Plugins, no features will be disabled if your browser uses a DNT plugin.
-                  In our future versions, if you are logged into our site, we will load data about your course via an API supplied by the University to help you
-                  plan out your degree and make sure you get the most out of your degree.
+                  As our site is currently hosted by GitHub Pages, we (being monPlan) do not track your activity, but the organisation at times, may track your activities.
+                  Within our site to display data, we also honor Do Not Track (DNT) Plugins, no features will be disabled if your browser uses a DNT plugin.
+                  In future versions, if you are logged into our site, we will load data about your course via an API supplied by the University to help you plan out your degree and make sure you get the most out of your degree.
                 </div>
             </div>
             <div class="actions">
                 <div class="ui positive right labeled icon button">
-                    OK. I got it.
+                    OK, I've got it.
                     <i class="checkmark icon"></i>
                 </div>
             </div>
