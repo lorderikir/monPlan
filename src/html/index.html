@@ -33,7 +33,7 @@
         </a>
         <div class="item">
             <div class="ui search">
-                <div class="ui icon input">
+                <div id="unitSearch" class="ui icon input">
                     <input class="prompt" type="text" placeholder="Add Unit">
                     <i class="search icon"></i>
                 </div>
@@ -133,25 +133,15 @@
                   </div>
                   <div class="four wide column">
                       <h4>Current Degree</h4>
-                      <div class="ui search">
-                          <div class="ui icon input">
-                              <input class="prompt" type="text" placeholder="Find Degree">
-                              <i class="search icon"></i>
-                          </div>
-                          <div class="results"></div>
-                      </div>
+                      <select class="ui search dropdown">
+                        <option value="">Current Degree</option>
+                      </select>
                       <h4>Major/Minor/Specialisation</h4>
-                          <div class="ui icon input">
-                              <input class="prompt" type="text" placeholder="Find Major/Minor/Specialisation">
-                              <i class="search icon"></i>
-                          </div>
-                          <div class="results"></div>
-                      <table id="majorTable" class="ui celled fixed table">
-                          <tbody id="myTable">
-                            <tr><th>Major 1<th></tr>
-                            <tr><th>Major 2<th></tr>
-                          </tbody>
-                      </table>
+                      <select class="ui fluid search dropdown" multiple="">
+                        <option value="">Major/Minor/Specialisation</option>
+                        <option value="Computer Science (MINOR)">Computer Science (MINOR)</option>
+
+                      </select>
                       <br> <!--replace with addable major/minors-->
                       <h4>Degree Requirements</h4>
                       Core Units: <i class="icon grey checkmark box"></i>
