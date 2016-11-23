@@ -38,6 +38,9 @@ window.addEventListener("load", function() {
     //hides main div upon load
     main.style.display="none";
 
+    //enables popup message
+    $('#displayMessage').popup();
+
     // Load course structure if it exists
     var serialised = localStorage.getItem("courseStructure");
     if(serialised !== null) {
