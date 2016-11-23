@@ -35,6 +35,9 @@ window.addEventListener("load", function() {
     var myTable = document.getElementById("myTable");
     var credits = document.getElementById("credits");
 
+    //hides main div upon load
+    main.style.display="none";
+
     // Load course structure if it exists
     var serialised = localStorage.getItem("courseStructure");
     if(serialised !== null) {
