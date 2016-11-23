@@ -182,7 +182,7 @@ TeachingPeriod.deserialise = function(courseStructure, serialised) {
             teachingPeriod.units[i] = undefined;
         } else {
             var unit = Unit.deserialise(unitCode);
-            teachingPeriod.units[i] = unit; 
+            teachingPeriod.units[i] = unit;
             courseStructure.totalCredits += unit.creditPoints;
         }
     }

@@ -20,7 +20,7 @@
     <script src="./js/search.js" type="text/javascript"></script>
     <script src="./js/extras.js" type="text/javascript"></script>
 
-    <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/semantic.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
 
 </head>
@@ -40,7 +40,12 @@
                 <div class="results"></div>
             </div>
         </div>
-
+        <div class="item">
+            <div class="ui green large label">
+                Total Credits Earnt
+                <div id="credits" class="detail">0</div>
+            </div>
+          </div>
         <div class="right menu">
             <div id="displayMessage" class="ui item pop" data-title="Everything looks good" data-content="As you add units, we will inform you of any
                 conflicts, such as missing prerequisites.">
@@ -98,18 +103,18 @@
 
             </div>
             <!--<div class="ui divider"></div>-->
-            <div id="main" class="row display-none">
-                <div class="ui label">
-                    Total Credits
-                    <div id="credits" class="detail">0</div>
-                </div>
+            <div id="main" class="ui grid">
+              <div class="row">
                 <div id="addUnitMessage" class="ui message hide">
                     <div class="header">
                         Add unit
                     </div>
                     <p>Select an empty (blue) unit slot to add unit.</p>
                 </div>
+              </div>
+              <div class="row">
                 <div class="ui stackable grid container">
+                  <div class="twelve wide column">
                     <div class="ui container">
                       <table id="fullTable" class="ui celled fixed table">
                           <thead>
@@ -125,9 +130,39 @@
                           </tbody>
                       </table>
                     </div>
+                  </div>
+                  <div class="four wide column">
+                      <h4>Current Degree</h4>
+                      <div class="ui search">
+                          <div class="ui icon input">
+                              <input class="prompt" type="text" placeholder="Find Degree">
+                              <i class="search icon"></i>
+                          </div>
+                          <div class="results"></div>
+                      </div>
+                      <h4>Major/Minor/Specialisation</h4>
+                          <div class="ui icon input">
+                              <input class="prompt" type="text" placeholder="Find Major/Minor/Specialisation">
+                              <i class="search icon"></i>
+                          </div>
+                          <div class="results"></div>
+                      <table id="majorTable" class="ui celled fixed table">
+                          <tbody id="myTable">
+                            <tr><th>Major 1<th></tr>
+                            <tr><th>Major 2<th></tr>
+                          </tbody>
+                      </table>
+                      <br> <!--replace with addable major/minors-->
+                      <h4>Degree Requirements</h4>
+                      Core Units: <i class="icon grey checkmark box"></i>
+                      Major/Minor/Specialisation 1: <i class="icon grey checkmark box"></i>
+                      Major/Minor/Specialisation 2: <i class="icon grey checkmark box"></i>
+
+                  </div>
                 </div>
-                <div class="ui divider"></div>
-                <button id="save" class="ui primary button">Save</button>
+              </div>
+              <div class="row">
+                <button id="save" class="ui left floated primary button">Save</button>
                 <div class="ui green right floated buttons">
                     <button id="addSemester" class="ui button"><i class="add square icon"></i>Add Semester</button>
                     <div class="ui floating dropdown icon button">
@@ -140,15 +175,17 @@
                         </div>
                     </div>
                 </div>
+              </div>
             </div>
+            <!--div id="main" end-->
         </div>
-        <div style="height: 20%"></div>
-        <div class="ui inverted fixed vertical footer stackable segment">
+        <div style="height: 20%"></div> <!--this fills empty space-->
+        <div class="ui inverted fixed bottom vertical footer stackable segment">
             <div class="ui center aligned container">
                 <h4 class="ui inverted header">monPlan</h4>
                 <p>A Monash University Course Planner, designed by Monash Students, for Monash Students.</p>
-                <p>This project is licensed under <strong>the MIT License</strong></p>
-                <p>Copyright &copy; monPlan 2016</p>
+                <p>This project is licensed under <strong>the MIT License</strong> by monPlan | All unit names and code are used with permission from Monash University</p>
+                <p>Copyright &copy; monPlan 2016 | Copyright &copy; Monash University 2016</p>
             </div>
         </div>
 
