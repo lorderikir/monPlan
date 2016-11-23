@@ -91,6 +91,6 @@ module.exports = function(grunt) {
   grunt.registerTask("bar", ["build", "run"]);
   grunt.registerTask("bar-dev", ["build-dev", "run"]);
   grunt.registerTask("test", ["clean", "eslint", "copy:dev", "htmllint"]);
-  grunt.registerTask("default", ["bar"]);
+  grunt.registerTask("default", ["bar"]);r
 
 };
