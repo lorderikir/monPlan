@@ -3,7 +3,8 @@ function login(){
     var password = MD5($('#pwd').val());
 
     if(username === "demo" && password==="86087ee6321b440fdfc6c549728c2ec3"){
-               window.location="main.html";
+     window.location="main.html";
+     localStorage.setItem("loggedin",true)
     } else {
       $('#invaliddet').show();
     }

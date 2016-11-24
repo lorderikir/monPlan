@@ -7,7 +7,14 @@
 
     <!-- Site Properties -->
     <title>monPlan Alpha</title>
-
+    <script>
+      if(localStorage.getItem("loggedin") !== true){
+       console.log(localStorage.getItem("loggedin"))
+       window.location="index.html";
+     } else {
+       continue;
+     }
+    </script>
     <!--JavaScript Sources-->
     <script src="./js/ext/jquery-3.1.1.min.js" type="text/javascript"></script> <!--this library is here to piss someone off-->
     <script src="./js/ext/semantic.min.js" type="text/javascript"></script>
