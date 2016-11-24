@@ -48,6 +48,7 @@ window.addEventListener("load", function() {
         welcome.style.display = "none";
         main.style.display = "block";
         courseStructure = CourseStructure.deserialise(myTable, JSON.parse(serialised));
+        courseStructure.populateTotalCredits(credits);
     }
 
     startPlanning.addEventListener("click", function() {
@@ -55,15 +56,15 @@ window.addEventListener("load", function() {
         main.style.display = "block";
         var currentYear = new Date().getFullYear();
         courseStructure = new CourseStructure(myTable, parseInt(startYr.value) || currentYear, parseInt(endYr.value) || (currentYear + 2));
+        courseStructure.populateTotalCredits(credits);
     });
-
-    courseStructure.populateTotalCredits(credits);
 
     startPlanningEmpty.addEventListener("click", function() {
         welcome.style.display = "none";
         main.style.display = "block";
 
         courseStructure = new CourseStructure(myTable);
+        courseStructure.populateTotalCredits(credits);
     });
 
     save.addEventListener("click", function() {
@@ -103,7 +104,9 @@ window.addEventListener("load", function() {
     });
 
     $(".ui.checkbox").checkbox();
-    $(".ui.dropdown").dropdown();
+    $(".ui.dropdown").dropdown({
+        fullTextSearch: true
+    });
     $(".ui.modal").modal();
     $(".ui.pop").popup();
 });

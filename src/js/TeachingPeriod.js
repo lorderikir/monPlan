@@ -29,19 +29,18 @@ TeachingPeriod.prototype.toStringCode = function() {
 TeachingPeriod.prototype.populate = function(row) {
     this.domRow = row;
 
-    for(var i = 0; i <= this.numberOfUnits; i++) {
-        var cell = row.insertCell();
-        if(i === 0) {
-            //row header
-            cell.textContent = this.toString();
-        } else {
-            var unit = this.units[i - 1];
-            cell.id = this.toStringCode() + "-unit-" + i;
-            cell.dataset.unitIndex = i;
+    // First column - row header
+    row.insertCell().textContent = this.toString();
 
-            if(typeof unit !== "undefined") {
-                cell.textContent = unit.code;
-            }
+    for(var i = 0; i < this.numberOfUnits; i++) {
+        var cell = row.insertCell();
+
+        var unit = this.units[i];
+        cell.id = this.toStringCode() + "-unit-" + i;
+        cell.dataset.unitIndex = i;
+
+        if(typeof unit !== "undefined") {
+            cell.textContent = unit.code;
         }
     }
 
@@ -49,7 +48,7 @@ TeachingPeriod.prototype.populate = function(row) {
 
     this.domRow.addEventListener("mouseover", function(e) {
         if(typeof e.target.dataset.unitIndex !== "undefined" && self.active) {
-            var index = parseInt(e.target.dataset.unitIndex) - 1;
+            var index = parseInt(e.target.dataset.unitIndex);
             if(typeof self.units[index] === "undefined") {
                 e.target.classList.add("positive");
                 e.target.classList.remove("active");
@@ -59,7 +58,7 @@ TeachingPeriod.prototype.populate = function(row) {
 
     this.domRow.addEventListener("mouseout", function(e) {
         if(typeof e.target.dataset.unitIndex !== "undefined" && self.active) {
-            var index = parseInt(e.target.dataset.unitIndex) - 1;
+            var index = parseInt(e.target.dataset.unitIndex);
             if(typeof self.units[index] === "undefined") {
                 e.target.classList.add("active");
                 e.target.classList.remove("positive");
@@ -69,7 +68,7 @@ TeachingPeriod.prototype.populate = function(row) {
 
     this.domRow.addEventListener("click", function(e) {
         if(typeof e.target.dataset.unitIndex !== "undefined" && self.active) {
-            var index = parseInt(e.target.dataset.unitIndex) - 1;
+            var index = parseInt(e.target.dataset.unitIndex);
             if(typeof self.units[index] !== "undefined") {
                 /* Unit slot is not empty, do not replace unit */
                 return;
@@ -131,9 +130,10 @@ TeachingPeriod.prototype.highlightEmptyUnitSlots = function(unit) {
     this.active = true;
     this.unitToBeAdded = unit;
 
-    for(var i = 1; i < this.domRow.cells.length; i++) {
-        if(typeof this.units[i - 1] === "undefined") {
-            this.domRow.cells[i].setAttribute("class", "active");
+    // index i is the ith unit
+    for(var i = 0; i < this.domRow.cells.length - 1; i++) {
+        if(typeof this.units[i] === "undefined") {
+            this.domRow.cells[i + 1].setAttribute("class", "active");
         }
     }
 };
@@ -145,9 +145,9 @@ TeachingPeriod.prototype.unhighlightEmptyUnitSlots = function() {
 
     this.active = false;
 
-    for(var i = 1; i < this.domRow.cells.length; i++) {
-        if(typeof this.units[i - 1] === "undefined") {
-            this.domRow.cells[i].setAttribute("class", "");
+    for(var i = 0; i < this.domRow.cells.length - 1; i++) {
+        if(typeof this.units[i] === "undefined") {
+            this.domRow.cells[i + 1].setAttribute("class", "");
         }
     }
 };
