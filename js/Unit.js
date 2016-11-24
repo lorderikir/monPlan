@@ -11,3 +11,11 @@ function Unit(code, name, faculty, synposis, preqs, proh) {
     this.scaBand = 2;
     this.eftsl = 0.125;
 }
+
+Unit.prototype.serialise = function() {
+    return this.code;
+};
+
+Unit.deserialise = function(serialised) {
+    return new Unit(serialised);
+};
