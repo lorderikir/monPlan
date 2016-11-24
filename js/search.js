@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  
+
     var addUnitMessage = document.getElementById("addUnitMessage");
 
     $.ajax({
@@ -9,7 +11,7 @@ $(document).ready(function() {
             content[i].description = content[i]["UnitName"];
         }
 
-        $(".ui.search").search({
+        $("#unitSearch").search({
             source: content,
             searchFields: [
                 "title", "description"
@@ -28,5 +30,6 @@ $(document).ready(function() {
                 }
             }
         });
+
     });
 });
