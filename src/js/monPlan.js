@@ -104,13 +104,6 @@ window.addEventListener("load", function() {
     });
 
     $(".ui.checkbox").checkbox();
-    $(".ui.dropdown").dropdown({
-        fullTextSearch: true
-    });
     $(".ui.modal").modal();
     $(".ui.pop").popup();
-});
-
-$(document).ready(function(){
-  $('.ui.dropdown').dropdown();
 });
