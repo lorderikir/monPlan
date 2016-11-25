@@ -18,6 +18,8 @@
     <script src="./js/monPlan.js" type="text/javascript"></script>
     <script src="./js/search.js" type="text/javascript"></script>
     <script src="./js/extras.js" type="text/javascript"></script>
+    <script src="./js/specialisation.js" type="text/javascript"></script>
+
 
     <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
@@ -131,6 +133,7 @@
                     </div>
                   </div>
                   <div class="four wide column">
+                    <div class="row">
                       <h4>Current Degree</h4>
                       <div id="courseSearch" class="item">
                           <div class="ui search">
@@ -141,12 +144,18 @@
                               <div class="results"></div>
                           </div>
                       </div>
+                    </div>
+                    <div class="row">
                       <h4>Major/Minor/Specialisation</h4>
-                      <select class="ui fluid search dropdown" multiple="">
-                        <option value="">Major/Minor/Specialisation</option>
-                        <option value="Computer Science (MINOR)">Computer Science (MINOR)</option>
+                      <div class="ui green large label">
+                          Total Specialisation Points Earnt
+                          <div id="credits" class="detail">0</div>
+                      </div>
+                      <i><font size="1px">Minors - 0.5 points, Majors - 1 point. Maximum: 2 points</font></i>
+                      <select name="special" class="ui fluid search dropdown" multiple="" onchange="specialOnChange()">
                       </select>
-                      <br> <!--replace with addable major/minors-->
+                    </div>
+                    <div class="row">
                       <h4>Degree Requirements</h4>
                       <table class="ui striped table">
                         <tbody>
@@ -164,6 +173,8 @@
                               </tr>
                         </tbody>
                       </table>
+                    </div>
+
                   </div>
                 </div>
               </div>

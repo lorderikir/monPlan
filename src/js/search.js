@@ -47,6 +47,22 @@ $(document).ready(function() {
           searchFullText: true,
           maxResults: 5,
       });
-
     });
+
+    $.ajax({
+        url: "data/specialisation/data.json"
+    }).done(function(content) {
+      console.log('Success!')
+        content.map(function(ele) {
+            var option = $("<option></option>");
+            option.text(ele.title);
+            option.attr('value',ele.title);
+              $('[name="special"]').append(option);
+        });
+    });
+
+    $('[name="special"]').dropdown({
+      'maxSelections': 3
+    });
+
 });
