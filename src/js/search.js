@@ -49,17 +49,23 @@ $(document).ready(function() {
       });
     });
 
-    $.ajax({
-        url: "data/specialisation/data.json"
-    }).done(function(content) {
-        content.map(function(ele) {
-            var option = $("<option></option>");
-            option.text(ele.title);
-            option.attr('value', ele.title);
-            $('#special').append(option);
+
+        $.ajax({
+            url: "data/special/data.json"
+        }).done(function(content) {
+
+          for(var i = 0; i < content.length; i++) {
+              content[i].title = content[i]["title"] + " (" + content[i]["category"] + ")";
+              content[i].description = content[i]["code"];
+          }
+
+          $("#specialisationSearch").search({
+              source: content,
+              searchFields: [
+                  "title", "description"
+              ],
+              searchFullText: true,
+              maxResults: 5
+          });
         });
-        $("#special").dropdown({
-            maxSelections: 3
-        });
-    });
 });
