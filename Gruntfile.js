@@ -6,19 +6,22 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON("package.json"),
-
-    open: {
-        dev: {
-            path: "http://localhost:8000"
-        }
-    },
     connect: {
         server: {
             options: {
                 port: 8000,
                 base: "build",
-                keepalive: true
+                open: {
+                    target: "http://localhost:8000"
+                }
             }
+        }
+    },
+    watch: {
+        files: ["src/**/*"],
+        tasks: ["build-dev"],
+        options: {
+            livereload: true
         }
     },
     concat: {
@@ -48,33 +51,47 @@ module.exports = function(grunt) {
             dest: "build/"
         },
         dev: {
-            files: [
-                {
-                    expand: true,
-                    cwd: "src/",
-                    src: ["**/*", "!html/**"],
-                    dest: "build/"
-                },
-                {
-                    expand: true,
-                    cwd: "src/html",
-                    src: ["**/*"],
-                    dest: "build/"
-                }
-            ],
+            expand: true,
+            cwd: "src/",
+            src: ["**/*", "!templates/**"],
+            dest: "build/"
+        }
+    },
+    ejs: {
+        dist: {
+            expand: true,
+            cwd: "src/templates",
+            src: ["*.ejs"],
+            dest: "build/",
+            options: {
+                dev: false,
+                dist: true
+            },
+            ext: ".html"
+        },
+        dev: {
+            expand: true,
+            cwd: "src/templates",
+            src: ["*.ejs"],
+            dest: "build/",
+            options: {
+                dev: true,
+                dist: false
+            },
+            ext: ".html"
         }
     },
     eslint: {
         options: {
             configFile: "eslint.json"
         },
-        target: ["js/*.js", "Gruntfile.js"]
+        target: ["src/js/*.js", "Gruntfile.js"]
     },
     htmllint: {
         all: ["build/**/*.html"]
     },
-    jsdoc : {
-        dist : {
+    jsdoc: {
+        dist: {
             src: ["src/js/**/*.js", "README.md"],
             options: {
                 destination : "doc",
@@ -85,12 +102,11 @@ module.exports = function(grunt) {
     clean: ["build", "working"]
   });
 
-  grunt.registerTask("build", ["clean", "concat", "uglify", "copy:dev"]);
-  grunt.registerTask("build-dev", ["clean", "copy:dev"]);
-  grunt.registerTask("run", ["open:dev", "connect"]);
+  grunt.registerTask("build", ["clean", "concat", "uglify", "copy:dev", "ejs:dist"]);
+  grunt.registerTask("build-dev", ["clean", "copy:dev", "ejs:dev"]);
+  grunt.registerTask("run", ["connect", "watch"]);
   grunt.registerTask("bar", ["build", "run"]);
   grunt.registerTask("bar-dev", ["build-dev", "run"]);
-  grunt.registerTask("test", ["clean", "eslint", "copy:dev", "htmllint"]);
-  grunt.registerTask("default", ["bar"]);r
-
+  grunt.registerTask("test", ["clean", "eslint", "copy:dev", "ejs:dev", "htmllint"]);
+  grunt.registerTask("default", ["bar"]);
 };

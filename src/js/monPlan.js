@@ -39,7 +39,7 @@ window.addEventListener("load", function() {
     main.style.display="none";
 
     //enables popup message
-    $('#displayMessage').popup();
+    $("#displayMessage").popup();
 
     // Load course structure if it exists
     var serialised = localStorage.getItem("courseStructure");
@@ -106,4 +106,7 @@ window.addEventListener("load", function() {
     $(".ui.checkbox").checkbox();
     $(".ui.modal").modal();
     $(".ui.pop").popup();
+    $(".ui.normal.dropdown").dropdown({
+        fullTextSearch: true
+    });
 });
