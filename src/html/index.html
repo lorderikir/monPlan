@@ -30,7 +30,7 @@
             <img class="logo" src="./img/logo.png" alt="logo">
             monPlan Alpha
         </a>
-        <div class="item">
+        <div id="unitSearch" class="item">
             <div class="ui search">
                 <div id="unitSearch" class="ui icon input">
                     <input class="prompt" type="text" placeholder="Add Unit">
@@ -132,9 +132,15 @@
                   </div>
                   <div class="four wide column">
                       <h4>Current Degree</h4>
-                      <select id="courseSearch" class="ui search dropdown">
-                        <option value="">Current Degree</option>
-                      </select>
+                      <div id="courseSearch" class="item">
+                          <div class="ui search">
+                              <div id="unitSearch" class="ui icon input">
+                                  <input class="prompt" type="text" placeholder="Add Unit">
+                                  <i class="search icon"></i>
+                              </div>
+                              <div class="results"></div>
+                          </div>
+                      </div>
                       <h4>Major/Minor/Specialisation</h4>
                       <select class="ui fluid search dropdown" multiple="">
                         <option value="">Major/Minor/Specialisation</option>
