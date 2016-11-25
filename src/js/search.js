@@ -44,19 +44,8 @@ $(document).ready(function() {
           searchFields: [
               "title", "description"
           ],
-          searchFullText: false,
+          searchFullText: true,
           maxResults: 5,
-          onSelect: function(result) {
-              if(typeof courseStructure !== "undefined") {
-                  var unit = new Unit(result.UnitCode, result.UnitName);
-
-                  courseStructure.promptUserToAddUnit(unit, function() {
-                      addUnitMessage.classList.add("hide");
-                  });
-
-                  addUnitMessage.classList.remove("hide");
-              }
-          }
       });
 
     });
