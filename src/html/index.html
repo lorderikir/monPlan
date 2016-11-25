@@ -9,9 +9,6 @@
     <title>monPlan Alpha</title>
 
     <!--JavaScript Sources-->
-    <% if(dist) { %>
-    <script src="./js/monplan.min.js" type="text/javascript"></script>
-    <% } else if(dev) { %>
     <script src="./js/ext/jquery-3.1.1.min.js" type="text/javascript"></script> <!--this library is here to piss someone off-->
     <script src="./js/ext/semantic.min.js" type="text/javascript"></script>
 
@@ -22,8 +19,7 @@
     <script src="./js/search.js" type="text/javascript"></script>
     <script src="./js/extras.js" type="text/javascript"></script>
     <script src="./js/specialisation.js" type="text/javascript"></script>
-    <script src="//localhost:35729/livereload.js" type="text/javascript"></script>
-    <% } %>
+
 
     <link rel="stylesheet" type="text/css" href="./css/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
@@ -38,7 +34,7 @@
         </a>
         <div id="unitSearch" class="item">
             <div class="ui search">
-                <div class="ui icon input">
+                <div id="unitSearch" class="ui icon input">
                     <input class="prompt" type="text" placeholder="Add Unit">
                     <i class="search icon"></i>
                 </div>
@@ -56,7 +52,7 @@
                 conflicts, such as missing prerequisites.">
                 Status:  <span id="statusTag">OK</span> <i id="statusIcon" class="icon green checkmark"></i>
             </div>
-            <div class="ui normal dropdown icon item">
+            <div class="ui dropdown icon item">
                 <i class="info icon"></i>
                 <div class="menu">
                     <h4 class="ui inverted header">Quick Links (for Devs)</h4>
@@ -141,7 +137,7 @@
                       <h4>Current Degree</h4>
                       <div id="courseSearch" class="item">
                           <div class="ui search">
-                              <div class="ui icon input">
+                              <div id="unitSearch" class="ui icon input">
                                   <input class="prompt" type="text" placeholder="Search Courses">
                                   <i class="search icon"></i>
                               </div>
@@ -153,18 +149,11 @@
                       <h4>Major/Minor/Specialisation</h4>
                       <div class="ui green large label">
                           Total Specialisation Points Earnt
-                          <div id="specialisationPoints" class="detail">0</div>
+                          <div id="credits" class="detail">0</div>
                       </div>
-                      <i>Minors - 0.5 points, Majors - 1 point. Maximum: 2 points</i>
-                      <div id="specialisationSearch" class="item">
-                          <div class="ui search">
-                              <div class="ui icon input">
-                                  <input class="prompt" type="text" placeholder="Search Courses">
-                                  <button class="ui primary button">OK</button>
-                              </div>
-                              <div class="results"></div>
-                          </div>
-                      </div>
+                      <i><font size="1px">Minors - 0.5 points, Majors - 1 point. Maximum: 2 points</font></i>
+                      <select name="special" class="ui fluid search dropdown" multiple="" onchange="specialOnChange()">
+                      </select>
                     </div>
                     <div class="row">
                       <h4>Degree Requirements</h4>
@@ -269,13 +258,16 @@
             </div>
             <div class="content">
                 <div class="description">
-                    <h3 id="unitNameCode">unitNameCode</h3>
+                    <h3 id="unitNameCode"></h3>
 
                     <h4>Description</h4>
                     <span id="unitDescription"></span>
 
                     <h4>Unit Preqs</h4>
                     <span id="unitPreqs"></span>
+
+                    <h4>Unit Prohitibions</h4>
+                    <span id="unitProhib"></span>
 
                     <h4>Unit Prohitibions</h4>
                     <span id="unitProhib"></span>
