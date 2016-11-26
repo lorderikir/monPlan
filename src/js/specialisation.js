@@ -11,12 +11,20 @@ specialisation.prototype.populateTable = function() {
 }
 
 specialisation.prototype.addSpecialisation = function() {
-  if($.inArray(newCode, currentSpecialisation) !== -1){
+  if($.inArray(code, currentSpecialisation) !== -1){
     //append specialisation if not present in array
-    currentSpecialisation.append(newCode)
+    currentSpecialisation.append(code)
   }
 }
 
+specialisation.prototype.removeSpecialisation = function() {
+  var tbrCourse = $.inArray(code, currentSpecialisation)
+
+  if(tbrCourse !== -1){
+    //only remove if it exists
+    currentSpecialisation.splice(tbrCourse, 1); //remove using splice tool
+  }
+}
 
 
 function addSpecialisation(){
