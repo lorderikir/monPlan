@@ -24,13 +24,46 @@ module.exports = function(grunt) {
             livereload: true
         }
     },
+    bower: {
+        dev: {
+            dest: "build/ext",
+            js_dest: "build/js/ext",
+            css_dest: "build/css/ext",
+            options: {
+                expand: true,
+                packageSpecific: {
+                    "ejs": {
+                        files: [
+                            "ejs.js"
+                        ]
+                    }
+                }
+            }
+        },
+        dist: {
+            dest: "build/ext",
+            js_dest: "working/js/ext",
+            css_dest: "build/css/ext",
+            options: {
+                expand: true,
+                packageSpecific: {
+                    "ejs": {
+                        files: [
+                            "ejs.js"
+                        ]
+                    }
+                }
+            }
+        }
+    },
     concat: {
         options: {
             separator: ";"
         },
         main: {
             src: [
-                "src/js/ext/*.js",
+                "working/js/ext/**/*.js",
+                "src/js/ext/**/*.js",
                 "src/js/*.js"
             ],
             dest: "working/monplan.concat.js"
@@ -51,10 +84,20 @@ module.exports = function(grunt) {
             dest: "build/"
         },
         dev: {
-            expand: true,
-            cwd: "src/",
-            src: ["**/*", "!templates/**"],
-            dest: "build/"
+            files: [
+                {
+                    expand: true,
+                    cwd: "src/",
+                    src: ["**/*", "!templates/**"],
+                    dest: "build/"
+                },
+                {
+                    expand: true,
+                    cwd: "src/templates/client",
+                    src: "**/*",
+                    dest: "build/templates/"
+                }
+            ]
         }
     },
     ejs: {
@@ -102,8 +145,8 @@ module.exports = function(grunt) {
     clean: ["build", "working"]
   });
 
-  grunt.registerTask("build", ["clean", "concat", "uglify", "copy:dev", "ejs:dist"]);
-  grunt.registerTask("build-dev", ["clean", "copy:dev", "ejs:dev"]);
+  grunt.registerTask("build", ["clean", "bower:dist", "concat", "uglify", "copy:dev", "ejs:dist"]);
+  grunt.registerTask("build-dev", ["clean", "copy:dev", "ejs:dev", "bower:dev"]);
   grunt.registerTask("run", ["connect", "watch"]);
   grunt.registerTask("bar", ["build", "run"]);
   grunt.registerTask("bar-dev", ["build-dev", "run"]);

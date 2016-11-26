@@ -109,4 +109,22 @@ window.addEventListener("load", function() {
     $(".ui.normal.dropdown").dropdown({
         fullTextSearch: true
     });
+
+    $(".teachingPeriod.cell").each(function() {
+        var id = $(this).attr("data-popup-id");
+        $.get("templates/teachingPeriodPopup.ejs", function(template) {
+            var renderedString = ejs.render(template,
+                {
+                    id: id,
+                    title: id
+                }
+            );
+            $("body").append($(renderedString));
+        });
+
+        $(this).popup({
+            popup: "#" + id,
+            hoverable: true
+        });
+    });
 });
