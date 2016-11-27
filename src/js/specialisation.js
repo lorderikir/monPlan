@@ -31,7 +31,7 @@ function addSpecialisation(){
   var table = document.getElementById("special");
 
   var tgtSpecial = $("#specialisationSearch").search("get value");
-  // Create an empty <tr> element and add it to the 1st position of the table:
+  // add row to bottom of table
   var row = table.insertRow(-1);
 
   // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
@@ -40,5 +40,5 @@ function addSpecialisation(){
 
   // Add some text to the new cells:
   cell1.innerHTML = tgtSpecial;
-  cell2.innerHTML = "NEW CELL2";
+  cell2.innerHTML = "";
 }

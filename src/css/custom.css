@@ -45,3 +45,7 @@ body {
 .ui.inverted.menu {
   background-color: #005d95;
 }
+
+.header.item{
+  cursor: default;
+}
