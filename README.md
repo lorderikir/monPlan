@@ -6,6 +6,7 @@ There are several notice(s) at the moment:
 - We are currently looking for more devs! Submit an application here today: https://goo.gl/TO6Z3M
 - We are currently holding on progamming/finding a solution for Course Verification, as we will be talking with _eSolutions_ regarding this matter.
 - Our WebScraper has been Open-Sourced! View it at: https://github.com/MonashUnitPlanner/webScrape/
+- We are also planning to expand! If you're a student from the University of Melbourne (UoM), Swinburne University, Deakin University or RMIT and you would like this at your university. Talk to us and lets see if we can get things rolling at your university.
 
 # Notice for Devs
 Please note that we are using **Agile** for this project, each sprint will be 1-2 months, with each a meeting in **Slack** before the start of each week and the start/end of each sprint. Our Slack address is at: https://monplan.slack.com, please contact an admin to have access to our slack, our admins are currently are @lorderikir and @Joshua-Xavier

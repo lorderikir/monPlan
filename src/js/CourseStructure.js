@@ -34,6 +34,11 @@ CourseStructure.prototype.populateTotalCredits = function(credits) {
 };
 
 CourseStructure.prototype.updateTotalCredits = function() {
+    if(typeof this.domCredits === "undefined") {
+        console.warn("Total credits not populated");
+        return;
+    }
+
     this.domCredits.textContent = this.totalCredits;
 };
 

@@ -39,7 +39,7 @@ window.addEventListener("load", function() {
     main.style.display="none";
 
     //enables popup message
-    $('#displayMessage').popup();
+    $("#displayMessage").popup();
 
     // Load course structure if it exists
     var serialised = localStorage.getItem("courseStructure");
@@ -48,6 +48,7 @@ window.addEventListener("load", function() {
         welcome.style.display = "none";
         main.style.display = "block";
         courseStructure = CourseStructure.deserialise(myTable, JSON.parse(serialised));
+        courseStructure.populateTotalCredits(credits);
     }
 
     startPlanning.addEventListener("click", function() {
@@ -55,15 +56,15 @@ window.addEventListener("load", function() {
         main.style.display = "block";
         var currentYear = new Date().getFullYear();
         courseStructure = new CourseStructure(myTable, parseInt(startYr.value) || currentYear, parseInt(endYr.value) || (currentYear + 2));
+        courseStructure.populateTotalCredits(credits);
     });
-
-    courseStructure.populateTotalCredits(credits);
 
     startPlanningEmpty.addEventListener("click", function() {
         welcome.style.display = "none";
         main.style.display = "block";
 
         courseStructure = new CourseStructure(myTable);
+        courseStructure.populateTotalCredits(credits);
     });
 
     save.addEventListener("click", function() {
@@ -103,11 +104,27 @@ window.addEventListener("load", function() {
     });
 
     $(".ui.checkbox").checkbox();
-    $(".ui.dropdown").dropdown();
     $(".ui.modal").modal();
     $(".ui.pop").popup();
-});
+    $(".ui.normal.dropdown").dropdown({
+        fullTextSearch: true
+    });
 
-$(document).ready(function(){
-  $('.ui.dropdown').dropdown();
+    $(".teachingPeriod.cell").each(function() {
+        var id = $(this).attr("data-popup-id");
+        $.get("templates/teachingPeriodPopup.ejs", function(template) {
+            var renderedString = ejs.render(template,
+                {
+                    id: id,
+                    title: id
+                }
+            );
+            $("body").append($(renderedString));
+        });
+
+        $(this).popup({
+            popup: "#" + id,
+            hoverable: true
+        });
+    });
 });
