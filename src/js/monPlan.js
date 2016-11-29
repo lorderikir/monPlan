@@ -46,11 +46,16 @@ window.addEventListener("load", function() {
     // Load course structure if it exists
     var serialised = localStorage.getItem("courseStructure");
     if(serialised !== null) {
+      $("#unitSearch").show();
+      $("#creditCounter").show();
         // Restore saved course structure
         welcome.style.display = "none";
         main.style.display = "block";
         courseStructure = CourseStructure.deserialise(myTable, JSON.parse(serialised));
         courseStructure.populateTotalCredits(credits);
+    } else {
+      $("#unitSearch").hide();
+      $("#creditCounter").hide();
     }
 
     startPlanning.addEventListener("click", function() {
@@ -61,7 +66,6 @@ window.addEventListener("load", function() {
         courseStructure.populateTotalCredits(credits);
         $("#unitSearch").show();
         $("#creditCounter").show();
-
     });
 
     startPlanningEmpty.addEventListener("click", function() {
