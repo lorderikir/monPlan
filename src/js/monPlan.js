@@ -40,6 +40,7 @@ window.addEventListener("load", function() {
 
     //enables popup message
     $("#displayMessage").popup();
+    $("#unitSearch").hide();
 
     // Load course structure if it exists
     var serialised = localStorage.getItem("courseStructure");
@@ -57,14 +58,16 @@ window.addEventListener("load", function() {
         var currentYear = new Date().getFullYear();
         courseStructure = new CourseStructure(myTable, parseInt(startYr.value) || currentYear, parseInt(endYr.value) || (currentYear + 2));
         courseStructure.populateTotalCredits(credits);
+        $("#unitSearch").show();
+
     });
 
     startPlanningEmpty.addEventListener("click", function() {
         welcome.style.display = "none";
         main.style.display = "block";
-
         courseStructure = new CourseStructure(myTable);
         courseStructure.populateTotalCredits(credits);
+        $("#unitSearch").show();
     });
 
     save.addEventListener("click", function() {
