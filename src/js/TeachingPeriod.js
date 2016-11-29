@@ -30,7 +30,10 @@ TeachingPeriod.prototype.populate = function(row) {
     this.domRow = row;
 
     // First column - row header
-    row.insertCell().textContent = this.toString();
+    var teachingPeriodCell = row.insertCell();
+    teachingPeriodCell.classList.add("teachingPeriod", "cell");
+    teachingPeriodCell.textContent = this.toString();
+    teachingPeriodCell.dataset.popupId = this.toStringCode() + "-cell";
 
     for(var i = 0; i < this.numberOfUnits; i++) {
         var cell = row.insertCell();

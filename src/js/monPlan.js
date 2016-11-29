@@ -40,6 +40,8 @@ window.addEventListener("load", function() {
 
     //enables popup message
     $("#displayMessage").popup();
+    $("#unitSearch").hide();
+    $("#creditCounter").hide();
 
     // Load course structure if it exists
     var serialised = localStorage.getItem("courseStructure");
@@ -57,14 +59,18 @@ window.addEventListener("load", function() {
         var currentYear = new Date().getFullYear();
         courseStructure = new CourseStructure(myTable, parseInt(startYr.value) || currentYear, parseInt(endYr.value) || (currentYear + 2));
         courseStructure.populateTotalCredits(credits);
+        $("#unitSearch").show();
+        $("#creditCounter").show();
+
     });
 
     startPlanningEmpty.addEventListener("click", function() {
         welcome.style.display = "none";
         main.style.display = "block";
-
         courseStructure = new CourseStructure(myTable);
         courseStructure.populateTotalCredits(credits);
+        $("#unitSearch").show();
+        $("#creditCounter").show();
     });
 
     save.addEventListener("click", function() {
@@ -108,5 +114,23 @@ window.addEventListener("load", function() {
     $(".ui.pop").popup();
     $(".ui.normal.dropdown").dropdown({
         fullTextSearch: true
+    });
+
+    $(".teachingPeriod.cell").each(function() {
+        var id = $(this).attr("data-popup-id");
+        $.get("templates/teachingPeriodPopup.ejs", function(template) {
+            var renderedString = ejs.render(template,
+                {
+                    id: id,
+                    title: id
+                }
+            );
+            $("body").append($(renderedString));
+        });
+
+        $(this).popup({
+            popup: "#" + id,
+            hoverable: true
+        });
     });
 });
