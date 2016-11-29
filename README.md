@@ -3,12 +3,12 @@ Plan out your degree with **monPlan** _Previously known as Monash Unit Planner_ 
 
 # Notice(s)
 There are several notice(s) at the moment:
-- We are currently looking for more devs! Submit an application here today: https://goo.gl/TO6Z3M
 - We are currently holding on progamming/finding a solution for Course Verification, as we will be talking with _eSolutions_ regarding this matter.
 - Our WebScraper has been Open-Sourced! View it at: https://github.com/MonashUnitPlanner/webScrape/
 - We are also planning to expand! If you're a student from the University of Melbourne (UoM), Swinburne University, Deakin University or RMIT and you would like this at your university. Talk to us and lets see if we can get things rolling at your university.
+- We will be conducting _Community Development Workshops (CDWs)_ over the coming months, register here: https://goo.gl/Vpgmld today
 
-# Notice for Devs
+## Developers
 Please note that we are using **Agile** for this project, each sprint will be 1-2 months, with each a meeting in **Slack** before the start of each week and the start/end of each sprint. Our Slack address is at: https://monplan.slack.com, please contact an admin to have access to our slack, our admins are currently are @lorderikir and @Joshua-Xavier
 
 ## To Do List
@@ -31,6 +31,8 @@ npm install grunt-cli
 | `grunt bar-dev` | runs an instance in the address http://localhost:8080 |
 | `grunt test` | runs testing with eslint and htmlint |
 | `grunt build` | builds the project to /build/*, this can copied onto a web server |
+
+There is no need for rebuilding with `bar-dev`, we now used livereload.js to perform automatic updates
 
 # License
 MIT License
